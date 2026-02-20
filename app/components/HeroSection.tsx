@@ -27,7 +27,7 @@ export default function HeroSection() {
             <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-[2000ms] ease-out"
                 style={{
-                    backgroundImage: `url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80)`,
+                    backgroundImage: `url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=1920&q=80)`,
                     transform: loaded ? 'scale(1)' : 'scale(1.1)',
                 }}
             />

@@ -1,10 +1,15 @@
 import type { Dictionary } from '../types';
 
 export const ko: Dictionary = {
+    meta: {
+        title: "Kaiser Klowns — 크리에이티브 제국",
+        description: "각 하우스의 장기적인 발전에 전념하는 럭셔리 크리에이티브 대기업.",
+        keywords: "Kaiser Klowns, 럭셔리 대기업, 크리에이티브 제국, 패션, 기술, 미디어"
+    },
     nav: {
         group: '그룹', houses: '하우스', commitments: '약속', careers: '채용',
         investors: '투자자', press: '보도자료', partners: '파트너', contact: '문의',
-        search: 'Kaiser Klowns 검색...', popularSearches: '인기 검색어',
+        search: 'Kaiser Klowns 검색...', popularSearches: '인기 검색어', noResults: '결과를 찾을 수 없습니다',
         history: '역사', mission: '미션', governance: '거버넌스 및 윤리',
         keyFigures: '핵심 수치', allHouses: '모든 하우스', sustainability: '지속가능성',
         socialResponsibility: '사회적 책임', environment: '환경', joinUs: '합류하기',
@@ -18,6 +23,90 @@ export const ko: Dictionary = {
         maventine: { tagline: '패션 & 가죽 제품', description: '전통과 대담한 디자인의 만남' },
         velvessence: { tagline: '엔터테인먼트 & 영화', description: '움직일 수 없는 것을 움직이는 이야기' },
         kurentengu: { tagline: '주류 & 라이프스타일', description: '고대의 공예, 현대의 의식' },
+    },
+    houseDetails: {
+        about: '소개',
+        highlightsLabel: '하이라이트',
+        foundedLabel: '설립',
+        headquartersLabel: '본사',
+        employeesLabel: '직원 수',
+        sectorLabel: '분야',
+        backToAll: '모든 하우스로 돌아가기',
+        maventine: {
+            name: "MAVENTINE",
+            sector: "럭셔리 패션 & 라이프스타일",
+            tagline: "철학을 말하는 패션.",
+            description: "Maventine은 Kaiser Klowns의 럭셔리 패션 하우스로, 스트리트 테일러링이 철학적 깊이를 지닌 하이패션과 만나는 곳입니다. 럭셔리 스트리트 테일러링 DNA를 바탕으로 구축된 Maventine은 그룹의 시각적 정체성을 대변합니다. 고요함, 취향, 세련됨이 입을 수 있는 예술로 정제되었습니다. 모든 제품은 진정한 럭셔리란 과시하는 것이 아니라 느껴지는 것임을 이해하는 사람들에게 말을 건넵니다.",
+            founded: "2025년 9월",
+            headquarters: "태국",
+            employees: "—",
+            highlights: [
+                "DNA: 럭셔리 스트리트 테일러링 — 스트리트 문화와 하이패션 장인 정신의 결합",
+                "Kaiser Klowns 그룹의 시각적 정체성, 취향, 세련됨을 대변",
+                "철학 주도적 디자인 — 모든 제품은 의도와 의미를 지님",
+                "태국의 유산과 글로벌 럭셔리 감성을 결합한 다가오는 컬렉션"
+            ],
+        },
+        aurelic: {
+            name: "AURELIC SYSTEMS",
+            sector: "IT / 소프트웨어 / AI / 인프라",
+            tagline: "대담한 자를 위한 기술.",
+            description: "Aurelic Systems는 Kaiser Klowns의 기술적 중추이자 장기 수익 엔진입니다. AI 기반 플랫폼에서 기업용 소프트웨어에 이르기까지, Aurelic은 그룹과 그 너머를 구동하는 보이지 않는 인프라를 구축합니다. Arkai, DevStudio Rumba, Alfa, KlownsNexus Office Suite와 같은 독점 제품을 통해 Aurelic은 혁신과 실질적 영향의 교차점에서 운영됩니다.",
+            founded: "2025년 9월",
+            headquarters: "태국",
+            employees: "—",
+            highlights: [
+                "Arkai — AI 기반 지능형 자동화 플랫폼",
+                "DevStudio Rumba — AI 기능이 탑재된 통합 개발 환경",
+                "Alfa — 전사적 자원 관리 시스템",
+                "KlownsNexus Office Suite — 완벽한 비즈니스 운영 플랫폼"
+            ],
+        },
+        kurentengu: {
+            name: "KURENTENGU",
+            sector: "게임 회사 / 인터랙티브",
+            tagline: "진실을 말하는 게임.",
+            description: "KurenTengu는 Kaiser Klowns의 인터랙티브 엔터테인먼 부문으로, 신화와 전설에 뿌리를 둔 게임과 가상 세계를 창조합니다. 단순한 게임 스튜디오를 넘어 KurenTengu는 게임, 스토리텔링, 미디어 전반으로 확장되도록 설계된 IP 주도적 세계인 완전한 우주를 구축합니다. 모든 게임은 더 깊은 신화로 들어가는 관문입니다.",
+            founded: "2025년 9월",
+            headquarters: "태국",
+            employees: "—",
+            highlights: [
+                "오리지널 신화에 기반한 진지하고 상호 연결된 게임 유니버스 구축",
+                "스토리, 미디어, 상품으로의 확장을 위해 설계된 IP",
+                "신화 주도적 세계관 구축 — 인터랙티브 경험의 기반으로서의 전설",
+                "상태: 개발 중 — 출시 예정"
+            ],
+        },
+        velvessence: {
+            name: "VELVESSENCE STUDIOS",
+            sector: "엔터테인먼트 / 영화 / 음악 / 비주얼",
+            tagline: "감정의 시각적 이야기.",
+            description: "Velvessence Studios는 Kaiser Klowns의 스토리텔링 허브로, 감정, 철학, 시각 예술이 교차하는 곳입니다. 브랜드 필름과 영화 제작에서 음악적 정체성과 순수 미술에 이르기까지, Velvessence는 그룹에 영혼을 부여하는 내러티브를 제작합니다. 모든 프레임, 모든 음표, 모든 이미지는 움직일 수 없는 것을 움직이도록 설계되었습니다.",
+            founded: "2025년 9월",
+            headquarters: "태국",
+            employees: "—",
+            highlights: [
+                "브랜드 필름 제작 — Kaiser Klowns와 하우스를 위한 영화적 스토리텔링",
+                "음악적 정체성 — 그룹을 위한 오리지널 스코어 및 사운드 브랜딩",
+                "비주얼 아트 — 그룹의 철학을 반영하는 갤러리 수준의 아트워크",
+                "시네마틱 비전 — 모든 프로젝트를 콘텐츠가 아닌 예술 작품으로 취급"
+            ],
+        },
+        lokovox: {
+            name: "LOKOVOX MEDIA",
+            sector: "마케팅 / 브랜딩 / 미디어 전략",
+            tagline: "문화를 형성하는 목소리.",
+            description: "Lokovox Media는 Kaiser Klowns의 사내 마케팅 및 브랜딩 대행사이자 외부 클라이언트에도 서비스를 제공합니다. 그룹 내 모든 하우스의 전략적 포지셔닝을 담당하며, 브랜드 전략, 콘텐츠 제작, 광고 캠페인, 미디어 기획을 처리합니다. 다른 대행사들이 트렌드를 따를 때, Lokovox는 트렌드를 정의합니다.",
+            founded: "2025년 9월",
+            headquarters: "태국",
+            employees: "—",
+            highlights: [
+                "모든 Kaiser Klowns 하우스를 위한 풀 서비스 브랜드 전략",
+                "콘텐츠 제작, 광고 캠페인, 미디어 기획",
+                "외부 클라이언트 서비스 — 브랜딩 및 마케팅 컨설팅",
+                "디지털, 소셜, 전통적 채널을 아우르는 통합 마케팅"
+            ],
+        },
     },
     philosophy: {
         label: '우리의 철학', quote1: '우리는 브랜드를 만들지 않습니다.',
@@ -34,7 +123,7 @@ export const ko: Dictionary = {
     },
     footer: {
         description: '각 하우스의 장기적 발전에 전념하는 크리에이티브 대기업으로, 정체성, 유산, 크리에이티브 탁월함을 보존합니다.',
-        groupLabel: '그룹', housesLabel: '하우스', connectLabel: '연결',
+        groupLabel: '그룹', housesLabel: '하우스', connectLabel: '연결', rights: '모든 권리 보유.',
     },
     common: { home: '홈', explore: '탐색', comingSoon: '출시 예정', readMore: '더 보기', backTo: '돌아가기', details: '상세' },
     pages: {
@@ -94,6 +183,22 @@ export const ko: Dictionary = {
                 { value: '42억 달러', label: '매출', description: '연간 매출 (USD)' },
                 { value: '200+', label: '파트너', description: '전략적 글로벌 파트너십' },
                 { value: '95%', label: '유지율', description: '직원 만족도' },
+            ],
+        },
+        craftsmanship: {
+            title: '창조의 예술',
+            subtitle: 'Kaiser Klowns와 하우스가 규율, 장인정신, 탁월함의 끊임없는 추구를 통해 비전을 지속적인 작품으로 만드는 방법.',
+            principles: [
+                { title: '전통의 전진', description: '모든 하우스는 깊은 전통에서 끌어옵니다 — 그리고 그것을 넘어섭니다. 우리는 장인정신을 발전시킴으로써 존경합니다.' },
+                { title: '보이지 않는 탁월함', description: '최고의 작품은 보이기 전에 느껴집니다. 우리는 대부분이 결코 알아차리지 못할 디테일에 집착합니다.' },
+                { title: '크로스 하우스 시너지', description: '패션이 기술을 알리고, 주류가 엔터테인먼트에 영감을 줍니다. 각 하우스는 공유된 창의적 대화를 통해 서로를 풍요롭게 합니다.' },
+                { title: '장기적 사고', description: '우리는 성공을 분기가 아닌 수십 년으로 측정합니다. 모든 결정은 다음 세대를 염두에 두고 이루어집니다.' },
+            ],
+            paragraphs: [
+                'Kaiser Klowns에서 창조는 부서가 아닙니다 — 전체 조직입니다. Maventine의 아틀리에부터 Aurelic Systems의 혁신 랩까지, 모든 하우스는 같은 근본적 신념으로 운영됩니다: 비범한 작품에는 비범한 헌신이 필요하다는 것.',
+                '우리의 프로세스는 경청에서 시작됩니다. 재료에, 문화에, 타협을 거부하는 사람들의 말하지 않은 요구에. 우리는 다른 이들이 기꺼이 사용하지 않는 시간을 투자합니다. 인내심이 탁월한 작품에서 가장 과소평가된 요소임을 알기 때문입니다.',
+                '각 하우스는 완전한 창의적 자율성을 유지합니다. 중앙 디자인 위원회도, 개성을 평탄화하는 브랜드 플레이북도 없습니다. 대신 진정한 창의적 자유가 꽃 필 수 있는 인프라, 자원, 장기적 안정을 제공합니다.',
+                '결과는 독특하면서도 연결된 작품 포트폴리오입니다 — 다섯 개의 하우스, 각각 자신의 목소리로 말하며, Kaiser Klowns라는 이름을 정의하는 흔들리지 않는 품질 기준으로 하나됩니다.',
             ],
         },
         housesPage: { title: '우리의 하우스', subtitle: '다섯 개의 브랜드, 각각 고유한 정체성, 유산, 크리에이티브 비전을 지닌.' },
@@ -220,6 +325,34 @@ export const ko: Dictionary = {
                 '2026 Formula K 시즌 모나코 개막전과 함께 시작됩니다.',
             ],
             backLabel: '보도자료로 돌아가기',
+        },
+        newsPage: {
+            title: '뉴스 및 업데이트',
+            subtitle: 'Kaiser Klowns와 하우스의 최신 공지, 파트너십, 마일스톤.',
+        },
+        maventineTokyo: {
+            title: 'Maventine 도쿄 패션 위크',
+            subtitle: '2026년 1월 28일',
+            paragraphs: [
+                'Kaiser Klowns의 패션 및 가죽 제품 하우스인 Maventine이 도쿄 패션 위크에서 큰 기대를 모은 2026 봄 컬렉션을 공개하여 만장일치의 찬사를 받았습니다.',
+                '"East Meets West"라는 제목의 이 컬렉션은 일본 전통 직물 기법과 Maventine의 시그니처 유럽 테일러링을 자연스럽게 결합한 42개의 룩을 선보입니다. 하이라이트에는 수작업으로 염색한 인디고 실크 앙상블과 사시코 스티칭을 접목한 구조적 가죽 피스가 포함됩니다.',
+                '크리에이티브 디렉터는 "마(間)" — 여백의 미를 존중하는 일본적 미학 — 에서 영감을 받아 예상치 못한 구조적 디테일을 가진 미니멀리스트 실루엣을 탄생시켰습니다.',
+                '"이 컬렉션은 Maventine의 영혼을 대표합니다 — 수 세기의 장인정신과 대담한 현대적 비전이 만나는 곳."',
+                '컬렉션은 2026년 3월부터 전 세계 Maventine 플래그십 매장에서 구매 가능합니다.',
+            ],
+            backLabel: '뉴스로 돌아가기',
+        },
+        aurelicPlatform: {
+            title: 'Aurelic Systems 플랫폼 3.0',
+            subtitle: '2026년 1월 15일',
+            paragraphs: [
+                'Kaiser Klowns의 기술 부문인 Aurelic Systems가 차세대 커넥티드 플랫폼을 출시하며, 럭셔리 디지털 경험의 큰 도약을 알렸습니다.',
+                '플랫폼 3.0은 AI 기반 개인화, 실시간 분석, 원활한 크로스 하우스 통합을 도입 — Kaiser Klowns의 5개 하우스 모두가 통일되면서도 독특한 디지털 경험을 제공할 수 있게 합니다.',
+                '주요 기능에는 예측적 고객 인사이트, 에너지 소비를 40% 줄이는 카본 어웨어 컴퓨팅, 200개 이상의 서드파티 통합을 지원하는 오픈 API 생태계가 포함됩니다.',
+                '"기술은 보이지 않지만 변혁적이어야 합니다. 플랫폼 3.0은 이 철학을 구현합니다." Aurelic Systems 팀이 말했습니다.',
+                '플랫폼은 이미 모든 Kaiser Klowns 하우스에 배포되었으며, 2026년 2분기에 선별된 기업 파트너에게 제공될 예정입니다.',
+            ],
+            backLabel: '뉴스로 돌아가기',
         },
     },
 };

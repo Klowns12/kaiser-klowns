@@ -3,17 +3,19 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
+import Link from "next/link";
 import { useTranslation } from "../i18n/TranslationContext";
 
-export default function PressPage() {
+export default function NewsPage() {
     const { dict } = useTranslation();
-    const { title, subtitle, releases } = dict.pages.press;
+    const { title, subtitle } = dict.pages.newsPage;
+    const newsItems = dict.news.items;
 
     return (
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.press }]}
+                breadcrumbs={[{ label: dict.news.title }]}
                 title={title}
                 subtitle={subtitle}
             />
@@ -21,13 +23,17 @@ export default function PressPage() {
             <section className="pb-24 md:pb-32 bg-background">
                 <div className="max-w-7xl mx-auto px-6 md:px-12">
                     <div className="border-t border-foreground/8">
-                        {releases.map((item) => (
-                            <div key={item.title} className="py-6 border-b border-foreground/8 group cursor-pointer hover:bg-foreground/[0.02] transition-colors px-2 -mx-2">
+                        {newsItems.map((item, i) => (
+                            <div key={i} className="py-6 border-b border-foreground/8 group cursor-pointer hover:bg-foreground/[0.02] transition-colors px-2 -mx-2">
                                 <div className="flex items-center gap-3 mb-2">
                                     <span className="text-[11px] text-foreground/35 font-sans">{item.date}</span>
                                 </div>
                                 <h3 className="text-[15px] md:text-[18px] font-bold tracking-[0.03em] uppercase text-foreground group-hover:opacity-70 transition-opacity leading-[1.4]">
-                                    {item.title}
+                                    {i === 0 ? (
+                                        <Link href="/news/formula-k-partnership">{item.title}</Link>
+                                    ) : (
+                                        item.title
+                                    )}
                                 </h3>
                                 <p className="mt-2 text-[12px] text-foreground/40 font-sans leading-[1.6] max-w-3xl">
                                     {item.excerpt}

@@ -4,6 +4,11 @@ export const locales: Locale[] = ['en', 'th', 'zh', 'ja', 'fr', 'de', 'ko', 'es'
 export const defaultLocale: Locale = 'en';
 
 export interface Dictionary {
+    meta: {
+        title: string;
+        description: string;
+        keywords: string;
+    };
     nav: {
         group: string;
         houses: string;
@@ -15,6 +20,7 @@ export interface Dictionary {
         contact: string;
         search: string;
         popularSearches: string;
+        noResults: string;
         history: string;
         mission: string;
         governance: string;
@@ -43,6 +49,65 @@ export interface Dictionary {
         velvessence: { tagline: string; description: string };
         kurentengu: { tagline: string; description: string };
     };
+    houseDetails: {
+        about: string;
+        highlightsLabel: string;
+        foundedLabel: string;
+        headquartersLabel: string;
+        employeesLabel: string;
+        sectorLabel: string;
+        backToAll: string;
+        maventine: {
+            name: string;
+            sector: string;
+            tagline: string;
+            description: string;
+            founded: string;
+            headquarters: string;
+            employees: string;
+            highlights: string[];
+        };
+        aurelic: {
+            name: string;
+            sector: string;
+            tagline: string;
+            description: string;
+            founded: string;
+            headquarters: string;
+            employees: string;
+            highlights: string[];
+        };
+        kurentengu: {
+            name: string;
+            sector: string;
+            tagline: string;
+            description: string;
+            founded: string;
+            headquarters: string;
+            employees: string;
+            highlights: string[];
+        };
+        velvessence: {
+            name: string;
+            sector: string;
+            tagline: string;
+            description: string;
+            founded: string;
+            headquarters: string;
+            employees: string;
+            highlights: string[];
+        };
+        lokovox: {
+            name: string;
+            sector: string;
+            tagline: string;
+            description: string;
+            founded: string;
+            headquarters: string;
+            employees: string;
+            highlights: string[];
+        };
+    };
     philosophy: {
         label: string;
         quote1: string;
@@ -61,6 +126,7 @@ export interface Dictionary {
         groupLabel: string;
         housesLabel: string;
         connectLabel: string;
+        rights: string;
     };
     common: {
         home: string;
@@ -97,6 +163,12 @@ export interface Dictionary {
             title: string;
             subtitle: string;
             figures: Array<{ value: string; label: string; description: string }>;
+        };
+        craftsmanship: {
+            title: string;
+            subtitle: string;
+            principles: Array<{ title: string; description: string }>;
+            paragraphs: string[];
         };
         housesPage: {
             title: string;
@@ -143,6 +215,22 @@ export interface Dictionary {
             items: Array<{ name: string; type: string; description: string }>;
         };
         formulaK: {
+            title: string;
+            subtitle: string;
+            paragraphs: string[];
+            backLabel: string;
+        };
+        newsPage: {
+            title: string;
+            subtitle: string;
+        };
+        maventineTokyo: {
+            title: string;
+            subtitle: string;
+            paragraphs: string[];
+            backLabel: string;
+        };
+        aurelicPlatform: {
             title: string;
             subtitle: string;
             paragraphs: string[];

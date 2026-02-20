@@ -1,6 +1,11 @@
 import type { Dictionary } from '../types';
 
 export const fr: Dictionary = {
+    meta: {
+        title: "Kaiser Klowns — L'Empire Créatif",
+        description: "Un conglomérat créatif de luxe dédié au développement à long terme de ses Maisons.",
+        keywords: "Kaiser Klowns, Conglomérat de luxe, Empire créatif, Mode, Technologie, Médias"
+    },
     nav: {
         group: 'GROUPE',
         houses: 'MAISONS',
@@ -12,6 +17,7 @@ export const fr: Dictionary = {
         contact: 'CONTACT',
         search: 'Rechercher Kaiser Klowns...',
         popularSearches: 'RECHERCHES POPULAIRES',
+        noResults: 'Aucun résultat trouvé',
         history: 'HISTOIRE',
         mission: 'MISSION',
         governance: 'GOUVERNANCE ET ÉTHIQUE',
@@ -40,6 +46,90 @@ export const fr: Dictionary = {
         velvessence: { tagline: 'Divertissement & Cinéma', description: "Des histoires qui ébranlent l'inébranlable" },
         kurentengu: { tagline: 'Spiritueux & Art de Vivre', description: 'Artisanat ancien, rituel moderne' },
     },
+    houseDetails: {
+        about: 'À propos',
+        highlightsLabel: 'Faits saillants',
+        foundedLabel: 'Fondation',
+        headquartersLabel: 'Siège social',
+        employeesLabel: 'Employés',
+        sectorLabel: 'Secteur',
+        backToAll: 'Retour à toutes les Maisons',
+        maventine: {
+            name: "MAVENTINE",
+            sector: "Mode de Luxe & Art de Vivre",
+            tagline: "La mode qui exprime une philosophie.",
+            description: "Maventine est la maison de mode de luxe de Kaiser Klowns, où le tailoring de rue rencontre la haute couture avec une profondeur philosophique. Construite sur l'ADN du Luxury Street-Tailoring, Maventine représente l'identité visuelle de l'ensemble du groupe — le calme, le goût et le raffinement distillés en art portable. Chaque pièce s'adresse à ceux qui comprennent que le vrai luxe se ressent, il ne s'affiche pas.",
+            founded: "Septembre 2025",
+            headquarters: "Thaïlande",
+            employees: "—",
+            highlights: [
+                "ADN : Luxury Street-Tailoring — la fusion de la culture de rue et de l'artisanat haute couture",
+                "Représente l'identité visuelle, le goût et le raffinement du groupe Kaiser Klowns",
+                "Design guidé par la philosophie — chaque pièce a une intention et un sens",
+                "Collections à venir mélangeant l'héritage thaïlandais à une sensibilité de luxe globale"
+            ],
+        },
+        aurelic: {
+            name: "AURELIC SYSTEMS",
+            sector: "IT / Logiciel / IA / Infrastructure",
+            tagline: "La technologie pour les audacieux.",
+            description: "Aurelic Systems est l'épine dorsale technologique et le moteur de revenus à long terme de Kaiser Klowns. Des plateformes pilotées par l'IA aux logiciels d'entreprise, Aurelic construit l'infrastructure invisible qui propulse le groupe et au-delà. Avec des produits propriétaires tels qu'Arkai, DevStudio Rumba, Alfa et KlownsNexus Office Suite, Aurelic opère à l'intersection de l'innovation et de l'impact tangible.",
+            founded: "Septembre 2025",
+            headquarters: "Thaïlande",
+            employees: "—",
+            highlights: [
+                "Arkai — Plateforme d'automatisation intelligente pilotée par l'IA",
+                "DevStudio Rumba — Environnement de développement intégré avec capacités IA",
+                "Alfa — Système de gestion des ressources d'entreprise",
+                "KlownsNexus Office Suite — Plateforme complète d'opérations commerciales"
+            ],
+        },
+        kurentengu: {
+            name: "KURENTENGU",
+            sector: "Société de Jeux / Interactif",
+            tagline: "Des jeux qui disent des vérités.",
+            description: "KurenTengu est la division de divertissement interactif de Kaiser Klowns, créant des jeux et des mondes virtuels enracinés dans les mythes et légendes. Plus qu'un simple studio de jeux, KurenTengu construit des univers complets — des mondes axés sur la propriété intellectuelle conçus pour s'étendre aux jeux, à la narration et aux médias. Chaque jeu est une porte d'entrée vers une mythologie plus profonde.",
+            founded: "Septembre 2025",
+            headquarters: "Thaïlande",
+            employees: "—",
+            highlights: [
+                "Construire des univers de jeu sérieux et interconnectés basés sur des mythologies originales",
+                "Propriété intellectuelle conçue pour s'étendre aux histoires, aux médias et aux produits dérivés",
+                "Création de mondes axée sur la mythologie — la légende comme fondement de l'expérience interactive",
+                "Statut : En développement — Bientôt disponible"
+            ],
+        },
+        velvessence: {
+            name: "VELVESSENCE STUDIOS",
+            sector: "Divertissement / Cinéma / Musique / Visuel",
+            tagline: "Histoires visuelles d'émotion.",
+            description: "Velvessence Studios est le cœur narratif de Kaiser Klowns — où l'émotion, la philosophie et les arts visuels convergent. Des films de marque et de la production cinématographique à l'identité musicale et aux beaux-arts, Velvessence crée les récits qui donnent une âme au groupe. Chaque image, chaque note, chaque image est conçue pour ébranler l'inébranlable.",
+            founded: "Septembre 2025",
+            headquarters: "Thaïlande",
+            employees: "—",
+            highlights: [
+                "Production de films de marque — Récits narratifs cinématographiques pour Kaiser Klowns et ses Maisons",
+                "Identité musicale — Bandes originales et branding sonore pour le groupe",
+                "Arts visuels — Œuvres d'art de qualité galerie reflétant la philosophie du groupe",
+                "Vision cinématographique — Traiter tous les projets comme des œuvres d'art, pas seulement du contenu"
+            ],
+        },
+        lokovox: {
+            name: "LOKOVOX MEDIA",
+            sector: "Marketing / Branding / Stratégie Média",
+            tagline: "La voix qui façonne la culture.",
+            description: "Lokovox Media est l'agence de marketing et de branding interne de Kaiser Klowns — et sert également des clients externes. Responsable du positionnement stratégique de chaque Maison au sein du groupe, Lokovox gère la stratégie de marque, la création de contenu, les campagnes publicitaires et la planification média. Là où les autres agences suivent les tendances, Lokovox les définit.",
+            founded: "Septembre 2025",
+            headquarters: "Thaïlande",
+            employees: "—",
+            highlights: [
+                "Stratégie de marque complète pour toutes les Maisons Kaiser Klowns",
+                "Création de contenu, campagnes publicitaires et planification média",
+                "Services clients externes — Conseil en branding et marketing",
+                "Marketing intégré sur les canaux digitaux, sociaux et traditionnels"
+            ],
+        },
+    },
     philosophy: {
         label: 'Notre Philosophie',
         quote1: 'Nous ne construisons pas des marques.',
@@ -62,6 +152,7 @@ export const fr: Dictionary = {
         groupLabel: 'Groupe',
         housesLabel: 'Maisons',
         connectLabel: 'Contact',
+        rights: 'Tous droits réservés.',
     },
     common: {
         home: 'ACCUEIL',
@@ -132,6 +223,22 @@ export const fr: Dictionary = {
                 { value: '4,2 Md$', label: 'Chiffre d\'affaires', description: 'Revenus annuels en USD' },
                 { value: '200+', label: 'Partenaires', description: 'Partenariats stratégiques mondiaux' },
                 { value: '95%', label: 'Rétention', description: 'Taux de satisfaction des collaborateurs' },
+            ],
+        },
+        craftsmanship: {
+            title: "L'Art de la Création",
+            subtitle: "Comment Kaiser Klowns et ses Maisons transforment la vision en œuvres durables — par la discipline, l'artisanat et une quête inébranlable d'excellence.",
+            principles: [
+                { title: 'Patrimoine Engagé', description: "Chaque Maison puise dans un puits profond de tradition — puis le dépasse. Nous honorons l'artisanat en le faisant avancer." },
+                { title: 'Excellence Invisible', description: "Les plus belles œuvres se ressentent avant de se voir. Nous sommes obsédés par les détails que la plupart ne remarqueront jamais." },
+                { title: 'Synergie Inter-Maisons', description: "La mode nourrit la technologie. Les spiritueux inspirent le divertissement. Chaque Maison enrichit les autres à travers un dialogue créatif partagé." },
+                { title: 'Vision Long Terme', description: "Nous mesurons le succès en décennies, pas en trimestres. Chaque décision est prise en pensant à la prochaine génération." },
+            ],
+            paragraphs: [
+                "Chez Kaiser Klowns, la création n'est pas un département — c'est toute l'organisation. Des ateliers de Maventine aux laboratoires d'innovation d'Aurelic Systems, chaque Maison opère avec la même conviction fondamentale : qu'un travail extraordinaire exige un engagement extraordinaire.",
+                "Notre processus commence par l'écoute. Écouter les matériaux, les cultures, les besoins non exprimés de ceux qui refusent de faire des compromis. Nous investissons le temps que d'autres ne sont pas disposés à consacrer, car nous savons que la patience est l'ingrédient le plus sous-estimé du travail exceptionnel.",
+                "Chaque Maison conserve une autonomie créative totale. Il n'y a pas de comité de design central, pas de guide de marque qui aplanit l'individualité. À la place, nous fournissons l'infrastructure, les ressources et la stabilité à long terme qui permettent à la vraie liberté créative de s'épanouir.",
+                "Le résultat est un portfolio d'œuvres qui se sentent distinctes mais connectées — cinq Maisons, chacune s'exprimant avec sa propre voix, unies par une norme de qualité inébranlable qui définit le nom Kaiser Klowns.",
             ],
         },
         housesPage: {
@@ -271,6 +378,34 @@ export const fr: Dictionary = {
                 "Le partenariat sera lancé avec le Grand Prix d'ouverture de la saison Formula K 2026 à Monaco.",
             ],
             backLabel: 'Retour à la Presse',
+        },
+        newsPage: {
+            title: 'Actualités',
+            subtitle: 'Les dernières annonces, partenariats et étapes clés de Kaiser Klowns et de ses Maisons.',
+        },
+        maventineTokyo: {
+            title: 'Maventine à la Tokyo Fashion Week',
+            subtitle: '28 Janvier 2026',
+            paragraphs: [
+                'Maventine, la Maison de mode et maroquinerie de Kaiser Klowns, a dévoilé sa collection Printemps 2026 très attendue à la Tokyo Fashion Week, recueillant des éloges unanimes.',
+                'La collection, intitulée « East Meets West », présente 42 looks mêlant harmonieusement les techniques textiles traditionnelles japonaises au savoir-faire européen signature de Maventine. Les pièces phares incluent des ensembles en soie indigo teinte à la main et des pièces en cuir structuré intégrant la broderie sashiko.',
+                'Le directeur de la création s\'est inspiré du concept de « Ma » — l\'appréciation japonaise de l\'espace négatif — créant des silhouettes minimalistes aux détails structurels inattendus.',
+                '« Cette collection représente l\'âme de Maventine — là où l\'artisanat séculaire rencontre la vision contemporaine audacieuse. »',
+                'La collection sera disponible dans les boutiques Maventine du monde entier à partir de mars 2026.',
+            ],
+            backLabel: 'Retour aux Actualités',
+        },
+        aurelicPlatform: {
+            title: 'Aurelic Systems Plateforme 3.0',
+            subtitle: '15 Janvier 2026',
+            paragraphs: [
+                'Aurelic Systems, le bras technologique de Kaiser Klowns, a lancé sa plateforme connectée de nouvelle génération, marquant un bond significatif dans les expériences numériques de luxe.',
+                'La Plateforme 3.0 introduit la personnalisation alimentée par l\'IA, l\'analyse en temps réel et l\'intégration transparente inter-Maisons — permettant aux cinq Maisons de Kaiser Klowns d\'offrir des expériences numériques unifiées mais distinctives.',
+                'Les fonctionnalités clés incluent des insights clients prédictifs, un calcul carbon-aware réduisant la consommation d\'énergie de 40 %, et un écosystème API ouvert supportant plus de 200 intégrations tierces.',
+                '« La technologie doit être invisible mais transformatrice. La Plateforme 3.0 incarne cette philosophie. » a déclaré l\'équipe Aurelic Systems.',
+                'La plateforme est déjà déployée dans toutes les Maisons Kaiser Klowns et sera disponible pour des partenaires entreprises sélectionnés au T2 2026.',
+            ],
+            backLabel: 'Retour aux Actualités',
         },
     },
 };

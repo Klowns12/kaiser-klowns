@@ -1,4 +1,8 @@
+"use client";
+
 import Link from "next/link";
+import BreadcrumbJsonLd from "./BreadcrumbJsonLd";
+import { useTranslation } from "../i18n/TranslationContext";
 
 interface BreadcrumbItem {
     label: string;
@@ -16,13 +20,18 @@ export default function PageHeader({
     subtitle?: string;
     children?: React.ReactNode;
 }) {
+    const { dict } = useTranslation();
+
     return (
         <div className="pt-28 md:pt-36 pb-16 md:pb-20 bg-background">
+            {/* Structured Data: Breadcrumb Schema for SEO/GEO */}
+            <BreadcrumbJsonLd items={breadcrumbs.map(b => ({ name: b.label, href: b.href }))} />
+
             <div className="max-w-7xl mx-auto px-6 md:px-12">
                 {/* Breadcrumbs */}
-                <nav className="flex items-center gap-2 mb-8">
+                <nav aria-label="Breadcrumb" className="flex items-center gap-2 mb-8">
                     <Link href="/" className="text-[10px] tracking-[0.15em] uppercase text-foreground/40 hover:text-foreground transition-colors">
-                        HOME
+                        {dict.common.home}
                     </Link>
                     {breadcrumbs.map((item, idx) => (
                         <span key={idx} className="flex items-center gap-2">

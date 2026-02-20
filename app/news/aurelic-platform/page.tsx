@@ -6,15 +6,15 @@ import PageHeader from "../../components/PageHeader";
 import Link from "next/link";
 import { useTranslation } from "../../i18n/TranslationContext";
 
-export default function FormulaKPage() {
+export default function AurelicPlatformPage() {
     const { dict } = useTranslation();
-    const { title, subtitle, paragraphs, backLabel } = dict.pages.formulaK;
+    const { title, subtitle, paragraphs, backLabel } = dict.pages.aurelicPlatform;
 
     return (
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.press, href: "/press" }, { label: title }]}
+                breadcrumbs={[{ label: dict.news.title, href: "/news" }, { label: title }]}
                 title={title}
                 subtitle={subtitle}
             />
@@ -30,7 +30,7 @@ export default function FormulaKPage() {
                     </div>
 
                     <div className="mt-12 pt-8 border-t border-foreground/8">
-                        <Link href="/press" className="inline-flex items-center gap-2 text-[10px] tracking-[0.15em] uppercase text-foreground/50 hover:text-foreground transition-colors">
+                        <Link href="/news" className="inline-flex items-center gap-2 text-[10px] tracking-[0.15em] uppercase text-foreground/50 hover:text-foreground transition-colors">
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                                 <line x1="19" y1="12" x2="5" y2="12" /><polyline points="12 19 5 12 12 5" />
                             </svg>

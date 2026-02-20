@@ -30,6 +30,7 @@ export default function HamburgerMenu() {
                 { label: dict.nav.mission, href: '/group/mission' },
                 { label: dict.nav.governance, href: '/group/governance' },
                 { label: dict.nav.keyFigures, href: '/group/key-figures' },
+                { label: dict.pages.craftsmanship.title, href: '/group/craftsmanship' },
             ],
         },
         {
@@ -340,16 +341,65 @@ export default function HamburgerMenu() {
                                     </svg>
                                 </button>
                             </div>
-                            <div className="mt-5">
-                                <p className="text-[10px] tracking-[0.15em] uppercase text-foreground/35 mb-3 font-semibold">{dict.nav.popularSearches}</p>
-                                <div className="flex flex-wrap gap-2">
-                                    {['GROUP', 'HOUSES', 'CAREERS', 'INVESTORS', 'PRESS'].map(tag => (
-                                        <Link key={tag} href={`/${tag.toLowerCase()}`} onClick={handleSearchClose}
-                                            className="px-3 py-1.5 text-[10px] tracking-[0.1em] uppercase border border-foreground/12 text-foreground/50 hover:text-foreground hover:border-foreground/30 hover:bg-foreground/[0.03] transition-all duration-200">
-                                            {tag}
-                                        </Link>
-                                    ))}
-                                </div>
+                            <div className="mt-5 max-h-[50vh] overflow-y-auto">
+                                {searchQuery.trim() ? (() => {
+                                    const q = searchQuery.trim().toLowerCase();
+                                    const allPages = [
+                                        { label: dict.nav.group, href: '/group' },
+                                        { label: dict.nav.history, href: '/group/history' },
+                                        { label: dict.nav.mission, href: '/group/mission' },
+                                        { label: dict.nav.governance, href: '/group/governance' },
+                                        { label: dict.nav.keyFigures, href: '/group/key-figures' },
+                                        { label: dict.pages.craftsmanship.title, href: '/group/craftsmanship' },
+                                        { label: dict.nav.houses, href: '/houses' },
+                                        { label: 'Aurelic Systems', href: '/houses/aurelic' },
+                                        { label: 'Lokovox Media', href: '/houses/lokovox' },
+                                        { label: 'Maventine', href: '/houses/maventine' },
+                                        { label: 'Velvessence Studios', href: '/houses/velvessence' },
+                                        { label: 'KurenTengu', href: '/houses/kurentengu' },
+                                        { label: dict.nav.commitments, href: '/commitments' },
+                                        { label: dict.nav.sustainability, href: '/commitments/sustainability' },
+                                        { label: dict.nav.socialResponsibility, href: '/commitments/social' },
+                                        { label: dict.nav.environment, href: '/commitments/environment' },
+                                        { label: dict.nav.careers, href: '/careers' },
+                                        { label: dict.nav.investors, href: '/investors' },
+                                        { label: dict.nav.press, href: '/press' },
+                                        { label: dict.nav.partners, href: '/partners' },
+                                        { label: dict.nav.contact, href: '/contact' },
+                                        { label: dict.news.title, href: '/news' },
+                                        { label: dict.pages.formulaK.title, href: '/news/formula-k-partnership' },
+                                        { label: dict.pages.maventineTokyo.title, href: '/news/maventine-tokyo' },
+                                        { label: dict.pages.aurelicPlatform.title, href: '/news/aurelic-platform' },
+                                    ];
+                                    const results = allPages.filter(p => p.label.toLowerCase().includes(q));
+                                    return results.length > 0 ? (
+                                        <div className="space-y-1">
+                                            {results.map(r => (
+                                                <Link key={r.href} href={r.href} onClick={handleSearchClose}
+                                                    className="flex items-center gap-3 px-3 py-3 text-[13px] text-foreground/60 hover:text-foreground hover:bg-foreground/[0.04] transition-all duration-200 font-sans group">
+                                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-foreground/20 group-hover:text-red shrink-0 transition-colors">
+                                                        <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
+                                                    </svg>
+                                                    {r.label}
+                                                </Link>
+                                            ))}
+                                        </div>
+                                    ) : (
+                                        <p className="text-[12px] text-foreground/30 font-sans py-4 text-center">{dict.nav.noResults}</p>
+                                    );
+                                })() : (
+                                    <>
+                                        <p className="text-[10px] tracking-[0.15em] uppercase text-foreground/35 mb-3 font-semibold">{dict.nav.popularSearches}</p>
+                                        <div className="flex flex-wrap gap-2">
+                                            {['GROUP', 'HOUSES', 'CAREERS', 'INVESTORS', 'PRESS'].map(tag => (
+                                                <Link key={tag} href={`/${tag.toLowerCase()}`} onClick={handleSearchClose}
+                                                    className="px-3 py-1.5 text-[10px] tracking-[0.1em] uppercase border border-foreground/12 text-foreground/50 hover:text-foreground hover:border-foreground/30 hover:bg-foreground/[0.03] transition-all duration-200">
+                                                    {tag}
+                                                </Link>
+                                            ))}
+                                        </div>
+                                    </>
+                                )}
                             </div>
                         </div>
                     </div>

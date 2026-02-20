@@ -1,6 +1,11 @@
 import type { Dictionary } from '../types';
 
 export const ja: Dictionary = {
+    meta: {
+        title: "Kaiser Klowns — クリエイティブ・エンパイア",
+        description: "各メゾンの長期的発展に尽力するラグジュアリークリエイティブコングロマリット。",
+        keywords: "Kaiser Klowns, ラグジュアリーコングロマリット, クリエイティブ帝国, ファッション, テクノロジー, メディア"
+    },
     nav: {
         group: 'グループ',
         houses: 'ハウス',
@@ -12,6 +17,7 @@ export const ja: Dictionary = {
         contact: 'お問い合わせ',
         search: 'Kaiser Klownsを検索...',
         popularSearches: '人気の検索',
+        noResults: '結果が見つかりません',
         history: '歴史',
         mission: 'ミッション',
         governance: 'ガバナンスと倫理',
@@ -40,6 +46,90 @@ export const ja: Dictionary = {
         velvessence: { tagline: 'エンターテインメント & 映画', description: '動かせないものを動かす物語' },
         kurentengu: { tagline: 'スピリッツ & ライフスタイル', description: '古の工芸、現代の儀式' },
     },
+    houseDetails: {
+        about: '概要',
+        highlightsLabel: 'ハイライト',
+        foundedLabel: '設立',
+        headquartersLabel: '本社',
+        employeesLabel: '従業員',
+        sectorLabel: 'セクター',
+        backToAll: 'すべてのハウスに戻る',
+        maventine: {
+            name: "MAVENTINE",
+            sector: "ラグジュアリーファッション & ライフスタイル",
+            tagline: "哲学を語るファッション。",
+            description: "MaventineはKaiser Klownsのラグジュアリーファッションハウスであり、ストリートテーラリングとハイファッションが哲学的な深みとともに融合する場所です。ラグジュアリー・ストリートテーラリングのDNAに基づいて構築されたMaventineは、グループ全体の視覚的アイデンティティを代表しています——静けさ、味わい、そして洗練が着るアートへと昇華されています。すべてのピースが、真のラグジュアリーは誇示するものではなく感じるものであると理解する人々に語りかけます。",
+            founded: "2025年9月",
+            headquarters: "タイ",
+            employees: "—",
+            highlights: [
+                "DNA: ラグジュアリー・ストリートテーラリング — ストリートカルチャーとハイファッションの職人技の融合",
+                "Kaiser Klownsグループの視覚的アイデンティティ、味わい、そして洗練を代表",
+                "哲学主導のデザイン — すべてのピースが意図と意味を持つ",
+                "タイのヘリテージとグローバルなラグジュアリーの感性を融合させた今後のコレクション"
+            ],
+        },
+        aurelic: {
+            name: "AURELIC SYSTEMS",
+            sector: "IT / ソフトウェア / AI / インフラストラクチャ",
+            tagline: "大胆な人々のためのテクノロジー。",
+            description: "Aurelic Systemsは、Kaiser Klownsの技術的バックボーンであり長期的な収益エンジンです。AI主導のプラットフォームからエンタープライズソフトウェアまで、Aurelicはグループやそれ以降を駆動する目に見えないインフラストラクチャを構築します。Arkai、DevStudio Rumba、Alfa、KlownsNexus Office Suiteなどの独自の製品により、Aurelicはイノベーションと実質的なインパクトの交差点で活動しています。",
+            founded: "2025年9月",
+            headquarters: "タイ",
+            employees: "—",
+            highlights: [
+                "Arkai — AI主導のインテリジェントオートメーションプラットフォーム",
+                "DevStudio Rumba — AI機能を備えた統合開発環境",
+                "Alfa — エンタープライズリソース管理システム",
+                "KlownsNexus Office Suite — 完全なビジネスオペレーションプラットフォーム"
+            ],
+        },
+        kurentengu: {
+            name: "KURENTENGU",
+            sector: "ゲーム会社 / インタラクティブ",
+            tagline: "真実を語るゲーム。",
+            description: "KurenTenguはKaiser Klownsのインタラクティブ・エンターテインメント部門であり、神話と伝説に根ざしたゲームと仮想世界を創造しています。ゲームスタジオ以上の存在として、KurenTenguは完全な宇宙を構築します——ゲーム、ストーリーテリング、メディア全体に拡張するように設計されたIP主導の世界です。すべてのゲームがより深い神話への入り口となります。",
+            founded: "2025年9月",
+            headquarters: "タイ",
+            employees: "—",
+            highlights: [
+                "オリジナルの神話に基づく、真剣で相互接続されたゲームユニバースの構築",
+                "ストーリー、メディア、マーチャンダイズへの拡張のために設計されたIP",
+                "神話主導の世界構築 — インタラクティブ体験の基盤としての伝説",
+                "ステータス: 開発中 — 近日公開"
+            ],
+        },
+        velvessence: {
+            name: "VELVESSENCE STUDIOS",
+            sector: "エンターテインメント / 映画 / 音楽 / ビジュアル",
+            tagline: "感情の視覚的な物語。",
+            description: "Velvessence StudiosはKaiser Klownsのストーリーテリングの中心であり、感情、哲学、視覚芸術が交わる場所です。ブランドフィルムや映画制作から音楽的アイデンティティやファインアートまで、Velvessenceはグループに魂を吹き込む物語を作り上げます。すべてのフレーム、すべての音符、すべての画像は、動かせないものを動かすためにデザインされています。",
+            founded: "2025年9月",
+            headquarters: "タイ",
+            employees: "—",
+            highlights: [
+                "ブランドフィルム制作 — Kaiser Klownsとそのハウスのための映画的なストーリーテリング",
+                "音楽アイデンティティ — グループのためのオリジナルスコアとサウンドブランディング",
+                "ビジュアルアート — グループの哲学を反映したギャラリー品質のアートワーク",
+                "映画的ビジョン — すべてのプロジェクトをコンテンツではなく芸術作品として扱う"
+            ],
+        },
+        lokovox: {
+            name: "LOKOVOX MEDIA",
+            sector: "マーケティング / ブランディング / メディア戦略",
+            tagline: "文化を形作る声。",
+            description: "Lokovox MediaはKaiser Klownsの社内マーケティングおよびブランディングエージェンシーであり、外部クライアントにもサービスを提供しています。グループ内の各ハウスの戦略的ポジショニングを担当し、ブランド戦略、コンテンツ制作、広告キャンペーン、メディアプランニングを処理します。他のエージェンシーがトレンドを追う中で、Lokovoxはトレンドを定義します。",
+            founded: "2025年9月",
+            headquarters: "タイ",
+            employees: "—",
+            highlights: [
+                "すべてのKaiser Klownsハウスのためのフルサービス・ブランド戦略",
+                "コンテンツ制作、広告キャンペーン、メディアプランニング",
+                "外部クライアントサービス — ブランディングおよびマーケティングコンサルティング",
+                "デジタル、ソーシャル、伝統的なチャネル全体での統合マーケティング"
+            ],
+        },
+    },
     philosophy: {
         label: '私たちの哲学',
         quote1: 'ブランドを構築するのではない。',
@@ -62,6 +152,7 @@ export const ja: Dictionary = {
         groupLabel: 'グループ',
         housesLabel: 'ハウス',
         connectLabel: 'コネクト',
+        rights: '全著作権所有',
     },
     common: {
         home: 'ホーム',
@@ -271,6 +362,49 @@ export const ja: Dictionary = {
                 'パートナーシップは2026年Formula Kシーズンのモナコ開幕戦とともにスタートします。',
             ],
             backLabel: 'プレスに戻る',
+        },
+        newsPage: {
+            title: 'ニュース',
+            subtitle: 'Kaiser Klownsおよび債下ハウスの最新発表とマイルストーン。',
+        },
+        maventineTokyo: {
+            title: 'Maventine 東京ファッションウィーク',
+            subtitle: '2026年1月28日',
+            paragraphs: [
+                'ファッションハウスMaventineが東京ファッションウィークで2026春コレクションを発表しました。',
+                '東洋の職人技と西洋のアバンギャルドな感性を結ぶコレクションを発表。',
+                '「間」の概念からインスピレーションを得た極簡シルエット。',
+                '「このコレクションはMaventineの魂を代表しています」',
+                '2026年3月より全世界のMaventine旗艦店で発売予定。',
+            ],
+            backLabel: 'ニュースに戻る',
+        },
+        aurelicPlatform: {
+            title: 'Aurelic Systems プラットフォーム 3.0',
+            subtitle: '2026年1月15日',
+            paragraphs: [
+                'Aurelic Systemsが次世代コネクテッドプラットフォームを発表しました。',
+                'AI駆動のパーソナリゼーション、リアルタイム分析、シームレスなクロスブランド統合。',
+                '「テクノロジーは見えないが変革的であるべきだ」',
+                '全Kaiser Klownsブランドに展開済み。',
+            ],
+            backLabel: 'ニュースに戻る',
+        },
+        craftsmanship: {
+            title: '創造の芸術',
+            subtitle: 'Kaiser Klownsとそのハウスが、規律、工芸、そして卓越性への飽くなき追求を通じて、ビジョンを永続的な作品に変える方法。',
+            principles: [
+                { title: 'ヘリテージイノベーション', description: '各ハウスは深い伝統から学び、それを超える。工芸を前進させることで工芸を尊重する。' },
+                { title: '見えない卓越性', description: '最高の作品はまず感じられるもの。その細部にこだわる。' },
+                { title: 'クロスブランドシナジー', description: 'ファッションがテクノロジーにインスピレーションを与える。各ハウスが他を豊かにする。' },
+                { title: '長期的思考', description: '季節ではなく十年単位で成功を計る。すべての決断は次世代を見据えて。' },
+            ],
+            paragraphs: [
+                'Kaiser Klownsでは、創造は部門ではなく、組織全体です。',
+                '私たちのプロセスは傾聴から始まります。',
+                '各ブランドは完全なクリエイティブの自律性を維持します。',
+                '結果として、独自でありながらも相互に関連する作品の数々が生まれます。',
+            ],
         },
     },
 };

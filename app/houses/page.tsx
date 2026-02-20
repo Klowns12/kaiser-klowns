@@ -1,18 +1,16 @@
+"use client";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
 import Link from "next/link";
-
-export const metadata = {
-    title: "Houses — Kaiser Klowns",
-    description: "Discover our five Houses — each with its own identity, heritage, and creative vision.",
-};
+import { useTranslation } from "../i18n/TranslationContext";
 
 const houses = [
     {
         name: "AURELIC SYSTEMS",
-        sector: "Technology & Innovation",
-        description: "Engineering the invisible architecture of tomorrow. Aurelic builds the technology platforms that power connected luxury experiences.",
+        dictKey: "aurelic" as const,
+        description: "",
         href: "/houses/aurelic",
         accent: "#4a6fa5",
         gradient: "from-[#0a0a1a] via-[#151525] to-[#05050a]",
@@ -21,8 +19,8 @@ const houses = [
     },
     {
         name: "LOKOVOX MEDIA",
-        sector: "Media & Publishing",
-        description: "The voice that shapes culture. Lokovox controls the narrative — from publishing to digital media — with editorial integrity.",
+        dictKey: "lokovox" as const,
+        description: "",
         href: "/houses/lokovox",
         accent: "#2a8a6a",
         gradient: "from-[#0a1a15] via-[#15252a] to-[#050a0a]",
@@ -31,8 +29,8 @@ const houses = [
     },
     {
         name: "MAVENTINE",
-        sector: "Fashion & Leather Goods",
-        description: "Where tradition meets audacious design. Maventine crafts luxury fashion and leather goods that define eras, not seasons.",
+        dictKey: "maventine" as const,
+        description: "",
         href: "/houses/maventine",
         accent: "#c41e1e",
         gradient: "from-[#1a0a0a] via-[#2d1515] to-[#0a0505]",
@@ -41,8 +39,8 @@ const houses = [
     },
     {
         name: "VELVESSENCE STUDIOS",
-        sector: "Entertainment & Film",
-        description: "Stories that move the unmovable. Velvessence produces entertainment that provokes, inspires, and transforms culture.",
+        dictKey: "velvessence" as const,
+        description: "",
         href: "/houses/velvessence",
         accent: "#8a4a8a",
         gradient: "from-[#150a1a] via-[#201525] to-[#0a050d]",
@@ -51,8 +49,8 @@ const houses = [
     },
     {
         name: "KURENTENGU",
-        sector: "Spirits & Lifestyle",
-        description: "Ancient craft, modern ritual. KurenTengu curates spirits and lifestyle products that honor tradition while embracing the contemporary.",
+        dictKey: "kurentengu" as const,
+        description: "",
         href: "/houses/kurentengu",
         accent: "#b8952a",
         gradient: "from-[#1a0a05] via-[#2d1a0a] to-[#0a0502]",
@@ -62,13 +60,15 @@ const houses = [
 ];
 
 export default function HousesPage() {
+    const { dict } = useTranslation();
+
     return (
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: "Houses" }]}
-                title="Our Houses"
-                subtitle="Five brands, each with its own identity, heritage, and creative vision — bound by an uncompromising commitment to excellence."
+                breadcrumbs={[{ label: dict.nav.houses }]}
+                title={dict.pages.housesPage.title}
+                subtitle={dict.pages.housesPage.subtitle}
             />
 
             <section className="pb-24 md:pb-32 bg-background">
@@ -91,7 +91,7 @@ export default function HousesPage() {
                                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" className="opacity-60">
                                                 <rect x="3" y="11" width="18" height="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0110 0v4" />
                                             </svg>
-                                            <span className="text-[8px] tracking-[0.2em] uppercase text-white/50">Coming Soon</span>
+                                            <span className="text-[8px] tracking-[0.2em] uppercase text-white/50">{dict.common.comingSoon}</span>
                                         </div>
                                     )}
 
@@ -99,18 +99,18 @@ export default function HousesPage() {
                                     <div className="absolute inset-0 flex items-end p-8 md:p-12">
                                         <div className="flex-1">
                                             <p className="text-[10px] tracking-[0.3em] uppercase mb-2 transition-opacity duration-300" style={{ color: house.accent }}>
-                                                {house.sector}
+                                                {dict.houses[house.dictKey].tagline}
                                             </p>
                                             <h3 className={`text-white text-[22px] md:text-[32px] font-bold tracking-[0.08em] uppercase mb-2 ${house.locked ? 'opacity-50' : ''}`}>
                                                 {house.name}
                                             </h3>
                                             <p className={`text-white/40 text-[12px] md:text-[13px] font-sans max-w-lg leading-[1.6] hidden md:block ${house.locked ? 'opacity-40' : ''}`}>
-                                                {house.description}
+                                                {dict.houses[house.dictKey].description}
                                             </p>
                                         </div>
                                         {!house.locked && (
                                             <div className="hidden md:flex items-center gap-2 text-white/40 text-[10px] tracking-[0.15em] uppercase group-hover:text-white/80 transition-colors">
-                                                <span>Explore</span>
+                                                <span>{dict.houses.explore}</span>
                                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="group-hover:translate-x-1 transition-transform duration-300">
                                                     <line x1="5" y1="12" x2="19" y2="12" />
                                                     <polyline points="12 5 19 12 12 19" />

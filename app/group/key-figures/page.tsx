@@ -1,29 +1,21 @@
+"use client";
+
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import PageHeader from "../../components/PageHeader";
-
-export const metadata = {
-    title: "Key Figures — Kaiser Klowns",
-    description: "The numbers behind the Kaiser Klowns creative empire.",
-};
-
-const figures = [
-    { value: "5", label: "HOUSES", description: "Fashion, Technology, Spirits, Entertainment, and Media" },
-    { value: "12+", label: "COUNTRIES", description: "Global operations spanning three continents" },
-    { value: "4,200+", label: "EMPLOYEES", description: "Talented professionals driving creative excellence" },
-    { value: "$2.8B", label: "REVENUE", description: "FY 2025 consolidated revenue" },
-    { value: "22.4%", label: "OPERATING MARGIN", description: "Record profitability driven by operational excellence" },
-    { value: "$18.6B", label: "MARKET CAP", description: "As of February 2026" },
-];
+import { useTranslation } from "../../i18n/TranslationContext";
 
 export default function KeyFiguresPage() {
+    const { dict } = useTranslation();
+    const { title, subtitle, figures } = dict.pages.keyFigures;
+
     return (
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: "Group", href: "/group" }, { label: "Key Figures" }]}
-                title="Key Figures"
-                subtitle="The numbers that define our creative empire."
+                breadcrumbs={[{ label: dict.nav.group, href: "/group" }, { label: dict.nav.keyFigures }]}
+                title={title}
+                subtitle={subtitle}
             />
 
             <section className="pb-24 md:pb-32 bg-background">

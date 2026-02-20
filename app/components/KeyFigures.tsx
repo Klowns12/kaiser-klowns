@@ -25,13 +25,10 @@ function AnimatedCounter({
 
         const duration = 2000;
         const steps = 60;
-        const increment = target / steps;
-        let current = 0;
         let step = 0;
 
         const timer = setInterval(() => {
             step++;
-            current = Math.min(target, increment * step);
 
             // Use easeOutQuart for smooth deceleration
             const progress = step / steps;
