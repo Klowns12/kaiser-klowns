@@ -10,6 +10,20 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/:lang(en|th|zh|ja|fr|de|ko|es)',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/:lang(en|th|zh|ja|fr|de|ko|es)/:path+',
+        destination: '/:path+',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

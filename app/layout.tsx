@@ -67,10 +67,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://www.kaiserklowns.group",
-    languages: {
-      "en-US": "https://www.kaiserklowns.group/en",
-      "th-TH": "https://www.kaiserklowns.group/th",
-    },
   },
   openGraph: {
     title: "Kaiser Klowns — The Creative Empire",
