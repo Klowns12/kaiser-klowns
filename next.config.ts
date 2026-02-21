@@ -22,6 +22,11 @@ const nextConfig: NextConfig = {
         destination: '/:path+',
         permanent: true,
       },
+      {
+        source: '/about',
+        destination: '/group',
+        permanent: true,
+      },
     ];
   },
 };
