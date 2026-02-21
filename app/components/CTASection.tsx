@@ -82,12 +82,12 @@ export default function CTASection() {
                             <polyline points="12 5 19 12 12 19" />
                         </svg>
                     </Link>
-                    <Link
+                    {/* <Link
                         href="/investors"
                         className="inline-flex items-center gap-3 px-8 py-3.5 text-[10px] md:text-[11px] tracking-[0.25em] uppercase text-white/60 border border-white/15 hover:border-white/40 hover:text-white transition-all duration-300"
                     >
                         <span>Investor Relations</span>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </section>

@@ -141,7 +141,9 @@ export const ja: Dictionary = {
         label: '最新情報',
         title: 'ニュース',
         seeAll: 'すべてのニュースを見る',
-        items: [
+                items: [
+            { slug: 'arkai-early-access', isPromo: true, date: 'March 2026', title: 'Campaign: Arkai Work Assistant Early Access Program', excerpt: 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.' },
+            { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
             { date: '2026年2月', title: 'Kaiser KlownsがFormula K Racingとの戦略的パートナーシップを発表', excerpt: 'ラグジュアリーモータースポーツ・コラボレーションの大胆な新章。クリエイティブ・エンパイアを世界最高峰のサーキットへ。' },
             { date: '2026年1月', title: 'Maventineが東京ファッションウィークで春コレクションを発表', excerpt: '東洋の職人技と西洋のアヴァンギャルドな感性を結ぶコレクションを発表。' },
             { date: '2026年1月', title: 'Aurelic Systemsが次世代プラットフォームを発表', excerpt: 'テクノロジー部門がコネクテッド・ラグジュアリー体験の未来ビジョンを公開。' },

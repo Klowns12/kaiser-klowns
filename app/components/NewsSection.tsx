@@ -66,53 +66,61 @@ export default function NewsSection() {
             {/* News cards */}
             <div className="max-w-7xl mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-                    {dict.news.items.map((item, idx) => (
-                        <Link
-                            key={newsHrefs[idx]}
-                            href={newsHrefs[idx]}
-                            className={`reveal reveal-delay-${idx + 1} group block`}
-                        >
-                            {/* Card image area */}
-                            <div className="relative h-[220px] md:h-[260px] overflow-hidden mb-5">
-                                <div
-                                    className="absolute inset-0 transition-transform duration-700 group-hover:scale-105"
-                                    style={{
-                                        background: `linear-gradient(135deg, ${newsColors[idx]}15 0%, ${newsColors[idx]}08 50%, #0a0a0a 100%)`,
-                                    }}
-                                />
-                                {/* Decorative element */}
-                                <div className="absolute bottom-4 right-4 text-[60px] md:text-[80px] font-bold text-white/[0.03] leading-none tracking-tighter select-none">
-                                    {String(idx + 1).padStart(2, "0")}
-                                </div>
-                                {/* Category badge */}
-                                <div className="absolute top-4 left-4">
-                                    <span
-                                        className="text-[9px] tracking-[0.2em] uppercase px-3 py-1.5"
-                                        style={{
-                                            backgroundColor: `${newsColors[idx]}15`,
-                                            color: newsColors[idx],
-                                            border: `1px solid ${newsColors[idx]}30`,
-                                        }}
-                                    >
-                                        {newsCategories[idx]}
-                                    </span>
-                                </div>
-                            </div>
+                    {dict.news.items.slice(0, 3).map((item, idx) => {
+                        const isPromo = 'isPromo' in item && item.isPromo;
+                        // Use item slug if present, otherwise fallback to standard newsLinks or generic /news
+                        const linkHref = 'slug' in item && item.slug ? `/news/${item.slug}` : (newsHrefs[idx] || '/news');
+                        const cat = isPromo ? 'PROMO' : (newsCategories[idx] || 'NEWS');
+                        const col = isPromo ? '#b8952a' : (newsColors[idx] || '#4a6fa5');
 
-                            {/* Card content */}
-                            <div>
-                                <p className="text-[10px] tracking-[0.15em] uppercase text-foreground/35 mb-2">
-                                    {item.date}
-                                </p>
-                                <h3 className="text-[14px] md:text-[16px] font-bold tracking-[0.03em] uppercase text-foreground leading-[1.4] mb-3 group-hover:opacity-70 transition-opacity duration-300">
-                                    {item.title}
-                                </h3>
-                                <p className="text-[12px] md:text-[13px] text-foreground/45 leading-[1.6] font-sans">
-                                    {item.excerpt}
-                                </p>
-                            </div>
-                        </Link>
-                    ))}
+                        return (
+                            <Link
+                                key={`${linkHref}-${idx}`}
+                                href={linkHref}
+                                className={`reveal reveal-delay-${idx + 1} group block`}
+                            >
+                                {/* Card image area */}
+                                <div className="relative h-[220px] md:h-[260px] overflow-hidden mb-5">
+                                    <div
+                                        className="absolute inset-0 transition-transform duration-700 group-hover:scale-105"
+                                        style={{
+                                            background: `linear-gradient(135deg, ${col}15 0%, ${col}08 50%, #0a0a0a 100%)`,
+                                        }}
+                                    />
+                                    {/* Decorative element */}
+                                    <div className="absolute bottom-4 right-4 text-[60px] md:text-[80px] font-bold text-white/[0.03] leading-none tracking-tighter select-none">
+                                        {String(idx + 1).padStart(2, "0")}
+                                    </div>
+                                    {/* Category badge */}
+                                    <div className="absolute top-4 left-4">
+                                        <span
+                                            className="text-[9px] tracking-[0.2em] uppercase px-3 py-1.5"
+                                            style={{
+                                                backgroundColor: `${col}15`,
+                                                color: col,
+                                                border: `1px solid ${col}30`,
+                                            }}
+                                        >
+                                            {cat}
+                                        </span>
+                                    </div>
+                                </div>
+
+                                {/* Card content */}
+                                <div>
+                                    <p className="text-[10px] tracking-[0.15em] uppercase text-foreground/35 mb-2">
+                                        {item.date}
+                                    </p>
+                                    <h3 className={`text-[14px] md:text-[16px] font-bold tracking-[0.03em] uppercase leading-[1.4] mb-3 group-hover:opacity-70 transition-opacity duration-300 ${isPromo ? 'text-[#b8952a]' : 'text-foreground'}`}>
+                                        {item.title}
+                                    </h3>
+                                    <p className="text-[12px] md:text-[13px] text-foreground/45 leading-[1.6] font-sans">
+                                        {item.excerpt}
+                                    </p>
+                                </div>
+                            </Link>
+                        );
+                    })}
                 </div>
 
                 {/* Mobile CTA */}

@@ -26,12 +26,14 @@ export default function JsonLd() {
         },
         // GEO / AEO Structured Data - Helps Generative AI understand the entity deeply
         knowsAbout: [
-            "Luxury Brands",
-            "Creative Conglomerate",
-            "Fashion & Apparel",
-            "Technology & AI",
-            "Spirits & Beverages",
-            "Media & Entertainment"
+            "Luxury Brand Management",
+            "Creative Conglomerate Operations",
+            "High-End Fashion & Street-Tailoring",
+            "Artificial Intelligence & Machine Learning",
+            "Enterprise Automation & Productivity Software",
+            "Premium Spirits & Beverages",
+            "Media Production & Entertainment",
+            "Corporate Governance & Sustainability"
         ],
         subOrganization: [
             { "@type": "Brand", name: "Maventine", description: "Luxury Fashion House." },

@@ -21,7 +21,7 @@ export default function Footer() {
             { label: 'KurenTengu', href: '/houses/kurentengu', locked: true },
         ],
         connect: [
-            { label: dict.nav.investors, href: '/investors' },
+            // { label: dict.nav.investors, href: '/investors' },
             { label: dict.nav.press, href: '/press' },
             { label: dict.nav.careers, href: '/careers' },
             { label: dict.nav.contact, href: '/contact' },

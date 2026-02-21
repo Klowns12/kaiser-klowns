@@ -119,7 +119,7 @@ export interface Dictionary {
         label: string;
         title: string;
         seeAll: string;
-        items: Array<{ date: string; title: string; excerpt: string }>;
+        items: Array<{ date: string; title: string; excerpt: string; slug?: string; isPromo?: boolean }>;
     };
     footer: {
         description: string;
@@ -231,6 +231,18 @@ export interface Dictionary {
             backLabel: string;
         };
         aurelicPlatform: {
+            title: string;
+            subtitle: string;
+            paragraphs: string[];
+            backLabel: string;
+        };
+        arkaiNews: {
+            title: string;
+            subtitle: string;
+            paragraphs: string[];
+            backLabel: string;
+        };
+        arkaiPromo: {
             title: string;
             subtitle: string;
             paragraphs: string[];

@@ -141,7 +141,9 @@ export const zh: Dictionary = {
         label: '最新动态',
         title: '新闻',
         seeAll: '查看全部新闻',
-        items: [
+                items: [
+            { slug: 'arkai-early-access', isPromo: true, date: 'March 2026', title: 'Campaign: Arkai Work Assistant Early Access Program', excerpt: 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.' },
+            { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
             { date: '2026年2月', title: 'Kaiser Klowns正式推出五大品牌帝国', excerpt: '集团公布完整的品牌组合：Maventine、Aurelic Systems、KurenTengu、Velvessence Studios和Lokovox Media。' },
             { date: '2026年1月', title: 'Aurelic Systems推出DevStudio Rumba和Arkai平台', excerpt: '科技品牌推出AI驱动开发环境和智能自动化平台。' },
             { date: '2025年12月', title: 'Maventine揭示奢华街头剪裁DNA', excerpt: '时尚品牌公布其创始DNA——将街头文化与高级工艺相融合的哲学。' },

@@ -21,6 +21,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/sustainability',
         '/social-responsibility',
         '/environment',
+        '/news',
+        '/news/formula-k-partnership',
+        '/news/aurelic-platform',
+        '/news/maventine-tokyo',
+        '/news/arkai-work-assistant',
+        '/news/arkai-early-access',
+        '/houses/maventine',
+        '/houses/aurelic-systems',
+        '/houses/kurentengu',
+        '/houses/velvessence-studios',
+        '/houses/lokovox-media'
     ];
 
     const sitemapEntries: MetadataRoute.Sitemap = [];

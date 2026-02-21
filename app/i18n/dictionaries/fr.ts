@@ -141,7 +141,9 @@ export const fr: Dictionary = {
         label: 'Dernières Actualités',
         title: 'Actualités',
         seeAll: 'Voir Toutes les Actualités',
-        items: [
+                items: [
+            { slug: 'arkai-early-access', isPromo: true, date: 'March 2026', title: 'Campaign: Arkai Work Assistant Early Access Program', excerpt: 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.' },
+            { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
             { date: 'Février 2026', title: 'Kaiser Klowns annonce un partenariat stratégique avec Formula K Racing', excerpt: "Un nouveau chapitre audacieux dans la collaboration du sport automobile de luxe, portant l'empire créatif sur les circuits les plus prestigieux du monde." },
             { date: 'Janvier 2026', title: 'Maventine dévoile sa collection printemps à la Tokyo Fashion Week', excerpt: "La maison de mode présente une collection qui fait le pont entre l'artisanat oriental et la sensibilité avant-gardiste occidentale." },
             { date: 'Janvier 2026', title: 'Aurelic Systems lance sa plateforme nouvelle génération', excerpt: "Le bras technologique révèle sa vision pour l'avenir des expériences de luxe connectées." },

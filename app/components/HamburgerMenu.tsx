@@ -65,7 +65,7 @@ export default function HamburgerMenu() {
     ], [dict]);
 
     const secondaryLinks = useMemo(() => [
-        { label: dict.nav.investors, href: '/investors' },
+        // { label: dict.nav.investors, href: '/investors' },
         { label: dict.nav.press, href: '/press' },
         { label: dict.nav.partners, href: '/partners' },
         { label: dict.nav.contact, href: '/contact' },
@@ -362,7 +362,7 @@ export default function HamburgerMenu() {
                                         { label: dict.nav.socialResponsibility, href: '/commitments/social' },
                                         { label: dict.nav.environment, href: '/commitments/environment' },
                                         { label: dict.nav.careers, href: '/careers' },
-                                        { label: dict.nav.investors, href: '/investors' },
+                                        // { label: dict.nav.investors, href: '/investors' },
                                         { label: dict.nav.press, href: '/press' },
                                         { label: dict.nav.partners, href: '/partners' },
                                         { label: dict.nav.contact, href: '/contact' },
@@ -391,7 +391,7 @@ export default function HamburgerMenu() {
                                     <>
                                         <p className="text-[10px] tracking-[0.15em] uppercase text-foreground/35 mb-3 font-semibold">{dict.nav.popularSearches}</p>
                                         <div className="flex flex-wrap gap-2">
-                                            {['GROUP', 'HOUSES', 'CAREERS', 'INVESTORS', 'PRESS'].map(tag => (
+                                            {['GROUP', 'HOUSES', 'CAREERS', /*'INVESTORS',*/ 'PRESS'].map(tag => (
                                                 <Link key={tag} href={`/${tag.toLowerCase()}`} onClick={handleSearchClose}
                                                     className="px-3 py-1.5 text-[10px] tracking-[0.1em] uppercase border border-foreground/12 text-foreground/50 hover:text-foreground hover:border-foreground/30 hover:bg-foreground/[0.03] transition-all duration-200">
                                                     {tag}

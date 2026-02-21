@@ -13,7 +13,7 @@ const houses = [
         gradient: "from-[#0a0a1a] via-[#151525] to-[#05050a]",
         accent: "#4a6fa5",
         locked: false,
-        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+        image: "https://media.istockphoto.com/id/1530256492/it/vettoriale/concetto-di-sviluppo-software-computer-portatile-con-schermo-aperto-appeso-sopra-la.jpg?s=612x612&w=0&k=20&c=0padcGEwdA7qSbliCeGSSUQiHbU_4rjT_cl0suHFLw4=",
     },
     {
         name: "LOKOVOX MEDIA",
@@ -22,7 +22,7 @@ const houses = [
         gradient: "from-[#0a1a15] via-[#15252a] to-[#050a0a]",
         accent: "#2a8a6a",
         locked: false,
-        image: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&q=80",
+        image: "https://media.licdn.com/dms/image/v2/C5112AQEbdiN9N3c29Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1520175209614?e=2147483647&v=beta&t=5efiZBb8LBurfKz5FImQrXy0A7BkSrZR8184g1fbgzY",
     },
     {
         name: "MAVENTINE",
@@ -31,7 +31,7 @@ const houses = [
         gradient: "from-[#1a0a0a] via-[#2d1515] to-[#0a0505]",
         accent: "#c41e1e",
         locked: true,
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80",
+        image: "/backgrounds/Maventine-Hero.jpg",
     },
     {
         name: "VELVESSENCE STUDIOS",
@@ -49,7 +49,7 @@ const houses = [
         gradient: "from-[#1a0a05] via-[#2d1a0a] to-[#0a0502]",
         accent: "#b8952a",
         locked: true,
-        image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80",
+        image: "https://outscal-content.s3.ap-south-1.amazonaws.com/full-stack-game-development.png",
     },
 ];
 
