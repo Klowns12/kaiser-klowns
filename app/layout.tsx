@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { ClientProviders } from "./ClientProviders";
 import JsonLd from "./components/JsonLd";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -113,6 +114,7 @@ export default function RootLayout({
           <JsonLd />
           {children}
         </ClientProviders>
+        <Analytics />
       </body>
     </html>
   );
