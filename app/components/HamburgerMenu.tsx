@@ -370,6 +370,8 @@ export default function HamburgerMenu() {
                                         { label: dict.pages.formulaK.title, href: '/news/formula-k-partnership' },
                                         { label: dict.pages.maventineTokyo.title, href: '/news/maventine-tokyo' },
                                         { label: dict.pages.aurelicPlatform.title, href: '/news/aurelic-platform' },
+                                        { label: dict.pages.arkaiNews.title, href: '/news/arkai-work-assistant' },
+                                        { label: dict.pages.arkaiPromo.title, href: '/news/arkai-early-access' },
                                     ];
                                     const results = allPages.filter(p => p.label.toLowerCase().includes(q));
                                     return results.length > 0 ? (
