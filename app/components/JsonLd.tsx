@@ -44,7 +44,6 @@ export default function JsonLd() {
             areaServed: "Worldwide",
             availableLanguage: ["en", "th", "zh", "ja", "fr", "de", "ko", "es"]
         },
-        // GEO / AEO Structured Data - Helps Generative AI understand the entity deeply
         knowsAbout: [
             "Luxury Brand Management",
             "Creative Conglomerate Operations",
@@ -76,13 +75,148 @@ export default function JsonLd() {
         }
     };
 
+    // WebPage schema
+    const webPageSchema = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: "Kaiser Klowns — The Creative Empire",
+        url: "https://www.kaiserklowns.group",
+        description: "Kaiser Klowns is a premier luxury creative conglomerate managing five distinct Houses across fashion, technology, spirits, beauty, and media.",
+        isPartOf: { "@type": "WebSite", url: "https://www.kaiserklowns.group" },
+        about: { "@id": "https://www.wikidata.org/wiki/Q138424910" },
+        inLanguage: locale || "en"
+    };
+
+    // BreadcrumbList schema for homepage
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.kaiserklowns.group" },
+            { "@type": "ListItem", position: 2, name: "Houses", item: "https://www.kaiserklowns.group/houses" },
+            { "@type": "ListItem", position: 3, name: "Group", item: "https://www.kaiserklowns.group/group" },
+            { "@type": "ListItem", position: 4, name: "News", item: "https://www.kaiserklowns.group/news" },
+            { "@type": "ListItem", position: 5, name: "Contact", item: "https://www.kaiserklowns.group/contact" }
+        ]
+    };
+
+    // ImageObject schema for logo
+    const imageObjectSchema = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        contentUrl: "https://www.kaiserklowns.group/logo/KK.png",
+        name: "Kaiser Klowns Logo",
+        description: "Official logo of Kaiser Klowns Group — a luxury creative conglomerate",
+        width: "512",
+        height: "512",
+        representativeOfPage: true
+    };
+
+    // LocalBusiness schema
+    const localBusinessSchema = {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        name: "Kaiser Klowns Group",
+        image: "https://www.kaiserklowns.group/logo/KK.png",
+        url: "https://www.kaiserklowns.group",
+        address: {
+            "@type": "PostalAddress",
+            addressLocality: "Bangkok",
+            addressCountry: "TH"
+        },
+        priceRange: "$$$",
+        openingHours: "Mo-Fr 09:00-18:00"
+    };
+
+    // FAQPage schema — common questions about Kaiser Klowns
+    const faqPageSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+            {
+                "@type": "Question",
+                name: "What is Kaiser Klowns?",
+                acceptedAnswer: { "@type": "Answer", text: "Kaiser Klowns is a luxury creative conglomerate founded in September 2025, managing five distinct Houses: Maventine (Fashion), Aurelic Systems (AI & Technology), KurenTengu (Spirits & Beverages), Velvessence Studios (Beauty & Wellness), and Lokovox Media (Media & Entertainment)." }
+            },
+            {
+                "@type": "Question",
+                name: "Where is Kaiser Klowns headquartered?",
+                acceptedAnswer: { "@type": "Answer", text: "Kaiser Klowns Group is headquartered in Bangkok, Thailand, with operations serving clients worldwide." }
+            },
+            {
+                "@type": "Question",
+                name: "What services does Aurelic Systems provide?",
+                acceptedAnswer: { "@type": "Answer", text: "Aurelic Systems specializes in advanced technology and AI, providing enterprise automation and productivity software including the Arkai Work Assistant platform." }
+            }
+        ]
+    };
+
+    // Article schema — latest featured content
+    const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: "Kaiser Klowns — Bridging Heritage and Innovation",
+        description: "Five houses. One vision. Fashion, technology, spirits, beauty, and media — bound by an uncompromising commitment to excellence.",
+        image: "https://www.kaiserklowns.group/logo/KK.png",
+        author: { "@type": "Organization", name: "Kaiser Klowns" },
+        publisher: {
+            "@type": "Organization",
+            name: "Kaiser Klowns",
+            logo: { "@type": "ImageObject", url: "https://www.kaiserklowns.group/logo/KK.png" }
+        },
+        datePublished: "2025-09-01",
+        dateModified: new Date().toISOString().split("T")[0],
+        mainEntityOfPage: "https://www.kaiserklowns.group"
+    };
+
+    // Product schema — representing the Houses as offerings
+    const productSchema = {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: "Arkai Work Assistant",
+        description: "AI-powered enterprise productivity platform by Aurelic Systems, a Kaiser Klowns House.",
+        brand: { "@type": "Brand", name: "Aurelic Systems" },
+        url: "https://www.kaiserklowns.group/houses/aurelic-systems",
+        image: "https://www.kaiserklowns.group/logo/KK.png",
+        offers: {
+            "@type": "Offer",
+            availability: "https://schema.org/InStock",
+            url: "https://www.kaiserklowns.group/houses/aurelic-systems",
+            priceCurrency: "USD",
+            price: "0",
+            description: "Contact for enterprise pricing"
+        }
+    };
+
+    // CreativeWorkSeries — representing the Houses portfolio
+    const creativeWorkSeriesSchema = {
+        "@context": "https://schema.org",
+        "@type": "CreativeWorkSeries",
+        name: "Kaiser Klowns Houses",
+        description: "A portfolio of five distinct Houses under the Kaiser Klowns creative conglomerate, spanning fashion, technology, spirits, beauty, and media.",
+        url: "https://www.kaiserklowns.group/houses",
+        publisher: { "@type": "Organization", name: "Kaiser Klowns" }
+    };
+
     return (
         <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
-                __html: JSON.stringify([organizationSchema, websiteSchema]),
+                __html: JSON.stringify([
+                    organizationSchema,
+                    websiteSchema,
+                    webPageSchema,
+                    breadcrumbSchema,
+                    imageObjectSchema,
+                    localBusinessSchema,
+                    faqPageSchema,
+                    articleSchema,
+                    productSchema,
+                    creativeWorkSeriesSchema
+                ]),
             }}
             key={`json-ld-${locale}`}
         />
     );
 }
+
