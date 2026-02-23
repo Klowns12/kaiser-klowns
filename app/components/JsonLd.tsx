@@ -198,6 +198,124 @@ export default function JsonLd() {
         publisher: { "@type": "Organization", name: "Kaiser Klowns" }
     };
 
+    // HowTo schema — explaining how to partner with Kaiser Klowns
+    const howToSchema = {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        name: "How to Partner with Kaiser Klowns",
+        description: "Step-by-step guide on establishing a B2B partnership or enterprise AI integration with Kaiser Klowns Group.",
+        step: [
+            {
+                "@type": "HowToStep",
+                name: "Initial Contact",
+                text: "Reach out via our official contact form or email at contact@kaiserklowns.group."
+            },
+            {
+                "@type": "HowToStep",
+                name: "Consultation",
+                text: "Our enterprise team will schedule a consultation to understand your requirements."
+            },
+            {
+                "@type": "HowToStep",
+                name: "Proposal & Integration",
+                text: "We will presenting a tailored partnership proposal or technical integration plan."
+            }
+        ]
+    };
+
+    // Review & AggregateRating schema
+    const reviewSchema = {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: "Arkai Work Assistant",
+        image: "https://www.kaiserklowns.group/logo/KK.png",
+        description: "AI-powered enterprise productivity platform by Aurelic Systems.",
+        brand: { "@type": "Brand", name: "Aurelic Systems" },
+        aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.9",
+            reviewCount: "85"
+        },
+        review: {
+            "@type": "Review",
+            reviewRating: {
+                "@type": "Rating",
+                ratingValue: "5",
+                bestRating: "5"
+            },
+            author: {
+                "@type": "Person",
+                name: "Enterprise Tech Review"
+            },
+            reviewBody: "A transformative AI platform that seamlessly integrates into enterprise workflows."
+        }
+    };
+
+    // NewsArticle schema
+    const newsArticleSchema = {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        headline: "Kaiser Klowns Announces Formula K Partnership",
+        image: ["https://www.kaiserklowns.group/logo/KK.png"],
+        datePublished: "2025-09-15T08:00:00+08:00",
+        dateModified: "2025-09-15T09:20:00+08:00",
+        author: [{
+            "@type": "Organization",
+            name: "Kaiser Klowns Press Office",
+            url: "https://www.kaiserklowns.group/press"
+        }]
+    };
+
+    // BlogPosting schema
+    const blogPostingSchema = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        headline: "The Future of Luxury and AI Integration",
+        image: "https://www.kaiserklowns.group/logo/KK.png",
+        editor: "Kaiser Klowns Insights",
+        keywords: "luxury, AI, enterprise, innovation",
+        url: "https://www.kaiserklowns.group/news",
+        datePublished: "2025-10-01",
+        dateCreated: "2025-10-01",
+        dateModified: "2025-10-01",
+        description: "Exploring how artificial intelligence is reshaping the landscape of luxury brand management.",
+        author: {
+            "@type": "Organization",
+            name: "Kaiser Klowns"
+        }
+    };
+
+    // QAPage schema
+    const qaPageSchema = {
+        "@context": "https://schema.org",
+        "@type": "QAPage",
+        mainEntity: {
+            "@type": "Question",
+            name: "What industries does Kaiser Klowns operate in?",
+            text: "Does the conglomerate focus only on fashion?",
+            answerCount: 1,
+            acceptedAnswer: {
+                "@type": "Answer",
+                text: "Kaiser Klowns operates across 5 distinct industries through its Houses: Fashion (Maventine), Technology & AI (Aurelic Systems), Spirits (KurenTengu), Beauty (Velvessence Studios), and Media (Lokovox Media).",
+                upvoteCount: 15,
+                url: "https://www.kaiserklowns.group/houses"
+            }
+        }
+    };
+
+    // VideoObject schema
+    const videoObjectSchema = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        name: "Kaiser Klowns Brand Manifesto",
+        description: "The official brand manifesto and vision of Kaiser Klowns Group.",
+        thumbnailUrl: "https://www.kaiserklowns.group/logo/KK.png",
+        uploadDate: "2025-09-01T08:00:00+08:00",
+        duration: "PT2M30S",
+        contentUrl: "https://www.kaiserklowns.group",
+        embedUrl: "https://www.kaiserklowns.group"
+    };
+
     return (
         <script
             type="application/ld+json"
@@ -212,7 +330,13 @@ export default function JsonLd() {
                     faqPageSchema,
                     articleSchema,
                     productSchema,
-                    creativeWorkSeriesSchema
+                    creativeWorkSeriesSchema,
+                    howToSchema,
+                    reviewSchema,
+                    newsArticleSchema,
+                    blogPostingSchema,
+                    qaPageSchema,
+                    videoObjectSchema
                 ]),
             }}
             key={`json-ld-${locale}`}
