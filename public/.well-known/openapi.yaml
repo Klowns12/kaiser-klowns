@@ -1,0 +1,131 @@
+openapi: 3.1.0
+info:
+  title: Kaiser Klowns Group API
+  description: >
+    Informational API for Kaiser Klowns — a premier luxury creative conglomerate
+    managing five distinct Houses: Maventine (Fashion), Aurelic Systems (Technology & AI),
+    KurenTengu (Spirits), Velvessence Studios (Beauty & Wellness), and Lokovox Media
+    (Media & Entertainment). This specification describes the publicly accessible
+    endpoints of the Kaiser Klowns website.
+  version: 1.0.0
+  contact:
+    name: Kaiser Klowns
+    url: https://www.kaiserklowns.group/contact
+    email: contact@kaiserklowns.group
+
+servers:
+  - url: https://www.kaiserklowns.group
+    description: Production website
+
+paths:
+  /:
+    get:
+      operationId: getHomepage
+      summary: Get the Kaiser Klowns homepage
+      description: Returns the main landing page with hero section, Houses grid, philosophy, and latest news.
+      responses:
+        '200':
+          description: Homepage HTML content
+
+  /group:
+    get:
+      operationId: getGroupOverview
+      summary: Get group overview page
+      description: Returns information about Kaiser Klowns as a conglomerate, including history, mission, and governance.
+      responses:
+        '200':
+          description: Group overview HTML content
+
+  /houses:
+    get:
+      operationId: getHouses
+      summary: Get all Houses
+      description: Returns the Houses grid page showing all five sub-brands under Kaiser Klowns.
+      responses:
+        '200':
+          description: Houses listing HTML content
+
+  /houses/{houseName}:
+    get:
+      operationId: getHouseByName
+      summary: Get details for a specific House
+      description: Returns detailed information about a specific Kaiser Klowns House.
+      parameters:
+        - name: houseName
+          in: path
+          required: true
+          schema:
+            type: string
+            enum:
+              - maventine
+              - aurelic-systems
+              - kurentengu
+              - velvessence-studios
+              - lokovox-media
+          description: The URL slug of the House
+      responses:
+        '200':
+          description: House detail HTML content
+
+  /news:
+    get:
+      operationId: getNews
+      summary: Get latest news
+      description: Returns the latest news and updates from Kaiser Klowns and its Houses.
+      responses:
+        '200':
+          description: News listing HTML content
+
+  /careers:
+    get:
+      operationId: getCareers
+      summary: Get careers page
+      description: Returns current career opportunities across Kaiser Klowns Houses.
+      responses:
+        '200':
+          description: Careers HTML content
+
+  /contact:
+    get:
+      operationId: getContact
+      summary: Get contact page
+      description: Returns contact information and inquiry form for Kaiser Klowns.
+      responses:
+        '200':
+          description: Contact page HTML content
+
+  /commitments:
+    get:
+      operationId: getCommitments
+      summary: Get commitments page
+      description: Returns information about Kaiser Klowns commitments to sustainability, social responsibility, and environment.
+      responses:
+        '200':
+          description: Commitments HTML content
+
+  /investors:
+    get:
+      operationId: getInvestors
+      summary: Get investors page
+      description: Returns investor relations information for Kaiser Klowns Group.
+      responses:
+        '200':
+          description: Investors HTML content
+
+  /sitemap.xml:
+    get:
+      operationId: getSitemap
+      summary: Get XML sitemap
+      description: Returns the XML sitemap for search engine and AI crawler discovery.
+      responses:
+        '200':
+          description: XML sitemap
+
+  /llms.txt:
+    get:
+      operationId: getLlmsTxt
+      summary: Get LLMs.txt
+      description: Returns the llms.txt file that provides structured information about the website for AI/LLM systems.
+      responses:
+        '200':
+          description: LLMs.txt markdown content

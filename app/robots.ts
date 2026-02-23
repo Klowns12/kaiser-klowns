@@ -10,10 +10,11 @@ export default function robots(): MetadataRoute.Robots {
             },
             {
                 // Explicitly allow Generative AI bots for AEO (Answer Engine Optimization) & GEO
-                userAgent: ['PerplexityBot', 'OAI-SearchBot', 'GPTBot', 'ClaudeBot', 'cohere-ai', 'Google-Extended', 'Applebot'],
+                userAgent: ['PerplexityBot', 'OAI-SearchBot', 'GPTBot', 'ClaudeBot', 'cohere-ai', 'Google-Extended', 'Applebot', 'GoogleOther'],
                 allow: '/',
             }
         ],
         sitemap: 'https://www.kaiserklowns.group/sitemap.xml',
     };
 }
+

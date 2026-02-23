@@ -31,24 +31,18 @@ export const metadata: Metadata = {
   description:
     "Kaiser Klowns is a premier luxury creative conglomerate managing five distinct Houses: Maventine, Aurelic Systems, KurenTengu, Velvessence Studios, and Lokovox Media. We bridge the gap between uncompromising heritage and visionary innovation.",
   keywords: [
+    // ── Branded + B2B Global — ค้นหาแล้วเจอเราที่ 1 เสมอ ──
     "Kaiser Klowns",
     "Kaiser Klowns Group",
-    "Luxury Creative Conglomerate",
-    "Creative Empire",
-    "Holding Company",
-    "Luxury Fashion House",
-    "Advanced Technology and AI",
-    "Enterprise AI Solutions",
-    "Maventine",
-    "Maventine Fashion",
-    "Aurelic Systems",
-    "Aurelic AI Platform",
+    "Aurelic Systems AI",
     "Arkai Work Assistant",
-    "KurenTengu",
-    "Velvessence Studios",
-    "Lokovox Media",
-    "Premium Brand Portfolio",
-    "Future of Luxury"
+    "Maventine Fashion",
+    // ── Branded + Accessible Thai — คนไทยค้นหาแล้วเจอเราทันที ──
+    "Kaiser Klowns บริษัท",
+    "Maventine แบรนด์เสื้อผ้า",
+    "Aurelic Systems รับทำ AI",
+    "Lokovox Media ผลิตสื่อ",
+    "KurenTengu เครื่องดื่ม"
   ],
   category: "Corporate",
   authors: [{ name: "Kaiser Klowns" }],

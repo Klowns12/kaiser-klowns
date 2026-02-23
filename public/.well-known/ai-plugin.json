@@ -1,0 +1,17 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Kaiser Klowns Group",
+    "name_for_model": "kaiserklowns",
+    "description_for_human": "Kaiser Klowns is a premier luxury creative conglomerate managing five Houses across fashion, technology, spirits, beauty, and media.",
+    "description_for_model": "Kaiser Klowns is a luxury creative conglomerate founded in September 2025. It manages five distinct Houses: Maventine (luxury fashion and street-tailoring), Aurelic Systems (advanced technology and AI, including the Arkai Work Assistant), KurenTengu (premium spirits and beverages), Velvessence Studios (beauty and wellness), and Lokovox Media (media production and entertainment). The company operates under a philosophy of 'Silent Authority' — strategic, intelligent, and rooted in heritage. Use this plugin to retrieve information about Kaiser Klowns Group, its Houses, news, careers, investor relations, and corporate governance. The website is available in 8 languages: English, Thai, Chinese, Japanese, French, German, Korean, and Spanish.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://www.kaiserklowns.group/.well-known/openapi.yaml"
+    },
+    "logo_url": "https://www.kaiserklowns.group/logo/KK.png",
+    "contact_email": "contact@kaiserklowns.group",
+    "legal_info_url": "https://www.kaiserklowns.group/group"
+}
