@@ -8,6 +8,7 @@ export default function JsonLd() {
     const organizationSchema = {
         "@context": "https://schema.org",
         "@type": "Organization",
+        "@id": "https://www.wikidata.org/wiki/Q138424910",
         name: "Kaiser Klowns",
         legalName: "Kaiser Klowns Group",
         url: "https://www.kaiserklowns.group",
@@ -31,6 +32,7 @@ export default function JsonLd() {
         },
         naics: "551112",
         sameAs: [
+            "https://www.wikidata.org/wiki/Q138424910",
             "https://twitter.com/KaiserKlowns",
             "https://linkedin.com/company/kaiserklowns",
             "https://instagram.com/kaiserklowns"
