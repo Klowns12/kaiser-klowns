@@ -49,6 +49,7 @@ export const en: Dictionary = {
     houseDetails: {
         about: 'About',
         highlightsLabel: 'Highlights',
+        projectsLabel: 'Featured Projects',
         foundedLabel: 'Founded',
         headquartersLabel: 'Headquarters',
         employeesLabel: 'Employees',
@@ -73,15 +74,21 @@ export const en: Dictionary = {
             name: "AURELIC SYSTEMS",
             sector: "IT / Software / AI / Infrastructure",
             tagline: "Tech for the Bold.",
-            description: "Aurelic Systems is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Aurelic builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, DevStudio Rumba, Alfa, and KlownsNexus Office Suite, Aurelic operates at the intersection of innovation and practical impact.",
+            description: "Aurelic Systems is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Aurelic builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, Aello, Alfa, and KlownsNexus Office Suite, Aurelic operates at the intersection of innovation and practical impact.",
             founded: "September 2025",
             headquarters: "Thailand",
             employees: "—",
             highlights: [
                 "Arkai — AI-powered intelligent automation platform",
-                "DevStudio Rumba — Integrated development environment with AI capabilities",
+                "Aello — Integrated development environment with AI capabilities",
                 "Alfa — Enterprise resource management system",
                 "KlownsNexus Office Suite — Complete business operations platform",
+            ],
+            projects: [
+                { title: "Digital Nova", description: "Digital Marketing and Web Development Agency platform.", link: "https://digitalnovabkk.com/?lang=en" },
+                { title: "PMY Services", description: "Comprehensive corporate service portal.", link: "https://www.pmy.services/" },
+                { title: "Fabric Roll Management System (ERP)", description: "Python & PySide6 based warehouse management system with real-time barcode scanning and reporting." },
+                { title: "Corporate Fleet Booking System", description: "App Scripts based automated vehicle reservation and management solution." },
             ],
         },
         kurentengu: {
@@ -128,6 +135,10 @@ export const en: Dictionary = {
                 "External client services — branding and marketing consultancy",
                 "Integrated marketing across digital, social, and traditional channels",
             ],
+            projects: [
+                { title: "Digital Marketing & Branding", description: "Comprehensive online marketing campaigns, brand positioning, and social media strategy." },
+                { title: "Content Creation", description: "High-quality poster designs, promotional videos, and engaging multimedia content." },
+            ],
         },
     },
     philosophy: {
@@ -145,7 +156,7 @@ export const en: Dictionary = {
             { slug: 'arkai-early-access', isPromo: true, date: 'March 2026', title: 'Campaign: Arkai Work Assistant Early Access Program', excerpt: 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.' },
             { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
             { date: 'February 2026', title: 'Kaiser Klowns Officially Launches Five Houses Under One Creative Empire', excerpt: 'The conglomerate formally unveils its complete portfolio: Maventine, Aurelic Systems, KurenTengu, Velvessence Studios, and Lokovox Media.' },
-            { date: 'January 2026', title: 'Aurelic Systems Releases DevStudio Rumba and Arkai Platform', excerpt: 'The technology house debuts its AI-powered development environment and intelligent automation platform.' },
+            { date: 'January 2026', title: 'Aurelic Systems Releases Aello and Arkai Platform', excerpt: 'The technology house debuts its AI-powered development environment and intelligent automation platform.' },
             { date: 'December 2025', title: 'Maventine Announces Debut Luxury Street-Tailoring Collection', excerpt: 'The fashion house reveals its founding DNA — a philosophy-driven approach to luxury fashion that merges street culture with high craftsmanship.' },
         ],
     },
@@ -282,7 +293,7 @@ export const en: Dictionary = {
             subtitle: 'Official announcements and updates from Kaiser Klowns.',
             releases: [
                 { date: 'February 2026', title: 'Kaiser Klowns Launches Complete Five-House Portfolio', excerpt: 'The creative conglomerate officially unveils all five Houses: Maventine, Aurelic Systems, KurenTengu, Velvessence Studios, and Lokovox Media.' },
-                { date: 'January 2026', title: 'Aurelic Systems Debuts Arkai AI Platform and DevStudio Rumba', excerpt: 'The technology house releases its first suite of products — an AI automation platform and integrated development environment.' },
+                { date: 'January 2026', title: 'Aurelic Systems Debuts Arkai AI Platform and Aello', excerpt: 'The technology house releases its first suite of products — an AI automation platform and integrated development environment.' },
                 { date: 'December 2025', title: 'Maventine Reveals Luxury Street-Tailoring DNA', excerpt: 'Kaiser Klowns\' fashion house announces its founding philosophy — merging street culture with luxury craftsmanship.' },
                 { date: 'November 2025', title: 'KurenTengu Announces Mythology-Driven Game Universe', excerpt: 'The interactive entertainment house reveals its vision for an interconnected game world based on original mythology and legends.' },
                 { date: 'October 2025', title: 'Velvessence Studios Begins Brand Film Production', excerpt: 'The entertainment house commences production on cinematic content for the Kaiser Klowns group.' },
@@ -391,7 +402,7 @@ export const en: Dictionary = {
             subtitle: 'January 2026',
             paragraphs: [
                 'Aurelic Systems, the technology arm of Kaiser Klowns, has launched its inaugural product suite — marking the House\'s formal entry as a serious technology company.',
-                'The suite includes four proprietary platforms: Arkai (AI-powered intelligent automation), DevStudio Rumba (integrated development environment with AI capabilities), Alfa (enterprise resource management), and KlownsNexus Office Suite (complete business operations platform).',
+                'The suite includes four proprietary platforms: Arkai (AI-powered intelligent automation), Aello (integrated development environment with AI capabilities), Alfa (enterprise resource management), and KlownsNexus Office Suite (complete business operations platform).',
                 'Together, these products represent Aurelic Systems\' vision of "Tech for the Bold" — technology that empowers creators, entrepreneurs, and enterprises to work with unprecedented intelligence and efficiency.',
                 '"We don\'t build technology for technology\'s sake. We build tools that make bold people bolder," said the Aurelic Systems team.',
                 'All products are currently in active development with early access available to select partners.',
@@ -417,7 +428,7 @@ export const en: Dictionary = {
             subtitle: 'Limited Time Offer',
             paragraphs: [
                 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.',
-                'Receive 3 months of free full access to our AI assistant on LINE, including 50GB cloud file storage and unlimited chat summaries and task creation. This offer is strictly limited to the first 100 organizations that register.',
+                'Receive 3 months of free full access to our AI assistant on LINE, including 50GB cloud file storage and unlimited chat summaries and task creation. This offer is strictly limited to the first 50 organizations that register.',
                 'Benefits include: 3 Months Free Full Access, 50GB Cloud File Storage, Unlimited Chat Summaries & Task Creation, and Free Setup & Onboarding Support.'
             ],
             backLabel: 'Back to News',

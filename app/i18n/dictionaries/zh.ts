@@ -49,6 +49,7 @@ export const zh: Dictionary = {
     houseDetails: {
         about: '关于我们',
         highlightsLabel: '核心亮点',
+        projectsLabel: '精选项目',
         foundedLabel: '成立日期',
         headquartersLabel: '总部',
         employeesLabel: '员工人数',
@@ -73,13 +74,13 @@ export const zh: Dictionary = {
             name: "AURELIC SYSTEMS",
             sector: "IT / 软件 / AI / 基础设施",
             tagline: "属于勇者的科技。",
-            description: "Aurelic Systems是Kaiser Klowns的技术支柱和长期收入引擎。从AI驱动的平台到企业级软件，Aurelic构建了驱动集团及其他业务的无形基础设施。凭借Arkai、DevStudio Rumba、Alfa和KlownsNexus Office Suite等专有产品，Aurelic在创新与实际影响的交汇点上运营。",
+            description: "Aurelic Systems是Kaiser Klowns的技术支柱和长期收入引擎。从AI驱动的平台到企业级软件，Aurelic构建了驱动集团及其他业务的无形基础设施。凭借Arkai、Aello、Alfa和KlownsNexus Office Suite等专有产品，Aurelic在创新与实际影响的交汇点上运营。",
             founded: "2025年9月",
             headquarters: "泰国",
             employees: "—",
             highlights: [
                 "Arkai — AI驱动的智能自动化平台",
-                "DevStudio Rumba — 具备AI功能的集成开发环境",
+                "Aello — 具备AI功能的集成开发环境",
                 "Alfa — 企业资源管理系统",
                 "KlownsNexus Office Suite — 完整的企业运营平台"
             ],
@@ -141,11 +142,11 @@ export const zh: Dictionary = {
         label: '最新动态',
         title: '新闻',
         seeAll: '查看全部新闻',
-                items: [
+        items: [
             { slug: 'arkai-early-access', isPromo: true, date: 'March 2026', title: 'Campaign: Arkai Work Assistant Early Access Program', excerpt: 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.' },
             { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
             { date: '2026年2月', title: 'Kaiser Klowns正式推出五大品牌帝国', excerpt: '集团公布完整的品牌组合：Maventine、Aurelic Systems、KurenTengu、Velvessence Studios和Lokovox Media。' },
-            { date: '2026年1月', title: 'Aurelic Systems推出DevStudio Rumba和Arkai平台', excerpt: '科技品牌推出AI驱动开发环境和智能自动化平台。' },
+            { date: '2026年1月', title: 'Aurelic Systems推出Aello和Arkai平台', excerpt: '科技品牌推出AI驱动开发环境和智能自动化平台。' },
             { date: '2025年12月', title: 'Maventine揭示奢华街头剪裁DNA', excerpt: '时尚品牌公布其创始DNA——将街头文化与高级工艺相融合的哲学。' },
         ],
     },
@@ -282,7 +283,7 @@ export const zh: Dictionary = {
             subtitle: 'Kaiser Klowns的官方公告和更新。',
             releases: [
                 { date: '2026年2月', title: 'Kaiser Klowns正式推出五大品牌组合', excerpt: '创意集团公布完整的五品牌组合。' },
-                { date: '2026年1月', title: 'Aurelic Systems推出Arkai AI和DevStudio Rumba', excerpt: '科技品牌发布首批产品套件。' },
+                { date: '2026年1月', title: 'Aurelic Systems推出Arkai AI和Aello', excerpt: '科技品牌发布首批产品套件。' },
                 { date: '2025年12月', title: 'Maventine揭示奢华街头剪裁DNA', excerpt: '时尚品牌公布创始哲学。' },
                 { date: '2025年11月', title: 'KurenTengu公布神话驱动游戏宇宙', excerpt: '游戏品牌揭示互联神话世界视野。' },
                 { date: '2025年10月', title: 'Velvessence Studios开始品牌影片制作', excerpt: '娱乐品牌开始为集团制作电影内容。' },
@@ -391,7 +392,7 @@ export const zh: Dictionary = {
             subtitle: '2026年1月',
             paragraphs: [
                 'Kaiser Klowns旗下科技部门Aurelic Systems推出了其首批产品套件。',
-                '套件包括四个专有平台：Arkai（AI智能自动化）、DevStudio Rumba（AI集成开发环境）、Alfa（企业资源管理）和KlownsNexus办公套件。',
+                '套件包括四个专有平台：Arkai（AI智能自动化）、Aello（AI集成开发环境）、Alfa（企业资源管理）和KlownsNexus办公套件。',
                 '这些产品代表了Aurelic Systems“为勇者提供科技”的愿景。',
                 '“我们不是为了技术而做技术。我们打造让勇敢者更勇敢的工具，”Aurelic Systems团队表示。',
                 '所有产品目前正在积极开发中，早期访问权向特定合作伙伴开放。',
@@ -417,7 +418,7 @@ export const zh: Dictionary = {
             subtitle: 'Limited Time Offer',
             paragraphs: [
                 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.',
-                'Receive 3 months of free full access to our AI assistant on LINE, including 50GB cloud file storage and unlimited chat summaries and task creation. This offer is strictly limited to the first 100 organizations that register.',
+                'Receive 3 months of free full access to our AI assistant on LINE, including 50GB cloud file storage and unlimited chat summaries and task creation. This offer is strictly limited to the first 50 organizations that register.',
                 'Benefits include: 3 Months Free Full Access, 50GB Cloud File Storage, Unlimited Chat Summaries & Task Creation, and Free Setup & Onboarding Support.'
             ],
             backLabel: 'Back to News',

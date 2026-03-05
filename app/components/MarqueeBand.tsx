@@ -17,7 +17,7 @@ export default function MarqueeBand() {
             <div className="marquee-track flex items-center gap-12 whitespace-nowrap">
                 {repeated.map((item, idx) => (
                     <span key={idx} className="flex items-center gap-12">
-                        <span className="text-[11px] md:text-[13px] tracking-[0.35em] uppercase text-white/20 font-bold">
+                        <span className="text-[11px] md:text-[13px] tracking-normal uppercase text-white/20 font-engravers-mt">
                             {item}
                         </span>
                         <span className="w-1.5 h-1.5 rounded-full bg-red/40 shrink-0" />

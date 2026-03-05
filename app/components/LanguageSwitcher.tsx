@@ -15,7 +15,7 @@ const languages = [
     { code: "es" as Locale, label: "ESPAÑOL", short: "ES" },
 ];
 
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher({ scrolled = false, theme = "default" }: { scrolled?: boolean; theme?: "dark" | "default" }) {
     const [isOpen, setIsOpen] = useState(false);
     const { locale, setLocale } = useTranslation();
     const ref = useRef<HTMLDivElement>(null);
@@ -31,11 +31,14 @@ export default function LanguageSwitcher() {
         return () => document.removeEventListener("mousedown", handleClick);
     }, []);
 
+    const isWhite = theme === "dark" && !scrolled && !isOpen;
+
     return (
         <div ref={ref} className="relative">
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="flex items-center gap-1.5 text-[10px] tracking-[0.2em] uppercase text-foreground/70 hover:text-foreground transition-colors duration-300 cursor-pointer py-1"
+                className={`flex items-center gap-1.5 text-[10px] tracking-[0.2em] uppercase transition-colors duration-300 cursor-pointer py-1 ${isWhite ? "text-white/90 hover:text-white" : "text-foreground/70 hover:text-foreground"
+                    }`}
             >
                 <span>{current.short}</span>
                 <svg

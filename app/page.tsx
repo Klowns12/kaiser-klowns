@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       {/* Scroll-aware Navbar (handles its own fixed positioning) */}
-      <Navbar />
+      <Navbar theme="dark" />
 
       {/* Page sections */}
       <main role="main">

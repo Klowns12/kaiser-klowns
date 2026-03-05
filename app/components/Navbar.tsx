@@ -6,7 +6,7 @@ import Link from "next/link";
 import HamburgerMenu from "./HamburgerMenu";
 import LanguageSwitcher from "./LanguageSwitcher";
 
-export default function Navbar() {
+export default function Navbar({ theme = "default" }: { theme?: "dark" | "default" }) {
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
@@ -27,7 +27,7 @@ export default function Navbar() {
             <div className="max-w-[1440px] mx-auto px-6 md:px-12 flex items-center justify-between">
                 {/* Left: Hamburger + Search */}
                 <div className="flex items-center">
-                    <HamburgerMenu />
+                    <HamburgerMenu scrolled={scrolled} theme={theme} />
                 </div>
 
                 {/* Center: Logo */}
@@ -38,14 +38,14 @@ export default function Navbar() {
                         width={50}
                         height={50}
                         priority
-                        className={`transition-all duration-500 ${scrolled ? "w-[36px]" : "w-[50px]"
+                        className={`transition-all duration-500 ${scrolled ? "w-[36px]" : "w-[50px]"} ${theme === "dark" && !scrolled ? "invert" : "dark:invert"
                             } h-auto`}
                     />
                 </Link>
 
                 {/* Right: Language Switcher */}
                 <div className="flex items-center">
-                    <LanguageSwitcher />
+                    <LanguageSwitcher scrolled={scrolled} theme={theme} />
                 </div>
             </div>
         </header>

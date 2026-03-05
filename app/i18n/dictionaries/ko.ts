@@ -26,7 +26,8 @@ export const ko: Dictionary = {
     },
     houseDetails: {
         about: '소개',
-        highlightsLabel: '하이라이트',
+        highlightsLabel: '주요 특징',
+        projectsLabel: '주요 프로젝트',
         foundedLabel: '설립',
         headquartersLabel: '본사',
         employeesLabel: '직원 수',
@@ -51,13 +52,13 @@ export const ko: Dictionary = {
             name: "AURELIC SYSTEMS",
             sector: "IT / 소프트웨어 / AI / 인프라",
             tagline: "대담한 자를 위한 기술.",
-            description: "Aurelic Systems는 Kaiser Klowns의 기술적 중추이자 장기 수익 엔진입니다. AI 기반 플랫폼에서 기업용 소프트웨어에 이르기까지, Aurelic은 그룹과 그 너머를 구동하는 보이지 않는 인프라를 구축합니다. Arkai, DevStudio Rumba, Alfa, KlownsNexus Office Suite와 같은 독점 제품을 통해 Aurelic은 혁신과 실질적 영향의 교차점에서 운영됩니다.",
+            description: "Aurelic Systems는 Kaiser Klowns의 기술적 중추이자 장기 수익 엔진입니다. AI 기반 플랫폼에서 기업용 소프트웨어에 이르기까지, Aurelic은 그룹과 그 너머를 구동하는 보이지 않는 인프라를 구축합니다. Arkai, Aello, Alfa, KlownsNexus Office Suite와 같은 독점 제품을 통해 Aurelic은 혁신과 실질적 영향의 교차점에서 운영됩니다.",
             founded: "2025년 9월",
             headquarters: "태국",
             employees: "—",
             highlights: [
                 "Arkai — AI 기반 지능형 자동화 플랫폼",
-                "DevStudio Rumba — AI 기능이 탑재된 통합 개발 환경",
+                "Aello — AI 기능이 탑재된 통합 개발 환경",
                 "Alfa — 전사적 자원 관리 시스템",
                 "KlownsNexus Office Suite — 완벽한 비즈니스 운영 플랫폼"
             ],
@@ -115,7 +116,7 @@ export const ko: Dictionary = {
     },
     news: {
         label: '최신 소식', title: '뉴스', seeAll: '모든 뉴스 보기',
-                items: [
+        items: [
             { slug: 'arkai-early-access', isPromo: true, date: 'March 2026', title: 'Campaign: Arkai Work Assistant Early Access Program', excerpt: 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.' },
             { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
             { date: '2026년 2월', title: 'Kaiser Klowns, Formula K Racing과 전략적 파트너십 발표', excerpt: '럭셔리 모터스포츠 협업의 대담한 새 장.' },
@@ -375,7 +376,7 @@ export const ko: Dictionary = {
             subtitle: 'Limited Time Offer',
             paragraphs: [
                 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.',
-                'Receive 3 months of free full access to our AI assistant on LINE, including 50GB cloud file storage and unlimited chat summaries and task creation. This offer is strictly limited to the first 100 organizations that register.',
+                'Receive 3 months of free full access to our AI assistant on LINE, including 50GB cloud file storage and unlimited chat summaries and task creation. This offer is strictly limited to the first 50 organizations that register.',
                 'Benefits include: 3 Months Free Full Access, 50GB Cloud File Storage, Unlimited Chat Summaries & Task Creation, and Free Setup & Onboarding Support.'
             ],
             backLabel: 'Back to News',

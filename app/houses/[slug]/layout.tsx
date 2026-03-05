@@ -7,7 +7,7 @@ const houseData: Record<string, { name: string; description: string }> = {
     },
     aurelic: {
         name: "AURELIC SYSTEMS",
-        description: "Aurelic Systems is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Aurelic builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, DevStudio Rumba, Alfa, and KlownsNexus Office Suite, Aurelic operates at the intersection of innovation and practical impact.",
+        description: "Aurelic Systems is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Aurelic builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, Aello, Alfa, and KlownsNexus Office Suite, Aurelic operates at the intersection of innovation and practical impact.",
     },
     kurentengu: {
         name: "KURENTENGU",

@@ -176,7 +176,7 @@ function HouseCard({
                 </p>
 
                 {/* Name */}
-                <h3 className={`text-white text-[18px] md:text-[22px] font-bold tracking-[0.1em] uppercase mb-2 ${house.locked ? 'opacity-50' : ''}`}>
+                <h3 className={`text-white text-[18px] md:text-[22px] font-engravers-mt tracking-normal uppercase mb-2 ${house.locked ? 'opacity-50' : ''}`}>
                     {house.name}
                 </h3>
 

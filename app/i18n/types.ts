@@ -52,6 +52,7 @@ export interface Dictionary {
     houseDetails: {
         about: string;
         highlightsLabel: string;
+        projectsLabel: string;
         foundedLabel: string;
         headquartersLabel: string;
         employeesLabel: string;
@@ -66,6 +67,7 @@ export interface Dictionary {
             headquarters: string;
             employees: string;
             highlights: string[];
+            projects?: Array<{ title: string; description: string; link?: string }>;
         };
         aurelic: {
             name: string;
@@ -76,6 +78,7 @@ export interface Dictionary {
             headquarters: string;
             employees: string;
             highlights: string[];
+            projects?: Array<{ title: string; description: string; link?: string }>;
         };
         kurentengu: {
             name: string;
@@ -86,6 +89,7 @@ export interface Dictionary {
             headquarters: string;
             employees: string;
             highlights: string[];
+            projects?: Array<{ title: string; description: string; link?: string }>;
         };
         velvessence: {
             name: string;
@@ -96,6 +100,7 @@ export interface Dictionary {
             headquarters: string;
             employees: string;
             highlights: string[];
+            projects?: Array<{ title: string; description: string; link?: string }>;
         };
         lokovox: {
             name: string;
@@ -106,6 +111,7 @@ export interface Dictionary {
             headquarters: string;
             employees: string;
             highlights: string[];
+            projects?: Array<{ title: string; description: string; link?: string }>;
         };
     };
     philosophy: {

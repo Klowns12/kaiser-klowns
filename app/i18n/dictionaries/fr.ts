@@ -49,6 +49,7 @@ export const fr: Dictionary = {
     houseDetails: {
         about: 'À propos',
         highlightsLabel: 'Faits saillants',
+        projectsLabel: 'Projets phares',
         foundedLabel: 'Fondation',
         headquartersLabel: 'Siège social',
         employeesLabel: 'Employés',
@@ -73,13 +74,13 @@ export const fr: Dictionary = {
             name: "AURELIC SYSTEMS",
             sector: "IT / Logiciel / IA / Infrastructure",
             tagline: "La technologie pour les audacieux.",
-            description: "Aurelic Systems est l'épine dorsale technologique et le moteur de revenus à long terme de Kaiser Klowns. Des plateformes pilotées par l'IA aux logiciels d'entreprise, Aurelic construit l'infrastructure invisible qui propulse le groupe et au-delà. Avec des produits propriétaires tels qu'Arkai, DevStudio Rumba, Alfa et KlownsNexus Office Suite, Aurelic opère à l'intersection de l'innovation et de l'impact tangible.",
+            description: "Aurelic Systems est l'épine dorsale technologique et le moteur de revenus à long terme de Kaiser Klowns. Des plateformes pilotées par l'IA aux logiciels d'entreprise, Aurelic construit l'infrastructure invisible qui propulse le groupe et au-delà. Avec des produits propriétaires tels qu'Arkai, Aello, Alfa et KlownsNexus Office Suite, Aurelic opère à l'intersection de l'innovation et de l'impact tangible.",
             founded: "Septembre 2025",
             headquarters: "Thaïlande",
             employees: "—",
             highlights: [
                 "Arkai — Plateforme d'automatisation intelligente pilotée par l'IA",
-                "DevStudio Rumba — Environnement de développement intégré avec capacités IA",
+                "Aello — Environnement de développement intégré avec capacités IA",
                 "Alfa — Système de gestion des ressources d'entreprise",
                 "KlownsNexus Office Suite — Plateforme complète d'opérations commerciales"
             ],
@@ -141,7 +142,7 @@ export const fr: Dictionary = {
         label: 'Dernières Actualités',
         title: 'Actualités',
         seeAll: 'Voir Toutes les Actualités',
-                items: [
+        items: [
             { slug: 'arkai-early-access', isPromo: true, date: 'March 2026', title: 'Campaign: Arkai Work Assistant Early Access Program', excerpt: 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.' },
             { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
             { date: 'Février 2026', title: 'Kaiser Klowns annonce un partenariat stratégique avec Formula K Racing', excerpt: "Un nouveau chapitre audacieux dans la collaboration du sport automobile de luxe, portant l'empire créatif sur les circuits les plus prestigieux du monde." },
@@ -428,7 +429,7 @@ export const fr: Dictionary = {
             subtitle: 'Limited Time Offer',
             paragraphs: [
                 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.',
-                'Receive 3 months of free full access to our AI assistant on LINE, including 50GB cloud file storage and unlimited chat summaries and task creation. This offer is strictly limited to the first 100 organizations that register.',
+                'Receive 3 months of free full access to our AI assistant on LINE, including 50GB cloud file storage and unlimited chat summaries and task creation. This offer is strictly limited to the first 50 organizations that register.',
                 'Benefits include: 3 Months Free Full Access, 50GB Cloud File Storage, Unlimited Chat Summaries & Task Creation, and Free Setup & Onboarding Support.'
             ],
             backLabel: 'Back to News',

@@ -13,7 +13,16 @@ const subscribe = () => () => { };
 const getSnapshot = () => true;
 const getServerSnapshot = () => false;
 
-export default function HamburgerMenu() {
+const HOUSE_NAMES = ["AURELIC SYSTEMS", "LOKOVOX MEDIA", "MAVENTINE", "VELVESSENCE STUDIOS", "KURENTENGU", "Aurelic Systems", "Lokovox Media", "Maventine", "Velvessence Studios", "KurenTengu"];
+
+function formatHouseName(name: string) {
+    if (HOUSE_NAMES.includes(name)) {
+        return <span className="font-engravers-mt tracking-normal text-[0.85em]">{name}</span>;
+    }
+    return name;
+}
+
+export default function HamburgerMenu({ scrolled = false, theme = "default" }: { scrolled?: boolean; theme?: "dark" | "default" }) {
     const mounted = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
     const [opened, setOpened] = useState(false);
     const [activeSection, setActiveSection] = useState<string | null>(null);
@@ -119,17 +128,19 @@ export default function HamburgerMenu() {
 
     const activeLink = primaryLinks.find(l => l.label === activeSection);
 
+    const isWhite = theme === "dark" && !scrolled && !opened && !searchOpen;
+
     // Hamburger + Search buttons rendered as part of the portal when menu/search is open,
     // so they stay above the overlay. Otherwise rendered inline in the Navbar.
     const controlButtons = (
         <div className="flex items-center gap-4">
             <div
-                className={classNames('tham tham-e-squeeze tham-w-6 cursor-pointer', { 'tham-active': opened })}
+                className={classNames('tham tham-e-squeeze tham-w-6 cursor-pointer', { 'tham-active': opened }, isWhite ? '[&_.tham-inner]:bg-white' : '')}
                 onClick={() => { if (opened) handleClose(); else setOpened(true); }}
             >
                 <div className="tham-box"><div className="tham-inner" /></div>
             </div>
-            <button className="text-foreground hover:opacity-60 transition-opacity cursor-pointer" onClick={handleSearchOpen} aria-label="Search">
+            <button className={classNames("transition-opacity cursor-pointer", isWhite ? "text-white hover:opacity-80" : "text-foreground hover:opacity-60")} onClick={handleSearchOpen} aria-label="Search">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
                 </svg>
@@ -272,7 +283,7 @@ export default function HamburgerMenu() {
                                                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="opacity-40">
                                                             <rect x="3" y="11" width="18" height="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0110 0v4" />
                                                         </svg>
-                                                        {sub.label}
+                                                        {formatHouseName(sub.label)}
                                                         <span className="text-[8px] tracking-[0.15em] text-foreground/20 ml-1">{dict.nav.comingSoon}</span>
                                                     </span>
                                                 </li>
@@ -283,7 +294,7 @@ export default function HamburgerMenu() {
                                                 <Link href={sub.href} onClick={handleClose}
                                                     className="group flex items-center gap-3 text-[12px] font-semibold tracking-[0.1em] uppercase text-foreground/70 hover:text-foreground transition-colors duration-300">
                                                     <span className="w-0 group-hover:w-4 h-[1px] bg-red transition-all duration-300" />
-                                                    {sub.label}
+                                                    {formatHouseName(sub.label)}
                                                 </Link>
                                             </li>
                                         );
@@ -382,7 +393,7 @@ export default function HamburgerMenu() {
                                                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-foreground/20 group-hover:text-red shrink-0 transition-colors">
                                                         <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
                                                     </svg>
-                                                    {r.label}
+                                                    {formatHouseName(r.label)}
                                                 </Link>
                                             ))}
                                         </div>
