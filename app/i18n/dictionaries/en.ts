@@ -95,6 +95,8 @@ export const en: Dictionary = {
                 { title: "Human Resources Information System (HRIS)", description: "Internal corporate web application for digital leave requests, employee records, and automated payroll calculation." },
                 { title: "Clinic Queue Management App", description: "Cross-platform mobile application for patient queue bookings and real-time status tracking." },
                 { title: "Internal Knowledge Base Chatbot", description: "AI-powered internal assistant answering employee FAQs by referencing company handbooks and operative manuals." },
+                { title: "Digital Asset Security Framework", description: "Tailored cybersecurity protocols and encrypted storage solutions designed to protect unreleased media, fashion designs, and proprietary IP from data leaks." },
+                { title: "Arkai Work Assistant", description: "An AI-powered workspace integration via LINE that automatically captures files, summarizes tasks, and retains conversation context for creative teams." },
             ],
         },
         kurentengu: {
