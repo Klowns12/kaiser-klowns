@@ -84,6 +84,17 @@ export const de: Dictionary = {
                 "Alfa — Enterprise-Resource-Management-System",
                 "KlownsNexus Office Suite — Komplette Plattform für Geschäftsabläufe"
             ],
+            projects: [
+                { title: "Maßgeschneidertes B2B-E-Commerce-Portal", description: "Großhandelsbestellsystem mit Kreditlimitverwaltung und nahtloser API-Integration mit der Buchhaltungssoftware." },
+                { title: "Cloud-Migration und CI/CD-Setup", description: "Migration von veralteten On-Premise-Servern in die Cloud-Infrastruktur (AWS/GCP) und Einrichtung einer automatisierten CI/CD-Bereitstellungspipeline." },
+                { title: "Maßgeschneidertes CRM und Lead-Management", description: "Individuelles Customer-Relationship-Management-Portal, das in bestehende Vertriebskanäle und Social-Media-APIs integriert wird." },
+                { title: "Human Resources Information System (HRIS)", description: "Interne Unternehmens-Webanwendung für digitale Urlaubsanträge, Mitarbeiterakten und automatisierte Gehaltsabrechnung." },
+                { title: "Warteschlangen-Management-App für Kliniken", description: "Plattformübergreifende mobile App für die Terminverwaltung von Patienten und die Echtzeit-Statusverfolgung." },
+                { title: "Interner Wissensdatenbank-Chatbot", description: "KI-gesteuerter interner Assistent, der Mitarbeiter-FAQs unter Rückgriff auf das Unternehmenshandbuch und Bedienungsanleitungen beantwortet." },
+                { title: "Digitales Asset-Sicherheits-Framework", description: "Maßgeschneiderte Cybersicherheitsprotokolle und verschlüsselte Speicherlösungen zum Schutz von unveröffentlichten Medien, Modedesigns und proprietärem geistigem Eigentum vor Datenlecks." },
+                { title: "Arkai Arbeitsassistent", description: "KI-gesteuerte Workspace-Integration über LINE, die Dateien automatisch erfasst, Aufgaben zusammenfasst und den Kontext der Konversationen des Kreativ-Teams bewahrt." },
+                { title: "Indorama E-Learning-Plattform", description: "Eine umfassende E-Learning- und Kursmanagement-Plattform für Unternehmen, entwickelt für die Schulung und Weiterbildung von Mitarbeitern." },
+            ],
         },
         kurentengu: {
             name: "KURENTENGU",
@@ -128,6 +139,13 @@ export const de: Dictionary = {
                 "Content-Erstellung, Werbekampagnen und Mediaplanung",
                 "Externe Kundendienstleistungen — Branding- und Marketingberatung",
                 "Integriertes Marketing über digitale, soziale und traditionelle Kanäle hinweg"
+            ],
+            projects: [
+                { title: "Digitales Marketing und Branding", description: "Umfassende Online-Marketing-Kampagnen, Markenpositionierung und Social-Media-Strategie." },
+                { title: "Content-Erstellung", description: "Hochwertiges Poster-Design, Werbevideos und ansprechende Multimedia-Inhalte." },
+                { title: "Corporate-Identity-Design (CI)", description: "Komplette Visual-Identity-Entwicklung inklusive Logo, Farbpalette, Typografie und umfassendem Markenbuch für Unternehmen." },
+                { title: "Virale Social-Media-Kampagnen", description: "Strategie und Durchführung von hochwirksamen digitalen Kampagnen, die innerhalb eines Monats mehr als 10 Millionen organische Reichweite erzielen." },
+                { title: "Influencer-Marketing-Strategie", description: "End-to-End-Management von Kampagnen mit Top-KOLs und Influencern, um massives Markenbewusstsein und Conversion zu generieren." },
             ],
         },
     },

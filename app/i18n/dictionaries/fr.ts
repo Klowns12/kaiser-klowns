@@ -93,6 +93,7 @@ export const fr: Dictionary = {
                 { title: "Chatbot de Base de Connaissances Interne", description: "Assistant interne alimenté par l'IA répondant aux FAQ des employés en référençant le manuel de l'entreprise et les manuels d'utilisation." },
                 { title: "Cadre de Sécurité des Actifs Numériques", description: "Protocoles de cybersécurité sur mesure et solutions de stockage cryptées conçus pour protéger les médias inédits, les créations de mode et la propriété intellectuelle exclusive contre les fuites de données." },
                 { title: "Assistant de Travail Arkai", description: "Intégration d'espace de travail alimentée par l'IA via LINE, capturant automatiquement les fichiers, résumant les tâches et conservant le contexte des conversations d'équipe créative." },
+                { title: "Plateforme E-Learning Indorama", description: "Une plateforme complète d'apprentissage en ligne et de gestion de cours d'entreprise conçue pour la formation et le développement des employés." },
             ],
         },
         kurentengu: {

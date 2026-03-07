@@ -71,6 +71,7 @@ export const es: Dictionary = {
                 { title: "Chatbot de Base de Conocimientos Interna", description: "Asistente interno impulsado por IA que responde las preguntas frecuentes de los empleados haciendo referencia al manual de la empresa y los manuales operativos." },
                 { title: "Marco de Seguridad de Activos Digitales", description: "Protocolos de ciberseguridad a medida y soluciones de almacenamiento encriptado diseñados para proteger medios inéditos, diseños de moda y propiedades intelectuales exclusivas contra fugas de datos." },
                 { title: "Asistente de Trabajo Arkai", description: "Integración de espacio de trabajo impulsada por IA a través de LINE, que captura archivos automáticamente, resume tareas y conserva el contexto de las conversaciones del equipo creativo." },
+                { title: "Plataforma E-Learning Indorama", description: "Una plataforma integral de e-learning y gestión de cursos corporativos, desarrollada para la capacitación y el desarrollo de los empleados." },
             ],
         },
         kurentengu: {

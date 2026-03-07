@@ -93,6 +93,7 @@ export const zh: Dictionary = {
                 { title: "内部知识库聊天机器人", description: "基于 AI 的内部助手，通过参考公司手册和操作指南解答员工的常见问题。" },
                 { title: "数字资产安全框架", description: "量身定制的网络安全协议和加密存储解决方案，旨在保护未发布的媒体、时尚设计和专有 IP 免遭数据泄露。" },
                 { title: "Arkai 工作助手", description: "通过 LINE 实现的 AI 驱动的工作区集成，自动捕获文件、总结任务并保留创意团队的对话上下文。" },
+                { title: "Indorama 企业在线学习平台", description: "专为员工培训和能力发展而构建的综合性在线课程与学习管理平台。" },
             ],
         },
         kurentengu: {
