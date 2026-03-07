@@ -89,6 +89,9 @@ export const en: Dictionary = {
                 { title: "PMY Services", description: "Comprehensive corporate service portal.", link: "https://www.pmy.services/" },
                 { title: "Fabric Roll Management System (ERP)", description: "Python & PySide6 based warehouse management system with real-time barcode scanning and reporting." },
                 { title: "Corporate Fleet Booking System", description: "App Scripts based automated vehicle reservation and management solution." },
+                { title: "Custom B2B E-Commerce Platform", description: "Enterprise-grade trading platform handling high-volume transactions with seamless internal accounting API integrations." },
+                { title: "Enterprise AI Chatbot", description: "Intelligent chatbot system trained on corporate data (LLM), providing accurate 24/7 customer assistance and automated support routing." },
+                { title: "Cloud Infrastructure & Security", description: "Designing and migrating enterprise systems to the cloud, including security protocols and fully automated CI/CD pipelines." },
             ],
         },
         kurentengu: {
@@ -138,6 +141,9 @@ export const en: Dictionary = {
             projects: [
                 { title: "Digital Marketing & Branding", description: "Comprehensive online marketing campaigns, brand positioning, and social media strategy." },
                 { title: "Content Creation", description: "High-quality poster designs, promotional videos, and engaging multimedia content." },
+                { title: "Corporate Identity (CI) Design", description: "Complete visual identity engineering including logo, color palettes, typography, and comprehensive brand books for large enterprises." },
+                { title: "Viral Social Media Campaigns", description: "Strategy and execution of high-impact digital campaigns generating over 10 million organic reach within a single month." },
+                { title: "Influencer Marketing Strategy", description: "End-to-end management of campaigns with top-tier KOLs and influencers to drive massive brand awareness and conversion." },
             ],
         },
     },
