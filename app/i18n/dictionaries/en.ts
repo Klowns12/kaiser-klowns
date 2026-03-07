@@ -92,6 +92,11 @@ export const en: Dictionary = {
                 { title: "Custom B2B E-Commerce Platform", description: "Enterprise-grade trading platform handling high-volume transactions with seamless internal accounting API integrations." },
                 { title: "Enterprise AI Chatbot", description: "Intelligent chatbot system trained on corporate data (LLM), providing accurate 24/7 customer assistance and automated support routing." },
                 { title: "Cloud Infrastructure & Security", description: "Designing and migrating enterprise systems to the cloud, including security protocols and fully automated CI/CD pipelines." },
+                { title: "Core Banking System Modernization", description: "Upgrading legacy banking infrastructure to microservices architecture, ensuring zero downtime and compliance with international financial security regulations." },
+                { title: "National Healthcare Data Exchange", description: "Developed a secure, encrypted platform for hospitals to share patient records seamlessly across healthcare networks, utilizing HL7 standards." },
+                { title: "Smart City IoT Management Dashboard", description: "Integrated control center processing millions of real-time data points from urban sensors to optimize traffic flow, public lighting, and energy consumption." },
+                { title: "Blockchain-based Supply Chain Tracking", description: "End-to-end transparency platform used by multinational logistics companies to track high-value goods, verify authenticity, and prevent counterfeiting." },
+                { title: "AI-Driven Predictive Maintenance", description: "Machine learning anomaly detection models deployed for large-scale manufacturing plants to predict equipment failures before they happen, minimizing factory downtime." },
             ],
         },
         kurentengu: {
