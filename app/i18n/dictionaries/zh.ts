@@ -84,6 +84,16 @@ export const zh: Dictionary = {
                 "Alfa — 企业资源管理系统",
                 "KlownsNexus Office Suite — 完整的企业运营平台"
             ],
+            projects: [
+                { title: "定制 B2B 电子商务门户", description: "具有信用额度管理功能并与会计软件无缝集成 API 的批发订购系统。" },
+                { title: "云迁移与 CI/CD 设置", description: "将传统的本地服务器迁移到云基础设施 (AWS/GCP)，并建立自动化的 CI/CD 部署管道。" },
+                { title: "定制 CRM 与线索管理", description: "集成现有销售渠道和社交媒体 API 的定制客户关系管理门户。" },
+                { title: "人力资源信息系统 (HRIS)", description: "用于数字化请假申请、员工档案和自动化工资计算的企业内部 Web 应用程序。" },
+                { title: "诊所排队管理 App", description: "用于患者预约排队和实时状态跟踪的跨平台移动应用程序。" },
+                { title: "内部知识库聊天机器人", description: "基于 AI 的内部助手，通过参考公司手册和操作指南解答员工的常见问题。" },
+                { title: "数字资产安全框架", description: "量身定制的网络安全协议和加密存储解决方案，旨在保护未发布的媒体、时尚设计和专有 IP 免遭数据泄露。" },
+                { title: "Arkai 工作助手", description: "通过 LINE 实现的 AI 驱动的工作区集成，自动捕获文件、总结任务并保留创意团队的对话上下文。" },
+            ],
         },
         kurentengu: {
             name: "KURENTENGU",
@@ -128,6 +138,13 @@ export const zh: Dictionary = {
                 "内容创建、广告活动和媒体规划",
                 "外部客户服务——品牌和营销咨询",
                 "跨数字、社交和传统渠道的整合营销"
+            ],
+            projects: [
+                { title: "数字营销与品牌建设", description: "全面的在线营销活动、品牌定位和社交媒体战略。" },
+                { title: "内容创作", description: "高质量海报设计、宣传视频和引人入胜的多媒体内容。" },
+                { title: "企业形象 (CI) 设计", description: "完整的视觉形象工程，包括徽标、调色板、排版和大型企业的综合品牌手册。" },
+                { title: "病毒式社交媒体活动", description: "高影响力数字活动的战略和执行，在一个月内产生超过 1000 万的自然覆盖率。" },
+                { title: "影响者营销策略", description: "对顶级 KOL 和影响者的活动进行端到端管理，以大幅提高品牌知名度和转化率。" },
             ],
         },
     },

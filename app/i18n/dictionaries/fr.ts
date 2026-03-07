@@ -84,6 +84,16 @@ export const fr: Dictionary = {
                 "Alfa — Système de gestion des ressources d'entreprise",
                 "KlownsNexus Office Suite — Plateforme complète d'opérations commerciales"
             ],
+            projects: [
+                { title: "Portail E-commerce B2B Sur Mesure", description: "Système de commande en gros avec gestion des limites de crédit et intégration API transparente avec le logiciel de comptabilité." },
+                { title: "Migration Cloud et Configuration CI/CD", description: "Migration des serveurs locaux hérités vers l'infrastructure cloud (AWS/GCP) et établissement d'un pipeline de déploiement CI/CD automatisé." },
+                { title: "CRM Sur Mesure et Gestion des Leads", description: "Portail de gestion de la relation client personnalisé s'intégrant aux canaux de vente existants et aux API des médias sociaux." },
+                { title: "Système d'Information sur les Ressources Humaines (SIRH)", description: "Application web interne de l'entreprise pour les demandes de congés numériques, les dossiers des employés et le calcul automatisé de la paie." },
+                { title: "Application de Gestion de File d'Attente pour Clinique", description: "Application mobile multiplateforme pour la file d'attente des rendez-vous des patients et le suivi de l'état en temps réel." },
+                { title: "Chatbot de Base de Connaissances Interne", description: "Assistant interne alimenté par l'IA répondant aux FAQ des employés en référençant le manuel de l'entreprise et les manuels d'utilisation." },
+                { title: "Cadre de Sécurité des Actifs Numériques", description: "Protocoles de cybersécurité sur mesure et solutions de stockage cryptées conçus pour protéger les médias inédits, les créations de mode et la propriété intellectuelle exclusive contre les fuites de données." },
+                { title: "Assistant de Travail Arkai", description: "Intégration d'espace de travail alimentée par l'IA via LINE, capturant automatiquement les fichiers, résumant les tâches et conservant le contexte des conversations d'équipe créative." },
+            ],
         },
         kurentengu: {
             name: "KURENTENGU",
@@ -128,6 +138,13 @@ export const fr: Dictionary = {
                 "Création de contenu, campagnes publicitaires et planification média",
                 "Services clients externes — Conseil en branding et marketing",
                 "Marketing intégré sur les canaux digitaux, sociaux et traditionnels"
+            ],
+            projects: [
+                { title: "Marketing Numérique et Stratégie de Marque", description: "Campagnes de marketing en ligne complètes, positionnement de la marque et stratégie sur les réseaux sociaux." },
+                { title: "Création de Contenu", description: "Conception d'affiches de haute qualité, vidéos promotionnelles et contenu multimédia engageant." },
+                { title: "Conception d'Identité Visuelle (CI)", description: "Ingénierie complète de l'identité visuelle incluant le logo, la palette de couleurs, la typographie et un livre de marque complet pour les entreprises." },
+                { title: "Campagnes Virales sur les Réseaux Sociaux", description: "Stratégie et exécution de campagnes numériques à fort impact générant plus de 10 millions de portée organique en un mois." },
+                { title: "Stratégie de Marketing d'Influence", description: "Gestion de bout en bout de campagnes avec les influenceurs et leaders d'opinion clés pour générer une sensibilisation massive et une conversion." },
             ],
         },
     },
