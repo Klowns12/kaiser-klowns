@@ -1,9 +1,8 @@
-"use client";
+import { en } from "../i18n/dictionaries/en";
+import { th } from "../i18n/dictionaries/th";
 
-import { useTranslation } from "../i18n/TranslationContext";
-
-export default function JsonLd() {
-    const { dict, locale } = useTranslation();
+export default function JsonLd({ locale = 'en' }: { locale?: string }) {
+    const dict = locale === 'th' ? th : en;
 
     const organizationSchema = {
         "@context": "https://schema.org",
@@ -15,7 +14,7 @@ export default function JsonLd() {
         logo: "https://www.kaiserklowns.group/logo/KK.png",
         image: "https://www.kaiserklowns.group/logo/KK.png",
         description: dict.meta?.description || "A luxury creative conglomerate dedicated to identity, heritage, and creative excellence.",
-        foundingDate: "2025-09",
+        foundingDate: "2025-09-01",
         founder: {
             "@type": "Person",
             name: "Kaiser Klowns Founder"
@@ -28,7 +27,8 @@ export default function JsonLd() {
         areaServed: "Worldwide",
         numberOfEmployees: {
             "@type": "QuantitativeValue",
-            value: "50+"
+            minValue: 1,
+            maxValue: 10
         },
         naics: "551112",
         sameAs: [
@@ -56,10 +56,10 @@ export default function JsonLd() {
         ],
         subOrganization: [
             { "@type": "Organization", name: "Maventine", description: "Luxury Fashion House specializing in high-end fashion and street-tailoring.", url: "https://www.kaiserklowns.group/houses/maventine" },
-            { "@type": "Organization", name: "Aurelic Systems", description: "Advanced Technology & AI company building enterprise automation and productivity software.", url: "https://www.kaiserklowns.group/houses/aurelic-systems" },
+            { "@type": "Organization", name: "Aurelic Systems", description: "Advanced Technology & AI company building enterprise automation and productivity software.", url: "https://www.kaiserklowns.group/houses/aurelic" },
             { "@type": "Organization", name: "KurenTengu", description: "Premium Spirits & Beverages brand crafting artisanal drink experiences.", url: "https://www.kaiserklowns.group/houses/kurentengu" },
             { "@type": "Organization", name: "Velvessence Studios", description: "Beauty & Wellness studio creating premium self-care innovations.", url: "https://www.kaiserklowns.group/houses/velvessence-studios" },
-            { "@type": "Organization", name: "Lokovox Media", description: "Media & Entertainment company producing creative content and storytelling.", url: "https://www.kaiserklowns.group/houses/lokovox-media" }
+            { "@type": "Organization", name: "Lokovox Media", description: "Media & Entertainment company producing creative content and storytelling.", url: "https://www.kaiserklowns.group/houses/lokovox" }
         ]
     };
 
@@ -87,18 +87,7 @@ export default function JsonLd() {
         inLanguage: locale || "en"
     };
 
-    // BreadcrumbList schema for homepage
-    const breadcrumbSchema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.kaiserklowns.group" },
-            { "@type": "ListItem", position: 2, name: "Houses", item: "https://www.kaiserklowns.group/houses" },
-            { "@type": "ListItem", position: 3, name: "Group", item: "https://www.kaiserklowns.group/group" },
-            { "@type": "ListItem", position: 4, name: "News", item: "https://www.kaiserklowns.group/news" },
-            { "@type": "ListItem", position: 5, name: "Contact", item: "https://www.kaiserklowns.group/contact" }
-        ]
-    };
+
 
     // ImageObject schema for logo
     const imageObjectSchema = {
@@ -128,6 +117,25 @@ export default function JsonLd() {
         openingHours: "Mo-Fr 09:00-18:00"
     };
 
+    // Services schemas
+    const aurelicServiceSchema = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: "Enterprise Automation and AI Platforms",
+        serviceType: "Software Development and Artificial Intelligence",
+        provider: { "@type": "Organization", name: "Aurelic Systems", url: "https://www.kaiserklowns.group/houses/aurelic" },
+        areaServed: "Worldwide"
+    };
+
+    const lokovoxServiceSchema = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: "Marketing, Branding and Media Strategy",
+        serviceType: "Marketing and Corporate Identity",
+        provider: { "@type": "Organization", name: "Lokovox Media", url: "https://www.kaiserklowns.group/houses/lokovox" },
+        areaServed: "Worldwide"
+    };
+
     // FAQPage schema — common questions about Kaiser Klowns
     const faqPageSchema = {
         "@context": "https://schema.org",
@@ -147,6 +155,11 @@ export default function JsonLd() {
                 "@type": "Question",
                 name: "What services does Aurelic Systems provide?",
                 acceptedAnswer: { "@type": "Answer", text: "Aurelic Systems specializes in advanced technology and AI, providing enterprise automation and productivity software including the Arkai Work Assistant platform." }
+            },
+            {
+                "@type": "Question",
+                name: "รับทำ AI chatbot LINE ราคาเท่าไหร่?",
+                acceptedAnswer: { "@type": "Answer", text: "ราคาสำหรับการทำ AI Chatbot บน LINE ขึ้นอยู่กับความซับซ้อนของระบบและการเชื่อมต่อข้อมูลภายในองค์กร สามารถติดต่อ Aurelic Systems ผ่านหน้า Contact เพื่อรับคำปรึกษาและประเมินราคาหรือพิจารณา Arkai Work Assistant ที่มีแพ็กเกจเริ่มต้นได้" }
             }
         ]
     };
@@ -176,12 +189,12 @@ export default function JsonLd() {
         name: "Arkai Work Assistant",
         description: "AI-powered enterprise productivity platform by Aurelic Systems, a Kaiser Klowns House.",
         brand: { "@type": "Brand", name: "Aurelic Systems" },
-        url: "https://www.kaiserklowns.group/houses/aurelic-systems",
+        url: "https://www.kaiserklowns.group/houses/aurelic",
         image: "https://www.kaiserklowns.group/logo/KK.png",
         offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
-            url: "https://www.kaiserklowns.group/houses/aurelic-systems",
+            url: "https://www.kaiserklowns.group/houses/aurelic",
             priceCurrency: "USD",
             price: "0",
             description: "Contact for enterprise pricing"
@@ -230,25 +243,7 @@ export default function JsonLd() {
         name: "Arkai Work Assistant",
         image: "https://www.kaiserklowns.group/logo/KK.png",
         description: "AI-powered enterprise productivity platform by Aurelic Systems.",
-        brand: { "@type": "Brand", name: "Aurelic Systems" },
-        aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue: "4.9",
-            reviewCount: "85"
-        },
-        review: {
-            "@type": "Review",
-            reviewRating: {
-                "@type": "Rating",
-                ratingValue: "5",
-                bestRating: "5"
-            },
-            author: {
-                "@type": "Person",
-                name: "Enterprise Tech Review"
-            },
-            reviewBody: "A transformative AI platform that seamlessly integrates into enterprise workflows."
-        }
+        brand: { "@type": "Brand", name: "Aurelic Systems" }
     };
 
     // NewsArticle schema
@@ -303,18 +298,7 @@ export default function JsonLd() {
         }
     };
 
-    // VideoObject schema
-    const videoObjectSchema = {
-        "@context": "https://schema.org",
-        "@type": "VideoObject",
-        name: "Kaiser Klowns Brand Manifesto",
-        description: "The official brand manifesto and vision of Kaiser Klowns Group.",
-        thumbnailUrl: "https://www.kaiserklowns.group/logo/KK.png",
-        uploadDate: "2025-09-01T08:00:00+08:00",
-        duration: "PT2M30S",
-        contentUrl: "https://www.kaiserklowns.group",
-        embedUrl: "https://www.kaiserklowns.group"
-    };
+
 
     return (
         <script
@@ -324,7 +308,8 @@ export default function JsonLd() {
                     organizationSchema,
                     websiteSchema,
                     webPageSchema,
-                    breadcrumbSchema,
+                    aurelicServiceSchema,
+                    lokovoxServiceSchema,
                     imageObjectSchema,
                     localBusinessSchema,
                     faqPageSchema,
@@ -335,8 +320,7 @@ export default function JsonLd() {
                     reviewSchema,
                     newsArticleSchema,
                     blogPostingSchema,
-                    qaPageSchema,
-                    videoObjectSchema
+                    qaPageSchema
                 ]),
             }}
             key={`json-ld-${locale}`}

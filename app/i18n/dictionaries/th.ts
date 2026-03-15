@@ -50,6 +50,8 @@ export const th: Dictionary = {
         about: 'เกี่ยวกับ',
         highlightsLabel: 'จุดเด่น',
         projectsLabel: 'ผลงานที่โดดเด่น',
+        viewMoreProjects: 'ดูเพิ่มเติม',
+        showLessProjects: 'แสดงน้อยลง',
         foundedLabel: 'ก่อตั้ง',
         headquartersLabel: 'สำนักงานใหญ่',
         employeesLabel: 'พนักงาน',
@@ -98,6 +100,7 @@ export const th: Dictionary = {
                 { title: "Digital Asset Security Framework", description: "ระบบรักษาความปลอดภัยทางไซเบอร์แบบเจาะจง และพื้นที่จัดเก็บเข้ารหัส เพื่อปกป้องไฟล์สื่อที่ยังไม่เปิดเผยและทรัพย์สินทางปัญญาจากการรั่วไหล" },
                 { title: "Arkai Work Assistant", description: "ผู้ช่วย AI ประจำพื้นที่ทำงานผ่าน LINE ช่วยเก็บไฟล์ สรุปงาน และจำบทสนทนา เพื่อยกระดับการทำงานในแชทให้เป็น Workspace ที่จัดการได้มากขึ้น" },
                 { title: "แพลตฟอร์มคอร์สเรียน Indorama", description: "แพลตฟอร์ม E-Learning และระบบจัดการหลักสูตรแบบครบวงจร พัฒนาขึ้นเพื่อการฝึกอบรมและการพัฒนาบุคลากรในองค์กร" },
+                { title: "เว็บแอปพลิเคชันมหาวิทยาลัยราชภัฏร้อยเอ็ด", description: "เว็บแอปพลิเคชันและพอร์ทัลแบบครบวงจร พัฒนาให้กับมหาวิทยาลัยราชภัฏร้อยเอ็ด" },
             ],
         },
         kurentengu: {

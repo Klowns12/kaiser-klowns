@@ -50,6 +50,8 @@ export const en: Dictionary = {
         about: 'About',
         highlightsLabel: 'Highlights',
         projectsLabel: 'Featured Projects',
+        viewMoreProjects: 'View More',
+        showLessProjects: 'Show Less',
         foundedLabel: 'Founded',
         headquartersLabel: 'Headquarters',
         employeesLabel: 'Employees',
@@ -98,6 +100,7 @@ export const en: Dictionary = {
                 { title: "Digital Asset Security Framework", description: "Tailored cybersecurity protocols and encrypted storage solutions designed to protect unreleased media, fashion designs, and proprietary IP from data leaks." },
                 { title: "Arkai Work Assistant", description: "An AI-powered workspace integration via LINE that automatically captures files, summarizes tasks, and retains conversation context for creative teams." },
                 { title: "Indorama E-Learning Platform", description: "A comprehensive corporate e-learning and course management platform built for employee training and development." },
+                { title: "Roi Et Rajabhat University Web App", description: "A comprehensive web portal and application developed for Roi Et Rajabhat University (RERU)." },
             ],
         },
         kurentengu: {

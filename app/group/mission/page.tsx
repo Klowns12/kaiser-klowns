@@ -13,7 +13,7 @@ export default function MissionPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.group, href: "/group" }, { label: dict.nav.mission }]}
+                breadcrumbs={[{ name: dict.nav.group, href: "/group" }, { name: dict.nav.mission }]}
                 title={title}
                 subtitle={subtitle}
             />

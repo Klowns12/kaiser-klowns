@@ -50,6 +50,8 @@ export const fr: Dictionary = {
         about: 'À propos',
         highlightsLabel: 'Faits saillants',
         projectsLabel: 'Projets phares',
+        viewMoreProjects: 'Voir plus',
+        showLessProjects: 'Voir moins',
         foundedLabel: 'Fondation',
         headquartersLabel: 'Siège social',
         employeesLabel: 'Employés',
@@ -94,6 +96,7 @@ export const fr: Dictionary = {
                 { title: "Cadre de Sécurité des Actifs Numériques", description: "Protocoles de cybersécurité sur mesure et solutions de stockage cryptées conçus pour protéger les médias inédits, les créations de mode et la propriété intellectuelle exclusive contre les fuites de données." },
                 { title: "Assistant de Travail Arkai", description: "Intégration d'espace de travail alimentée par l'IA via LINE, capturant automatiquement les fichiers, résumant les tâches et conservant le contexte des conversations d'équipe créative." },
                 { title: "Plateforme E-Learning Indorama", description: "Une plateforme complète d'apprentissage en ligne et de gestion de cours d'entreprise conçue pour la formation et le développement des employés." },
+                { title: "Application Web de l'Université Roi Et Rajabhat", description: "Un portail web et une application complets développés pour l'Université Roi Et Rajabhat (RERU)." },
             ],
         },
         kurentengu: {

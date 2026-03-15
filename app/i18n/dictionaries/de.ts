@@ -50,6 +50,8 @@ export const de: Dictionary = {
         about: 'Über uns',
         highlightsLabel: 'Highlights',
         projectsLabel: 'Ausgewählte Projekte',
+        viewMoreProjects: 'Mehr anzeigen',
+        showLessProjects: 'Weniger anzeigen',
         foundedLabel: 'Gegründet',
         headquartersLabel: 'Hauptsitz',
         employeesLabel: 'Mitarbeiter',
@@ -94,6 +96,7 @@ export const de: Dictionary = {
                 { title: "Digitales Asset-Sicherheits-Framework", description: "Maßgeschneiderte Cybersicherheitsprotokolle und verschlüsselte Speicherlösungen zum Schutz von unveröffentlichten Medien, Modedesigns und proprietärem geistigem Eigentum vor Datenlecks." },
                 { title: "Arkai Arbeitsassistent", description: "KI-gesteuerte Workspace-Integration über LINE, die Dateien automatisch erfasst, Aufgaben zusammenfasst und den Kontext der Konversationen des Kreativ-Teams bewahrt." },
                 { title: "Indorama E-Learning-Plattform", description: "Eine umfassende E-Learning- und Kursmanagement-Plattform für Unternehmen, entwickelt für die Schulung und Weiterbildung von Mitarbeitern." },
+                { title: "Roi Et Rajabhat University Web-App", description: "Ein umfassendes Webportal und eine Anwendung, die für die Roi Et Rajabhat University (RERU) entwickelt wurden." },
             ],
         },
         kurentengu: {

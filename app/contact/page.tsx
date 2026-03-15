@@ -43,7 +43,7 @@ export default function ContactPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.contact }]}
+                breadcrumbs={[{ name: dict.nav.contact }]}
                 title={title}
                 subtitle={subtitle}
             />

@@ -13,7 +13,7 @@ export default function InvestorsPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.investors }]}
+                breadcrumbs={[{ name: dict.nav.investors }]}
                 title={title}
                 subtitle={subtitle}
             />

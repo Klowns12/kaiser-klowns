@@ -13,7 +13,7 @@ export default function EnvironmentPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.commitments, href: "/commitments" }, { label: dict.nav.environment }]}
+                breadcrumbs={[{ name: dict.nav.commitments, href: "/commitments" }, { name: dict.nav.environment }]}
                 title={title}
                 subtitle={subtitle}
             />

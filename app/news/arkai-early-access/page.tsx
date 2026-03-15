@@ -15,7 +15,7 @@ export default function ArkaiPromoPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.news.title, href: "/news" }, { label: title }]}
+                breadcrumbs={[{ name: dict.news.title, href: "/news" }, { name: title }]}
                 title={title}
                 subtitle={subtitle}
             />

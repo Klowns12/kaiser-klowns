@@ -13,7 +13,7 @@ export default function GovernancePage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.group, href: "/group" }, { label: dict.nav.governance }]}
+                breadcrumbs={[{ name: dict.nav.group, href: "/group" }, { name: dict.nav.governance }]}
                 title={title}
                 subtitle={subtitle}
             />

@@ -13,7 +13,7 @@ export default function CommitmentsPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.commitments }]}
+                breadcrumbs={[{ name: dict.nav.commitments }]}
                 title={title}
                 subtitle={subtitle}
             />

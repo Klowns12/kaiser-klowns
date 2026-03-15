@@ -50,6 +50,8 @@ export const ja: Dictionary = {
         about: '概要',
         highlightsLabel: 'ハイライト',
         projectsLabel: '注目のプロジェクト',
+        viewMoreProjects: 'もっと見る',
+        showLessProjects: '閉じる',
         foundedLabel: '設立',
         headquartersLabel: '本社',
         employeesLabel: '従業員',
@@ -94,6 +96,7 @@ export const ja: Dictionary = {
                 { title: "デジタルアセットセキュリティフレームワーク", description: "未発表のメディア、ファッションデザイン、および独自のIPをデータ漏洩から保護するために設計された、カスタマイズされたサイバーセキュリティプロトコルと暗号化されたストレージソリューション。" },
                 { title: "Arkai ワークアシスタント", description: "LINEを介したAI搭載のワークスペース統合により、ファイルを自動的にキャプチャし、タスクを要約し、クリエイティブチームの会話のコンテキストを保持します。" },
                 { title: "Indorama 企業向けEラーニングプラットフォーム", description: "従業員のトレーニングと能力開発のために構築された、包括的なオンライン学習およびコース管理プラットフォーム。" },
+                { title: "ローイエット・ラーチャパット大学 Webアプリ", description: "ローイエット・ラーチャパット大学（RERU）のために開発された総合的なWebポータルおよびアプリケーション。" },
             ],
         },
         kurentengu: {

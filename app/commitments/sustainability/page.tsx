@@ -13,7 +13,7 @@ export default function SustainabilityPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.commitments, href: "/commitments" }, { label: dict.nav.sustainability }]}
+                breadcrumbs={[{ name: dict.nav.commitments, href: "/commitments" }, { name: dict.nav.sustainability }]}
                 title={title}
                 subtitle={subtitle}
             />

@@ -13,7 +13,7 @@ export default function PressPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.press }]}
+                breadcrumbs={[{ name: dict.nav.press }]}
                 title={title}
                 subtitle={subtitle}
             />

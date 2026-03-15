@@ -53,6 +53,8 @@ export interface Dictionary {
         about: string;
         highlightsLabel: string;
         projectsLabel: string;
+        viewMoreProjects: string;
+        showLessProjects: string;
         foundedLabel: string;
         headquartersLabel: string;
         employeesLabel: string;

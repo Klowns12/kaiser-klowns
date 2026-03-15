@@ -13,7 +13,7 @@ export default function CareersPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.careers }]}
+                breadcrumbs={[{ name: dict.nav.careers }]}
                 title={title}
                 subtitle={subtitle}
             />

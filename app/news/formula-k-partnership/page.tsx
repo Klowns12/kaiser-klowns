@@ -14,7 +14,7 @@ export default function FormulaKPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.press, href: "/press" }, { label: title }]}
+                breadcrumbs={[{ name: dict.nav.press, href: "/press" }, { name: title }]}
                 title={title}
                 subtitle={subtitle}
             />

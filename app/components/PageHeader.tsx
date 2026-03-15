@@ -5,7 +5,7 @@ import BreadcrumbJsonLd from "./BreadcrumbJsonLd";
 import { useTranslation } from "../i18n/TranslationContext";
 
 interface BreadcrumbItem {
-    label: string;
+    name: string;
     href?: string;
 }
 
@@ -25,7 +25,7 @@ export default function PageHeader({
     return (
         <div className="pt-28 md:pt-36 pb-16 md:pb-20 bg-background">
             {/* Structured Data: Breadcrumb Schema for SEO/GEO */}
-            <BreadcrumbJsonLd items={breadcrumbs.map(b => ({ name: b.label, href: b.href }))} />
+            <BreadcrumbJsonLd items={breadcrumbs.map(b => ({ name: b.name, href: b.href }))} />
 
             <div className="max-w-7xl mx-auto px-6 md:px-12">
                 {/* Breadcrumbs */}
@@ -38,11 +38,11 @@ export default function PageHeader({
                             <span className="text-foreground/20 text-[10px]">/</span>
                             {item.href ? (
                                 <Link href={item.href} className="text-[10px] tracking-[0.15em] uppercase text-foreground/40 hover:text-foreground transition-colors">
-                                    {item.label}
+                                    {item.name}
                                 </Link>
                             ) : (
                                 <span className="text-[10px] tracking-[0.15em] uppercase text-foreground/70">
-                                    {item.label}
+                                    {item.name}
                                 </span>
                             )}
                         </span>

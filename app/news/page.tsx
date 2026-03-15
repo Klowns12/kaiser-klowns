@@ -15,7 +15,7 @@ export default function NewsPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.news.title }]}
+                breadcrumbs={[{ name: dict.news.title }]}
                 title={title}
                 subtitle={subtitle}
             />

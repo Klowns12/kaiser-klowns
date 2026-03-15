@@ -66,7 +66,7 @@ export default function HousesPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.houses }]}
+                breadcrumbs={[{ name: dict.nav.houses }]}
                 title={dict.pages.housesPage.title}
                 subtitle={dict.pages.housesPage.subtitle}
             />

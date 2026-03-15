@@ -28,6 +28,8 @@ export const ko: Dictionary = {
         about: '소개',
         highlightsLabel: '주요 특징',
         projectsLabel: '주요 프로젝트',
+        viewMoreProjects: '더 보기',
+        showLessProjects: '간략히 보기',
         foundedLabel: '설립',
         headquartersLabel: '본사',
         employeesLabel: '직원 수',
@@ -72,6 +74,7 @@ export const ko: Dictionary = {
                 { title: "디지털 자산 보안 프레임워크", description: "미공개 미디어, 패션 디자인 및 독점 IP를 데이터 유출로부터 보호하도록 설계된 맞춤형 사이버 보안 프로토콜 및 암호화된 스토리지 솔루션." },
                 { title: "Arkai 워크 어시스턴트", description: "LINE을 통한 AI 기반 워크스페이스 통합으로 파일을 자동으로 캡처하고, 작업을 요약하며, 크리에이티브 팀 대화의 컨텍스트를 유지합니다." },
                 { title: "Indorama 기업 이러닝 플랫폼", description: "직원 교육 및 역량 개발을 위해 구축된 종합적인 온라인 학습 및 코스 관리 플랫폼." },
+                { title: "로이엣 라차팟 대학교 웹 앱", description: "로이엣 라차팟 대학교(RERU)를 위해 개발된 종합 웹 포털 및 애플리케이션입니다." },
             ],
 
         },

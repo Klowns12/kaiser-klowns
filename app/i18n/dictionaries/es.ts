@@ -28,6 +28,8 @@ export const es: Dictionary = {
         about: 'Acerca de',
         highlightsLabel: 'Puntos destacados',
         projectsLabel: 'Proyectos Destacados',
+        viewMoreProjects: 'Ver más',
+        showLessProjects: 'Ver menos',
         foundedLabel: 'Fundación',
         headquartersLabel: 'Sede Central',
         employeesLabel: 'Empleados',
@@ -72,6 +74,7 @@ export const es: Dictionary = {
                 { title: "Marco de Seguridad de Activos Digitales", description: "Protocolos de ciberseguridad a medida y soluciones de almacenamiento encriptado diseñados para proteger medios inéditos, diseños de moda y propiedades intelectuales exclusivas contra fugas de datos." },
                 { title: "Asistente de Trabajo Arkai", description: "Integración de espacio de trabajo impulsada por IA a través de LINE, que captura archivos automáticamente, resume tareas y conserva el contexto de las conversaciones del equipo creativo." },
                 { title: "Plataforma E-Learning Indorama", description: "Una plataforma integral de e-learning y gestión de cursos corporativos, desarrollada para la capacitación y el desarrollo de los empleados." },
+                { title: "Aplicación Web de la Universidad Roi Et Rajabhat", description: "Un portal web y aplicación integral desarrollados para la Universidad Roi Et Rajabhat (RERU)." },
             ],
         },
         kurentengu: {

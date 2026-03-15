@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from "react";
 
 const figures = [
-    { value: 5, suffix: "", label: "HOUSES", description: "Creative brands under one vision" },
-    { value: 12, suffix: "+", label: "COUNTRIES", description: "Global presence across markets" },
-    { value: 4200, suffix: "+", label: "EMPLOYEES", description: "Talented professionals worldwide" },
-    { value: 2.8, suffix: "B", label: "REVENUE", description: "Annual revenue in USD" },
+    { value: 5, suffix: "", name: "HOUSES", description: "Creative brands under one vision" },
+    { value: 12, suffix: "+", name: "COUNTRIES", description: "Global presence across markets" },
+    { value: 4200, suffix: "+", name: "EMPLOYEES", description: "Talented professionals worldwide" },
+    { value: 2.8, suffix: "B", name: "REVENUE", description: "Annual revenue in USD" },
 ];
 
 function AnimatedCounter({
@@ -104,7 +104,7 @@ export default function KeyFigures() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
                     {figures.map((fig, idx) => (
                         <div
-                            key={fig.label}
+                            key={fig.name}
                             className={`reveal reveal-delay-${idx + 1} text-center md:border-r last:border-r-0 border-foreground/[0.06]`}
                         >
                             {/* Number */}
@@ -118,7 +118,7 @@ export default function KeyFigures() {
 
                             {/* Label */}
                             <p className="mt-3 text-[10px] md:text-[11px] tracking-[0.25em] uppercase text-red font-semibold">
-                                {fig.label}
+                                {fig.name}
                             </p>
 
                             {/* Description */}

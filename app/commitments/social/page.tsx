@@ -13,7 +13,7 @@ export default function SocialPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.commitments, href: "/commitments" }, { label: dict.nav.socialResponsibility }]}
+                breadcrumbs={[{ name: dict.nav.commitments, href: "/commitments" }, { name: dict.nav.socialResponsibility }]}
                 title={title}
                 subtitle={subtitle}
             />

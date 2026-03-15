@@ -1,73 +1,100 @@
 # Kaiser Klowns
 
-> Kaiser Klowns is a premier luxury creative conglomerate managing five distinct Houses: Maventine, Aurelic Systems, KurenTengu, Velvessence Studios, and Lokovox Media. Founded in September 2025, Kaiser Klowns bridges the gap between uncompromising heritage and visionary innovation across fashion, technology, spirits, beauty, and media.
+> Kaiser Klowns is a luxury creative conglomerate managing five distinct Houses: Maventine, Aurelic Systems, KurenTengu, Velvessence Studios, and Lokovox Media. Founded in September 2025 and headquartered in Bangkok, Thailand. Kaiser Klowns operates under the philosophy of "We don't build brands. We architect legacies."
 
 ## About
 
-Kaiser Klowns Group is a holding company that oversees a portfolio of luxury and creative brands. The group operates under a philosophy of "Silent Authority" — strategic, intelligent, and rooted in heritage. Each House operates independently while sharing a common commitment to excellence, craftsmanship, and forward-thinking innovation.
+Kaiser Klowns Group is a creative conglomerate dedicated to the long-term development of each of its Houses, preserving their identity, heritage, and creative excellence. Each House operates with full creative independence while sharing a commitment to excellence and innovation.
 
-- Website: [https://www.kaiserklowns.group](https://www.kaiserklowns.group)
-- Contact: [https://www.kaiserklowns.group/contact](https://www.kaiserklowns.group/contact)
-- Careers: [https://www.kaiserklowns.group/careers](https://www.kaiserklowns.group/careers)
+- Website: https://www.kaiserklowns.group
+- Contact: https://www.kaiserklowns.group/contact
+- Careers: https://www.kaiserklowns.group/careers
+- Press: https://www.kaiserklowns.group/press
+- Founded: September 2025
+- Headquarters: Bangkok, Thailand
+- Wikidata: https://www.wikidata.org/wiki/Q138424910
 
 ## Houses (Sub-brands)
 
 ### Maventine
 - Description: Luxury Fashion House specializing in high-end fashion and street-tailoring
+- Status: Coming Soon
 - Focus: Premium clothing, accessories, and lifestyle products
-- More info: [https://www.kaiserklowns.group/houses/maventine](https://www.kaiserklowns.group/houses/maventine)
+- URL: https://www.kaiserklowns.group/houses/maventine
 
 ### Aurelic Systems
-- Description: Advanced Technology & AI company
-- Focus: Artificial intelligence, machine learning, enterprise automation, and productivity software
-- Key Product: Arkai Work Assistant — an AI-powered enterprise productivity platform
-- More info: [https://www.kaiserklowns.group/houses/aurelic-systems](https://www.kaiserklowns.group/houses/aurelic-systems)
+- Description: Technology and AI company — the technological backbone of Kaiser Klowns Group
+- Status: Active
+- Focus: AI platforms, enterprise software, cloud infrastructure, and automation
+- Services: AI chatbot development, ERP systems, HRIS, CRM, cloud migration (AWS/GCP), CI/CD setup, e-commerce portals, cybersecurity frameworks
+- Key Products: Arkai Work Assistant (AI-powered LINE workspace integration), Aello IDE, Alfa ERP, KlownsNexus Office Suite
+- Arkai: An AI assistant for LINE groups that automatically captures files, summarizes tasks, and retains conversation context for teams
+- Clients include: Roi Et Rajabhat University (web application), Indorama (e-learning platform), Digital Nova (digital marketing platform), PMY Services (corporate service portal)
+- URL: https://www.kaiserklowns.group/houses/aurelic
 
 ### KurenTengu
-- Description: Premium Spirits & Beverages brand
-- Focus: Craft spirits, artisanal beverages, and premium drink experiences
-- More info: [https://www.kaiserklowns.group/houses/kurentengu](https://www.kaiserklowns.group/houses/kurentengu)
+- Description: Game and interactive entertainment studio — mythology-driven game worlds
+- Status: Coming Soon
+- Focus: Games that tell truths through mythology-driven interactive experiences
+- URL: https://www.kaiserklowns.group/houses/kurentengu
 
 ### Velvessence Studios
-- Description: Beauty & Wellness studio
-- Focus: Premium beauty products, wellness solutions, and self-care innovations
-- More info: [https://www.kaiserklowns.group/houses/velvessence-studios](https://www.kaiserklowns.group/houses/velvessence-studios)
+- Description: Film, music, and visual production studio — visual stories of emotion
+- Status: Coming Soon
+- Focus: Brand film, cinematic production, and art direction
+- URL: https://www.kaiserklowns.group/houses/velvessence
 
 ### Lokovox Media
-- Description: Media & Entertainment company
-- Focus: Media production, entertainment content, storytelling, and creative media experiences
-- More info: [https://www.kaiserklowns.group/houses/lokovox-media](https://www.kaiserklowns.group/houses/lokovox-media)
+- Description: In-house marketing and branding agency that also serves external clients
+- Status: Active
+- Focus: Brand strategy, content creation, advertising campaigns, media planning, corporate identity design
+- Services: Full-service brand strategy, content creation (video, poster, multimedia), Corporate Identity (CI) design including logo and brand books, viral social media campaigns, influencer marketing, digital marketing
+- Notable work: Viral campaigns generating over 10 million organic reach within a single month
+- URL: https://www.kaiserklowns.group/houses/lokovox
+
+## Services Available for External Clients
+
+### Aurelic Systems — Technology Services
+- AI chatbot and automation development for LINE and web platforms
+- Custom ERP (Enterprise Resource Planning) systems
+- HRIS (Human Resources Information System) web applications
+- Custom CRM and lead management portals
+- Cloud migration from local servers to AWS or GCP
+- CI/CD pipeline setup and DevOps
+- Custom B2B e-commerce portals with accounting software integration
+- Cybersecurity frameworks for digital asset protection
+- Corporate e-learning platforms
+- Clinic and queue management applications
+- Internal knowledge base chatbots
+
+### Lokovox Media — Creative Services
+- Brand strategy for startups, SMEs, and enterprise
+- Corporate Identity (CI) design: logo, color palette, typography, brand book
+- Social media strategy and content creation
+- Influencer and KOL campaign management
+- Video production: brand film, promotional, editorial
+- Digital marketing campaigns across social and traditional channels
 
 ## Key Pages
 
-- [Home](https://www.kaiserklowns.group)
-- [Group Overview](https://www.kaiserklowns.group/group)
-- [Our Houses](https://www.kaiserklowns.group/houses)
-- [Commitments](https://www.kaiserklowns.group/commitments)
-- [News](https://www.kaiserklowns.group/news)
-- [Investors](https://www.kaiserklowns.group/investors)
-- [Press](https://www.kaiserklowns.group/press)
-- [Partners](https://www.kaiserklowns.group/partners)
-- [Careers](https://www.kaiserklowns.group/careers)
-- [Contact](https://www.kaiserklowns.group/contact)
+- Home: https://www.kaiserklowns.group
+- Group Overview: https://www.kaiserklowns.group/group
+- Mission: https://www.kaiserklowns.group/group/mission
+- History: https://www.kaiserklowns.group/group/history
+- Governance & Ethics: https://www.kaiserklowns.group/group/governance
+- Our Houses: https://www.kaiserklowns.group/houses
+- News: https://www.kaiserklowns.group/news
+- Press: https://www.kaiserklowns.group/press
+- Careers: https://www.kaiserklowns.group/careers
+- Contact: https://www.kaiserklowns.group/contact
 
 ## News & Updates
 
-- [Formula K Partnership](https://www.kaiserklowns.group/news/formula-k-partnership)
-- [Aurelic Platform Launch](https://www.kaiserklowns.group/news/aurelic-platform)
-- [Maventine Tokyo Expansion](https://www.kaiserklowns.group/news/maventine-tokyo)
-- [Arkai Work Assistant](https://www.kaiserklowns.group/news/arkai-work-assistant)
-- [Arkai Early Access](https://www.kaiserklowns.group/news/arkai-early-access)
+- Arkai Work Assistant Launch: https://www.kaiserklowns.group/news/arkai-work-assistant
+- Arkai Early Access Program: https://www.kaiserklowns.group/news/arkai-early-access
+- Five Houses Official Launch (February 2026): https://www.kaiserklowns.group/news/aurelic-platform
 
 ## Contact
 
 - Email: contact@kaiserklowns.group
 - Website: https://www.kaiserklowns.group/contact
-
-## Optional
-
-- [Sustainability](https://www.kaiserklowns.group/sustainability)
-- [Social Responsibility](https://www.kaiserklowns.group/social-responsibility)
-- [Environment](https://www.kaiserklowns.group/environment)
-- [Governance](https://www.kaiserklowns.group/governance)
-- [Sitemap](https://www.kaiserklowns.group/sitemap.xml)

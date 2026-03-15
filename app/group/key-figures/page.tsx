@@ -13,7 +13,7 @@ export default function KeyFiguresPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.group, href: "/group" }, { label: dict.nav.keyFigures }]}
+                breadcrumbs={[{ name: dict.nav.group, href: "/group" }, { name: dict.nav.keyFigures }]}
                 title={title}
                 subtitle={subtitle}
             />

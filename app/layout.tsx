@@ -61,6 +61,16 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://www.kaiserklowns.group",
+    languages: {
+      "en": "https://www.kaiserklowns.group/?lang=en",
+      "th": "https://www.kaiserklowns.group/?lang=th",
+      "zh": "https://www.kaiserklowns.group/?lang=zh",
+      "ja": "https://www.kaiserklowns.group/?lang=ja",
+      "fr": "https://www.kaiserklowns.group/?lang=fr",
+      "de": "https://www.kaiserklowns.group/?lang=de",
+      "ko": "https://www.kaiserklowns.group/?lang=ko",
+      "es": "https://www.kaiserklowns.group/?lang=es",
+    }
   },
   openGraph: {
     title: "Kaiser Klowns — The Creative Empire",
@@ -100,7 +110,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${engraversMT.variable} font-sans antialiased`}
       >
         <ClientProviders>
-          <JsonLd />
+          <JsonLd locale="en" />
           {children}
         </ClientProviders>
       </body>

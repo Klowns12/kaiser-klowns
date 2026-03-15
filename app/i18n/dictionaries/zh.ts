@@ -50,6 +50,8 @@ export const zh: Dictionary = {
         about: '关于我们',
         highlightsLabel: '核心亮点',
         projectsLabel: '精选项目',
+        viewMoreProjects: '查看更多',
+        showLessProjects: '收起',
         foundedLabel: '成立日期',
         headquartersLabel: '总部',
         employeesLabel: '员工人数',
@@ -94,6 +96,7 @@ export const zh: Dictionary = {
                 { title: "数字资产安全框架", description: "量身定制的网络安全协议和加密存储解决方案，旨在保护未发布的媒体、时尚设计和专有 IP 免遭数据泄露。" },
                 { title: "Arkai 工作助手", description: "通过 LINE 实现的 AI 驱动的工作区集成，自动捕获文件、总结任务并保留创意团队的对话上下文。" },
                 { title: "Indorama 企业在线学习平台", description: "专为员工培训和能力发展而构建的综合性在线课程与学习管理平台。" },
+                { title: "黎逸皇家大学网络应用程序", description: "为黎逸皇家大学（RERU）开发的综合门户网站和应用程序。" },
             ],
         },
         kurentengu: {

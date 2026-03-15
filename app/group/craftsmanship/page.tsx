@@ -13,7 +13,7 @@ export default function CraftsmanshipPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.group, href: "/group" }, { label: title }]}
+                breadcrumbs={[{ name: dict.nav.group, href: "/group" }, { name: title }]}
                 title={title}
                 subtitle={subtitle}
             />

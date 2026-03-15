@@ -14,7 +14,7 @@ export default function PartnersPage() {
         <>
             <Navbar />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.partners }]}
+                breadcrumbs={[{ name: dict.nav.partners }]}
                 title={title}
                 subtitle={subtitle}
             />

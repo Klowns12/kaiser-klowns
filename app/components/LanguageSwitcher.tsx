@@ -5,14 +5,14 @@ import { useTranslation } from "../i18n/TranslationContext";
 import type { Locale } from "../i18n/types";
 
 const languages = [
-    { code: "en" as Locale, label: "ENGLISH", short: "EN" },
-    { code: "th" as Locale, label: "ไทย", short: "TH" },
-    { code: "zh" as Locale, label: "中文", short: "中文" },
-    { code: "ja" as Locale, label: "日本語", short: "JA" },
-    { code: "fr" as Locale, label: "FRANÇAIS", short: "FR" },
-    { code: "de" as Locale, label: "DEUTSCH", short: "DE" },
-    { code: "ko" as Locale, label: "한국어", short: "KO" },
-    { code: "es" as Locale, label: "ESPAÑOL", short: "ES" },
+    { code: "en" as Locale, name: "ENGLISH", short: "EN" },
+    { code: "th" as Locale, name: "ไทย", short: "TH" },
+    { code: "zh" as Locale, name: "中文", short: "中文" },
+    { code: "ja" as Locale, name: "日本語", short: "JA" },
+    { code: "fr" as Locale, name: "FRANÇAIS", short: "FR" },
+    { code: "de" as Locale, name: "DEUTSCH", short: "DE" },
+    { code: "ko" as Locale, name: "한국어", short: "KO" },
+    { code: "es" as Locale, name: "ESPAÑOL", short: "ES" },
 ];
 
 export default function LanguageSwitcher({ scrolled = false, theme = "default" }: { scrolled?: boolean; theme?: "dark" | "default" }) {
@@ -62,7 +62,7 @@ export default function LanguageSwitcher({ scrolled = false, theme = "default" }
                             : "text-foreground/50 hover:text-foreground hover:bg-foreground/[0.03]"
                             }`}
                     >
-                        {lang.label}
+                        {lang.name}
                     </button>
                 ))}
             </div>

@@ -26,7 +26,7 @@ export default function GroupPage() {
             <Navbar />
             <FAQJsonLd faqs={groupFaqs} />
             <PageHeader
-                breadcrumbs={[{ label: dict.nav.group }]}
+                breadcrumbs={[{ name: dict.nav.group }]}
                 title={dict.pages.group.title}
                 subtitle={dict.pages.group.subtitle}
             />
