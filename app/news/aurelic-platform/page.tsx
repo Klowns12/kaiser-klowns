@@ -6,9 +6,9 @@ import PageHeader from "../../components/PageHeader";
 import Link from "next/link";
 import { useTranslation } from "../../i18n/TranslationContext";
 
-export default function AurelicPlatformPage() {
+export default function AnthovaiPlatformPage() {
     const { dict } = useTranslation();
-    const { title, subtitle, paragraphs, backLabel } = dict.pages.aurelicPlatform;
+    const { title, subtitle, paragraphs, backLabel } = dict.pages.AnthovaiPlatform;
 
     return (
         <>

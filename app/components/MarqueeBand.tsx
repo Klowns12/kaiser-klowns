@@ -2,7 +2,7 @@
 
 const items = [
     "MAVENTINE",
-    "AURELIC SYSTEMS",
+    "Anthovai",
     "KURENTENGU",
     "VELVESSENCE STUDIOS",
     "LOKOVOX MEDIA",

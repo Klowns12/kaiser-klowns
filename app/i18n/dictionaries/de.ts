@@ -40,7 +40,7 @@ export const de: Dictionary = {
         sectionLabel: 'Unser Portfolio',
         sectionTitle: 'Die Häuser',
         explore: 'Entdecken',
-        aurelic: { tagline: 'Technologie & Innovation', description: 'Die unsichtbare Architektur von morgen gestalten' },
+        Anthovai: { tagline: 'Technologie & Innovation', description: 'Die unsichtbare Architektur von morgen gestalten' },
         lokovox: { tagline: 'Medien & Verlagswesen', description: 'Die Stimme, die Kultur formt' },
         maventine: { tagline: 'Mode & Lederwaren', description: 'Wo Tradition auf mutiges Design trifft' },
         velvessence: { tagline: 'Unterhaltung & Film', description: 'Geschichten, die das Unbewegliche bewegen' },
@@ -72,11 +72,11 @@ export const de: Dictionary = {
                 "Kommende Kollektionen verbinden thailändisches Erbe mit globaler Luxus-Sensibilität"
             ],
         },
-        aurelic: {
-            name: "AURELIC SYSTEMS",
+        Anthovai: {
+            name: "Anthovai",
             sector: "IT / Software / KI / Infrastruktur",
             tagline: "Technologie für Mutige.",
-            description: "Aurelic Systems ist das technologische Rückgrat und der langfristige Umsatzmotor von Kaiser Klowns. Von KI-gesteuerten Plattformen bis hin zu Unternehmenssoftware baut Aurelic die unsichtbare Infrastruktur auf, die die Gruppe und darüber hinaus antreibt. Mit proprietären Produkten wie Arkai, Aello, Alfa und der KlownsNexus Office Suite operiert Aurelic an der Schnittstelle von Innovation und pragmatischer Wirkung.",
+            description: "Anthovai ist das technologische Rückgrat und der langfristige Umsatzmotor von Kaiser Klowns. Von KI-gesteuerten Plattformen bis hin zu Unternehmenssoftware baut Anthovai die unsichtbare Infrastruktur auf, die die Gruppe und darüber hinaus antreibt. Mit proprietären Produkten wie Arkai, Aello, Alfa und der KlownsNexus Office Suite operiert Anthovai an der Schnittstelle von Innovation und pragmatischer Wirkung.",
             founded: "September 2025",
             headquarters: "Thailand",
             employees: "—",
@@ -168,7 +168,7 @@ export const de: Dictionary = {
             { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
             { date: 'Februar 2026', title: 'Kaiser Klowns verkündet strategische Partnerschaft mit Formula K Racing', excerpt: 'Ein kühnes neues Kapitel in der Luxus-Motorsport-Zusammenarbeit, das das Kreativ-Imperium auf die prestigeträchtigsten Rennstrecken der Welt bringt.' },
             { date: 'Januar 2026', title: 'Maventine enthüllt Frühjahrskollektion auf der Tokyo Fashion Week', excerpt: 'Das Modehaus präsentiert eine Kollektion, die östliche Handwerkskunst mit westlicher Avantgarde-Sensibilität verbindet.' },
-            { date: 'Januar 2026', title: 'Aurelic Systems startet Plattform der nächsten Generation', excerpt: 'Der Technologiearm enthüllt seine Vision für die Zukunft vernetzter Luxuserlebnisse.' },
+            { date: 'Januar 2026', title: 'Anthovai startet Plattform der nächsten Generation', excerpt: 'Der Technologiearm enthüllt seine Vision für die Zukunft vernetzter Luxuserlebnisse.' },
         ],
     },
     footer: {
@@ -203,7 +203,7 @@ export const de: Dictionary = {
             events: [
                 { year: '2018', title: 'Die Gründung', description: 'Kaiser Klowns wurde mit der Vision gegründet, eine neue Art von kreativem Konglomerat zu schaffen — eines, das künstlerische Integrität über alles stellt.' },
                 { year: '2019', title: 'Erste Akquisition', description: 'Maventine, ein traditionsreiches Modehaus, wird die erste Marke im Kaiser Klowns Portfolio.' },
-                { year: '2020', title: 'Technologiesparte', description: 'Aurelic Systems wird als Technologiearm gegründet und baut Infrastruktur für vernetzte Luxuserlebnisse auf.' },
+                { year: '2020', title: 'Technologiesparte', description: 'Anthovai wird als Technologiearm gegründet und baut Infrastruktur für vernetzte Luxuserlebnisse auf.' },
                 { year: '2022', title: 'Globale Expansion', description: 'KurenTengu und Velvessence Studios schließen sich der Gruppe an und erweitern das Spektrum um Spirituosen und Entertainment.' },
                 { year: '2024', title: 'Medien-Imperium', description: 'Die Akquisition von Lokovox Media vervollständigt das Fünf-Häuser-Portfolio und etabliert Kaiser Klowns als wahres kreatives Konglomerat.' },
                 { year: '2026', title: 'Die Zukunft', description: 'Mit fünf florierenden Häusern und globaler Präsenz in über 40 Ländern definiert Kaiser Klowns weiterhin kreative Exzellenz neu.' },
@@ -259,7 +259,7 @@ export const de: Dictionary = {
                 { title: 'Langfristiges Denken', description: 'Wir messen Erfolg in Jahrzehnten, nicht in Quartalen. Jede Entscheidung wird mit Blick auf die nächste Generation getroffen.' },
             ],
             paragraphs: [
-                'Bei Kaiser Klowns ist Kreation keine Abteilung — sie ist die gesamte Organisation. Von Maventines Ateliers bis zu Aurelic Systems Innovationslaboren arbeitet jedes Haus mit derselben grundlegenden Überzeugung: dass außergewöhnliche Arbeit außergewöhnliches Engagement erfordert.',
+                'Bei Kaiser Klowns ist Kreation keine Abteilung — sie ist die gesamte Organisation. Von Maventines Ateliers bis zu Anthovai Innovationslaboren arbeitet jedes Haus mit derselben grundlegenden Überzeugung: dass außergewöhnliche Arbeit außergewöhnliches Engagement erfordert.',
                 'Unser Prozess beginnt mit dem Zuhören. Den Materialien, den Kulturen, den unausgesprochenen Bedürfnissen von Menschen, die sich weigern, Kompromisse einzugehen. Wir investieren die Zeit, die andere nicht bereit sind aufzuwenden, weil wir wissen, dass Geduld die am meisten unterschätzte Zutat in außergewöhnlicher Arbeit ist.',
                 'Jedes Haus bewahrt vollständige kreative Autonomie. Es gibt kein zentrales Design-Komitee, kein Marken-Handbuch, das Individualität einebnet. Stattdessen bieten wir die Infrastruktur, Ressourcen und langfristige Stabilität, die es wahrer kreativer Freiheit ermöglichen zu blühen.',
                 'Das Ergebnis ist ein Portfolio von Arbeiten, die sich eigenständig und doch verbunden anfühlen — fünf Häuser, jedes mit seiner eigenen Stimme sprechend, vereint durch einen unerschütterlichen Qualitätsstandard, der den Namen Kaiser Klowns definiert.',
@@ -312,7 +312,7 @@ export const de: Dictionary = {
                 { date: 'Februar 2026', title: 'Kaiser Klowns verkündet strategische Partnerschaft mit Formula K Racing', excerpt: 'Eine mehrjährige Partnerschaft, die kreative Exzellenz in den internationalen Motorsport bringt.' },
                 { date: 'Januar 2026', title: 'Jahresergebnisse: Umsatz übersteigt 4,2 Milliarden Dollar', excerpt: 'Starke Leistung in allen fünf Häusern, getrieben von Innovation und Marktexpansion.' },
                 { date: 'Januar 2026', title: 'Maventine Frühjahrskollektion auf der Tokyo Fashion Week', excerpt: 'Das Modehaus präsentiert eine Kollektion, die östliche und westliche Designtraditionen verbindet.' },
-                { date: 'Dezember 2025', title: 'Aurelic Systems Plattform 3.0 Launch', excerpt: 'Plattform der nächsten Generation für vernetzte Luxuserlebnisse weltweit.' },
+                { date: 'Dezember 2025', title: 'Anthovai Plattform 3.0 Launch', excerpt: 'Plattform der nächsten Generation für vernetzte Luxuserlebnisse weltweit.' },
                 { date: 'November 2025', title: 'KurenTengu gewinnt internationalen Spirituosenpreis', excerpt: 'Das Spirituosenhaus erhält die höchste Auszeichnung für seine limitierte Heritage-Kollektion.' },
                 { date: 'Oktober 2025', title: 'Nachhaltigkeitsbericht: Klimaneutralität erreicht', excerpt: 'Alle fünf Häuser erreichen klimaneutrale Geschäftstätigkeit vor dem Zeitplan.' },
                 { date: 'September 2025', title: 'Lokovox Media erwirbt digitale Verlagsplattform', excerpt: 'Strategische Akquisition stärkt die Digital-First-Transformation des Medienhauses.' },
@@ -349,7 +349,7 @@ export const de: Dictionary = {
             ],
             paragraphs: [
                 'Kaiser Klowns ist überzeugt, dass Nachhaltigkeit keine Einschränkung für Luxus ist — sie ist eine Voraussetzung. Unsere Nachhaltigkeitsstrategie adressiert Umweltauswirkungen über Lieferketten, Operationen und Produktlebenszyklen hinweg.',
-                'Jedes Haus hat maßgeschneiderte Nachhaltigkeits-Roadmaps entwickelt, die an den UN-Zielen für nachhaltige Entwicklung ausgerichtet sind. Von Maventines geschlossenem Leder-Kreislauf bis zu Aurelic Systems\' CO2-bewusstem Computing — Innovation treibt jede Initiative an.',
+                'Jedes Haus hat maßgeschneiderte Nachhaltigkeits-Roadmaps entwickelt, die an den UN-Zielen für nachhaltige Entwicklung ausgerichtet sind. Von Maventines geschlossenem Leder-Kreislauf bis zu Anthovai\' CO2-bewusstem Computing — Innovation treibt jede Initiative an.',
                 'Wir veröffentlichen jährliche Nachhaltigkeitsberichte, die von unabhängigen Dritten geprüft werden, und haben uns zu Science Based Targets für alle Operationen bis 2028 verpflichtet.',
             ],
         },
@@ -387,7 +387,7 @@ export const de: Dictionary = {
             items: [
                 { name: 'Formula K Racing', type: 'Sportpartnerschaft', description: 'Eine wegweisende Partnerschaft, die die kreative Vision von Kaiser Klowns in die Welt des internationalen Motorsports bringt.' },
                 { name: 'Global Craft Alliance', type: 'Nachhaltigkeit', description: 'Eine Koalition von Luxushäusern, die sich der Bewahrung handwerklicher Traditionen weltweit verschrieben haben.' },
-                { name: 'Tokyo Tech Accelerator', type: 'Technologie', description: 'Gemeinsames Accelerator-Programm mit Aurelic Systems zur Förderung von Technologie-Start-ups im Bereich vernetzter Erlebnisse.' },
+                { name: 'Tokyo Tech Accelerator', type: 'Technologie', description: 'Gemeinsames Accelerator-Programm mit Anthovai zur Förderung von Technologie-Start-ups im Bereich vernetzter Erlebnisse.' },
                 { name: 'UNESCO Cultural Heritage', type: 'Kultur', description: 'Unterstützung der Bewahrung immateriellen Kulturerbes durch Handwerksdokumentation und Bildung.' },
             ],
         },
@@ -396,7 +396,7 @@ export const de: Dictionary = {
             subtitle: '14. Februar 2026',
             paragraphs: [
                 'Kaiser Klowns freut sich, eine mehrjährige strategische Partnerschaft mit Formula K Racing bekannt zu geben, die den ersten großen Einstieg des Konglomerats in den internationalen Motorsport markiert.',
-                'Die Partnerschaft wird die Häuser von Kaiser Klowns über das gesamte Formula K-Erlebnis hinweg zusammenarbeiten lassen — von der von Maventine entworfenen Teamkleidung bis zur Datenanalyseplattform von Aurelic Systems, die die Rennstrategie antreibt. KurenTengu wird exklusive Hospitality-Erlebnisse bieten, während Velvessence Studios eine Dokumentarserie über die Saison produzieren wird.',
+                'Die Partnerschaft wird die Häuser von Kaiser Klowns über das gesamte Formula K-Erlebnis hinweg zusammenarbeiten lassen — von der von Maventine entworfenen Teamkleidung bis zur Datenanalyseplattform von Anthovai, die die Rennstrategie antreibt. KurenTengu wird exklusive Hospitality-Erlebnisse bieten, während Velvessence Studios eine Dokumentarserie über die Saison produzieren wird.',
                 'Lokovox Media wird als exklusiver Medienpartner fungieren und einem weltweiten Publikum von 50 Millionen Lesern tiefgehende Berichterstattung und Analysen liefern.',
                 '„Diese Partnerschaft verkörpert alles, wofür Kaiser Klowns steht — die Konvergenz von Kreativität, Technologie und Leistung auf höchstem Niveau", erklärte der Konzern. „Formula K teilt unsere Überzeugung, dass Exzellenz kein Ziel ist, sondern ein unermüdliches Streben."',
                 'Die Partnerschaft startet mit dem Saisonauftakt der Formula K 2026 in Monaco.',
@@ -419,14 +419,14 @@ export const de: Dictionary = {
             ],
             backLabel: 'Zurück zu Neuigkeiten',
         },
-        aurelicPlatform: {
-            title: 'Aurelic Systems Plattform 3.0',
+        AnthovaiPlatform: {
+            title: 'Anthovai Plattform 3.0',
             subtitle: '15. Januar 2026',
             paragraphs: [
-                'Aurelic Systems, der Technologiearm von Kaiser Klowns, hat seine vernetzte Plattform der nächsten Generation gestartet — ein bedeutender Sprung im Bereich digitaler Luxuserlebnisse.',
+                'Anthovai, der Technologiearm von Kaiser Klowns, hat seine vernetzte Plattform der nächsten Generation gestartet — ein bedeutender Sprung im Bereich digitaler Luxuserlebnisse.',
                 'Plattform 3.0 führt KI-gestützte Personalisierung, Echtzeit-Analysen und nahtlose häuserübergreifende Integration ein — damit alle fünf Kaiser Klowns Häuser einheitliche und dennoch unverwechselbare digitale Erlebnisse bieten können.',
                 'Zu den Hauptfunktionen gehören prädiktive Kundeneinblicke, kohlenstoffbewusstes Computing mit 40 % weniger Energieverbrauch und ein offenes API-Ökosystem mit über 200 Drittanbieter-Integrationen.',
-                '„Technologie sollte unsichtbar und dennoch transformativ sein. Plattform 3.0 verkörpert diese Philosophie", sagte das Aurelic Systems-Team.',
+                '„Technologie sollte unsichtbar und dennoch transformativ sein. Plattform 3.0 verkörpert diese Philosophie", sagte das Anthovai-Team.',
                 'Die Plattform ist bereits in allen Kaiser Klowns Häusern im Einsatz und wird ausgewählten Unternehmenspartnern im Q2 2026 zur Verfügung stehen.',
             ],
             backLabel: 'Zurück zu Neuigkeiten',

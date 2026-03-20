@@ -5,9 +5,9 @@ const houseData: Record<string, { name: string; description: string }> = {
         name: "MAVENTINE",
         description: "Maventine is Kaiser Klowns' luxury fashion house, where street-tailoring meets high fashion with philosophical depth. Built on the DNA of Luxury Street-Tailoring, Maventine represents the visual identity of the entire group — silence, taste, and refinement distilled into wearable art. Every piece speaks to those who understand that true luxury is felt, not flaunted.",
     },
-    aurelic: {
-        name: "AURELIC SYSTEMS",
-        description: "Aurelic Systems is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Aurelic builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, Aello, Alfa, and KlownsNexus Office Suite, Aurelic operates at the intersection of innovation and practical impact.",
+    Anthovai: {
+        name: "Anthovai",
+        description: "Anthovai is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Anthovai builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, Aello, Alfa, and KlownsNexus Office Suite, Anthovai operates at the intersection of innovation and practical impact.",
     },
     kurentengu: {
         name: "KURENTENGU",

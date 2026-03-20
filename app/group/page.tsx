@@ -9,7 +9,7 @@ import { useTranslation } from "../i18n/TranslationContext";
 
 const groupFaqs = [
     { question: "What is Kaiser Klowns?", answer: "Kaiser Klowns is a luxury creative conglomerate dedicated to the long-term development of its Houses, spanning fashion, technology, spirits, entertainment, and media." },
-    { question: "How many Houses does Kaiser Klowns have?", answer: "Kaiser Klowns operates five distinct Houses: Maventine (Fashion), Aurelic Systems (Technology), KurenTengu (Spirits), Velvessence Studios (Entertainment), and Lokovox Media (Media)." },
+    { question: "How many Houses does Kaiser Klowns have?", answer: "Kaiser Klowns operates five distinct Houses: Maventine (Fashion), Anthovai (Technology), KurenTengu (Spirits), Velvessence Studios (Entertainment), and Lokovox Media (Media)." },
     { question: "When was Kaiser Klowns founded?", answer: "Kaiser Klowns was founded in 2018 with the vision to create a conglomerate where creativity drives commerce." },
     { question: "How many countries does Kaiser Klowns operate in?", answer: "Kaiser Klowns operates in over 12 countries across three continents with more than 4,200 employees." },
 ];

@@ -43,7 +43,7 @@ export interface Dictionary {
         sectionLabel: string;
         sectionTitle: string;
         explore: string;
-        aurelic: { tagline: string; description: string };
+        Anthovai: { tagline: string; description: string };
         lokovox: { tagline: string; description: string };
         maventine: { tagline: string; description: string };
         velvessence: { tagline: string; description: string };
@@ -71,7 +71,7 @@ export interface Dictionary {
             highlights: string[];
             projects?: Array<{ title: string; description: string; link?: string }>;
         };
-        aurelic: {
+        Anthovai: {
             name: string;
             sector: string;
             tagline: string;
@@ -238,7 +238,7 @@ export interface Dictionary {
             paragraphs: string[];
             backLabel: string;
         };
-        aurelicPlatform: {
+        AnthovaiPlatform: {
             title: string;
             subtitle: string;
             paragraphs: string[];

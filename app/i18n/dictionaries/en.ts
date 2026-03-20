@@ -4,7 +4,7 @@ export const en: Dictionary = {
     meta: {
         title: "Kaiser Klowns — The Creative Empire",
         description: "A luxury creative conglomerate dedicated to the long-term development of each of its Houses, preserving their identity, heritage, and creative excellence.",
-        keywords: "Kaiser Klowns, Luxury Conglomerate, Creative Empire, Fashion, Technology, Media, Maventine, Aurelic Systems, KurenTengu, Velvessence, Lokovox"
+        keywords: "Kaiser Klowns, Luxury Conglomerate, Creative Empire, Fashion, Technology, Media, Maventine, Anthovai, KurenTengu, Velvessence, Lokovox"
     },
     nav: {
         group: 'GROUP',
@@ -40,7 +40,7 @@ export const en: Dictionary = {
         sectionLabel: 'Our Portfolio',
         sectionTitle: 'The Houses',
         explore: 'Explore',
-        aurelic: { tagline: 'IT / Software / AI', description: 'Tech for the Bold — the technological backbone of Kaiser Klowns' },
+        Anthovai: { tagline: 'IT / Software / AI', description: 'Tech for the Bold — the technological backbone of Kaiser Klowns' },
         lokovox: { tagline: 'Marketing / Branding', description: 'The voice that shapes culture — strategy, content, and campaigns' },
         maventine: { tagline: 'Luxury Fashion & Lifestyle', description: 'Fashion that Speaks Philosophy — luxury street-tailoring' },
         velvessence: { tagline: 'Film / Music / Visual', description: 'Visual Stories of Emotion — brand film, cinematic, and art' },
@@ -72,11 +72,11 @@ export const en: Dictionary = {
                 "Upcoming collections merging Thai heritage with global luxury sensibility",
             ],
         },
-        aurelic: {
-            name: "AURELIC SYSTEMS",
+        Anthovai: {
+            name: "Anthovai",
             sector: "IT / Software / AI / Infrastructure",
             tagline: "Tech for the Bold.",
-            description: "Aurelic Systems is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Aurelic builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, Aello, Alfa, and KlownsNexus Office Suite, Aurelic operates at the intersection of innovation and practical impact.",
+            description: "Anthovai is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Anthovai builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, Aello, Alfa, and KlownsNexus Office Suite, Anthovai operates at the intersection of innovation and practical impact.",
             founded: "September 2025",
             headquarters: "Thailand",
             employees: "—",
@@ -170,8 +170,8 @@ export const en: Dictionary = {
         items: [
             { slug: 'arkai-early-access', isPromo: true, date: 'March 2026', title: 'Campaign: Arkai Work Assistant Early Access Program', excerpt: 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.' },
             { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
-            { date: 'February 2026', title: 'Kaiser Klowns Officially Launches Five Houses Under One Creative Empire', excerpt: 'The conglomerate formally unveils its complete portfolio: Maventine, Aurelic Systems, KurenTengu, Velvessence Studios, and Lokovox Media.' },
-            { date: 'January 2026', title: 'Aurelic Systems Releases Aello and Arkai Platform', excerpt: 'The technology house debuts its AI-powered development environment and intelligent automation platform.' },
+            { date: 'February 2026', title: 'Kaiser Klowns Officially Launches Five Houses Under One Creative Empire', excerpt: 'The conglomerate formally unveils its complete portfolio: Maventine, Anthovai, KurenTengu, Velvessence Studios, and Lokovox Media.' },
+            { date: 'January 2026', title: 'Anthovai Releases Aello and Arkai Platform', excerpt: 'The technology house debuts its AI-powered development environment and intelligent automation platform.' },
             { date: 'December 2025', title: 'Maventine Announces Debut Luxury Street-Tailoring Collection', excerpt: 'The fashion house reveals its founding DNA — a philosophy-driven approach to luxury fashion that merges street culture with high craftsmanship.' },
         ],
     },
@@ -206,8 +206,8 @@ export const en: Dictionary = {
             subtitle: 'From a bold idea in 2025 to a global creative empire — every milestone has shaped who we are today.',
             events: [
                 { year: '2025', title: 'The Founding', description: 'Kaiser Klowns Co., Ltd. is officially registered in Kamphaeng Phet, Thailand, with a bold vision to build a long-term creative empire spanning multiple industries.' },
-                { year: '2025', title: 'House Formations', description: 'The five core Houses — Maventine, Aurelic Systems, KurenTengu, Velvessence Studios, and Lokovox Media — begin taking shape under the unified philosophy of "Silent Authority."' },
-                { year: '2026', title: 'The Unveiling', description: 'In February 2026, Kaiser Klowns officially launches its complete five-house portfolio, debuting Aurelic Systems\' platforms and Maventine\'s luxury street-tailoring DNA.' },
+                { year: '2025', title: 'House Formations', description: 'The five core Houses — Maventine, Anthovai, KurenTengu, Velvessence Studios, and Lokovox Media — begin taking shape under the unified philosophy of "Silent Authority."' },
+                { year: '2026', title: 'The Unveiling', description: 'In February 2026, Kaiser Klowns officially launches its complete five-house portfolio, debuting Anthovai\' platforms and Maventine\'s luxury street-tailoring DNA.' },
             ],
         },
         mission: {
@@ -258,7 +258,7 @@ export const en: Dictionary = {
                 { title: 'Long-Term Thinking', description: 'We measure success in decades, not quarters. Every decision is made with the next generation in mind.' },
             ],
             paragraphs: [
-                'At Kaiser Klowns, creation is not a department — it is the entire organization. From Maventine\'s ateliers to Aurelic Systems\' innovation labs, every House operates with the same foundational belief: that extraordinary work requires extraordinary commitment.',
+                'At Kaiser Klowns, creation is not a department — it is the entire organization. From Maventine\'s ateliers to Anthovai\' innovation labs, every House operates with the same foundational belief: that extraordinary work requires extraordinary commitment.',
                 'Our process begins with listening. To materials, to cultures, to the unspoken needs of people who refuse to compromise. We invest the time that others are unwilling to spend, because we know that patience is the most undervalued ingredient in exceptional work.',
                 'Each House maintains complete creative autonomy. There is no central design committee, no brand playbook that flattens individuality. Instead, we provide the infrastructure, resources, and long-term stability that allow true creative freedom to flourish.',
                 'The result is a portfolio of work that feels distinct yet connected — five Houses, each speaking in its own voice, united by an unwavering standard of quality that defines the Kaiser Klowns name.',
@@ -295,8 +295,8 @@ export const en: Dictionary = {
             ],
             positionsTitle: 'Open Positions',
             positions: [
-                { title: 'Full-Stack Developer', location: 'Thailand (Remote)', type: 'Aurelic Systems' },
-                { title: 'AI/ML Engineer', location: 'Thailand (Remote)', type: 'Aurelic Systems' },
+                { title: 'Full-Stack Developer', location: 'Thailand (Remote)', type: 'Anthovai' },
+                { title: 'AI/ML Engineer', location: 'Thailand (Remote)', type: 'Anthovai' },
                 { title: 'Brand Designer', location: 'Thailand', type: 'Lokovox Media' },
                 { title: 'Game Developer', location: 'Thailand (Remote)', type: 'KurenTengu' },
                 { title: 'Fashion Designer', location: 'Thailand', type: 'Maventine' },
@@ -307,8 +307,8 @@ export const en: Dictionary = {
             title: 'Press Room',
             subtitle: 'Official announcements and updates from Kaiser Klowns.',
             releases: [
-                { date: 'February 2026', title: 'Kaiser Klowns Launches Complete Five-House Portfolio', excerpt: 'The creative conglomerate officially unveils all five Houses: Maventine, Aurelic Systems, KurenTengu, Velvessence Studios, and Lokovox Media.' },
-                { date: 'January 2026', title: 'Aurelic Systems Debuts Arkai AI Platform and Aello', excerpt: 'The technology house releases its first suite of products — an AI automation platform and integrated development environment.' },
+                { date: 'February 2026', title: 'Kaiser Klowns Launches Complete Five-House Portfolio', excerpt: 'The creative conglomerate officially unveils all five Houses: Maventine, Anthovai, KurenTengu, Velvessence Studios, and Lokovox Media.' },
+                { date: 'January 2026', title: 'Anthovai Debuts Arkai AI Platform and Aello', excerpt: 'The technology house releases its first suite of products — an AI automation platform and integrated development environment.' },
                 { date: 'December 2025', title: 'Maventine Reveals Luxury Street-Tailoring DNA', excerpt: 'Kaiser Klowns\' fashion house announces its founding philosophy — merging street culture with luxury craftsmanship.' },
                 { date: 'November 2025', title: 'KurenTengu Announces Mythology-Driven Game Universe', excerpt: 'The interactive entertainment house reveals its vision for an interconnected game world based on original mythology and legends.' },
                 { date: 'October 2025', title: 'Velvessence Studios Begins Brand Film Production', excerpt: 'The entertainment house commences production on cinematic content for the Kaiser Klowns group.' },
@@ -343,7 +343,7 @@ export const en: Dictionary = {
             ],
             paragraphs: [
                 'Kaiser Klowns was founded with the belief that sustainability is not a constraint on creativity — it is a prerequisite. As a company built from scratch in 2025, we have the advantage of designing our operations with environmental consciousness from day one.',
-                'Our digital-first approach across Aurelic Systems and Lokovox Media minimizes physical waste. Maventine\'s luxury fashion line is designed with conscious material sourcing and small-batch production that avoids overproduction.',
+                'Our digital-first approach across Anthovai and Lokovox Media minimizes physical waste. Maventine\'s luxury fashion line is designed with conscious material sourcing and small-batch production that avoids overproduction.',
                 'KurenTengu\'s digital game worlds and Velvessence\'s cinematic productions leverage modern cloud infrastructure, ensuring our creative output grows without proportional environmental impact.',
             ],
         },
@@ -357,7 +357,7 @@ export const en: Dictionary = {
             ],
             paragraphs: [
                 'As a Thai-founded company, Kaiser Klowns is committed to developing local talent across all five of our industries. We believe world-class creative work can come from anywhere — and we are proving it.',
-                'Each House offers opportunities for Thai professionals to work on globally competitive projects — from AI development at Aurelic Systems to luxury fashion design at Maventine to game development at KurenTengu.',
+                'Each House offers opportunities for Thai professionals to work on globally competitive projects — from AI development at Anthovai to luxury fashion design at Maventine to game development at KurenTengu.',
                 'We prioritize remote-friendly work structures, enabling talent from across Thailand to contribute to our Houses without relocating. Our long-term vision includes internship and mentorship programs as the group scales.',
             ],
         },
@@ -371,7 +371,7 @@ export const en: Dictionary = {
             ],
             paragraphs: [
                 'As a company born in the digital age, Kaiser Klowns has the advantage of building environmentally conscious practices from the ground up rather than retrofitting them.',
-                'Aurelic Systems and Lokovox Media operate primarily in the digital space, minimizing physical waste. Maventine commits to small-batch production and conscious material sourcing. KurenTengu\'s interactive worlds exist in the cloud, not on shelves.',
+                'Anthovai and Lokovox Media operate primarily in the digital space, minimizing physical waste. Maventine commits to small-batch production and conscious material sourcing. KurenTengu\'s interactive worlds exist in the cloud, not on shelves.',
                 'Our long-term environmental vision extends to every House: designing products and services that create value without proportional environmental cost.',
             ],
         },
@@ -379,7 +379,7 @@ export const en: Dictionary = {
             title: 'Partners & Collaborations',
             subtitle: 'We believe in the power of collaboration. Kaiser Klowns works with organizations and individuals who share our vision for creative excellence.',
             items: [
-                { name: 'Technology Partners', type: 'Infrastructure', description: 'Strategic partnerships with cloud providers, AI platforms, and open-source communities powering Aurelic Systems\' product suite.' },
+                { name: 'Technology Partners', type: 'Infrastructure', description: 'Strategic partnerships with cloud providers, AI platforms, and open-source communities powering Anthovai\' product suite.' },
                 { name: 'Creative Collaborators', type: 'Design & Art', description: 'Working with independent artists, designers, and cultural institutions to bring Maventine\'s and Velvessence\'s creative vision to life.' },
                 { name: 'Thai Creative Community', type: 'Local', description: 'Partnering with Thai universities, creative studios, and tech communities to develop the next generation of talent.' },
             ],
@@ -389,10 +389,10 @@ export const en: Dictionary = {
             subtitle: 'February 2026',
             paragraphs: [
                 'Kaiser Klowns is proud to announce the official launch of its complete five-House portfolio, marking the conglomerate\'s formal entry as a multi-industry creative empire.',
-                'The five Houses — Maventine (Luxury Fashion), Aurelic Systems (Technology), KurenTengu (Interactive Gaming), Velvessence Studios (Film & Music), and Lokovox Media (Marketing & Branding) — represent the group\'s vision of creativity driving commerce across every industry.',
+                'The five Houses — Maventine (Luxury Fashion), Anthovai (Technology), KurenTengu (Interactive Gaming), Velvessence Studios (Film & Music), and Lokovox Media (Marketing & Branding) — represent the group\'s vision of creativity driving commerce across every industry.',
                 'Founded in September 2025 in Thailand, Kaiser Klowns has moved rapidly from concept to reality, with each House developing its own products, identity, and creative direction under the unified philosophy of "Silent Authority."',
                 '"We are not building a company. We are architecting a legacy," said the group in a statement. "Each House speaks in its own voice, but together they create something no single brand could achieve alone."',
-                'The launch is accompanied by the debut of Aurelic Systems\' product suite, Maventine\'s first collection preview, and the announcement of KurenTengu\'s mythology-driven game universe.',
+                'The launch is accompanied by the debut of Anthovai\' product suite, Maventine\'s first collection preview, and the announcement of KurenTengu\'s mythology-driven game universe.',
             ],
             backLabel: 'Back to Press',
         },
@@ -412,14 +412,14 @@ export const en: Dictionary = {
             ],
             backLabel: 'Back to News',
         },
-        aurelicPlatform: {
-            title: 'Aurelic Systems Debuts Product Suite',
+        AnthovaiPlatform: {
+            title: 'Anthovai Debuts Product Suite',
             subtitle: 'January 2026',
             paragraphs: [
-                'Aurelic Systems, the technology arm of Kaiser Klowns, has launched its inaugural product suite — marking the House\'s formal entry as a serious technology company.',
+                'Anthovai, the technology arm of Kaiser Klowns, has launched its inaugural product suite — marking the House\'s formal entry as a serious technology company.',
                 'The suite includes four proprietary platforms: Arkai (AI-powered intelligent automation), Aello (integrated development environment with AI capabilities), Alfa (enterprise resource management), and KlownsNexus Office Suite (complete business operations platform).',
-                'Together, these products represent Aurelic Systems\' vision of "Tech for the Bold" — technology that empowers creators, entrepreneurs, and enterprises to work with unprecedented intelligence and efficiency.',
-                '"We don\'t build technology for technology\'s sake. We build tools that make bold people bolder," said the Aurelic Systems team.',
+                'Together, these products represent Anthovai\' vision of "Tech for the Bold" — technology that empowers creators, entrepreneurs, and enterprises to work with unprecedented intelligence and efficiency.',
+                '"We don\'t build technology for technology\'s sake. We build tools that make bold people bolder," said the Anthovai team.',
                 'All products are currently in active development with early access available to select partners.',
             ],
             backLabel: 'Back to News',

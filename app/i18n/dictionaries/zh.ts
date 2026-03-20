@@ -40,7 +40,7 @@ export const zh: Dictionary = {
         sectionLabel: '品牌组合',
         sectionTitle: '旗下品牌',
         explore: '探索',
-        aurelic: { tagline: 'IT / 软件 / AI', description: 'Tech for the Bold — Kaiser Klowns的技术核心' },
+        Anthovai: { tagline: 'IT / 软件 / AI', description: 'Tech for the Bold — Kaiser Klowns的技术核心' },
         lokovox: { tagline: '营销 / 品牌', description: '塑造文化的声音 — 战略、内容与营销' },
         maventine: { tagline: '奢华时尚 & 生活', description: 'Fashion that Speaks Philosophy — 奢华街头剪裁' },
         velvessence: { tagline: '电影 / 音乐 / 艺术', description: 'Visual Stories of Emotion — 影视、电影与艺术' },
@@ -72,11 +72,11 @@ export const zh: Dictionary = {
                 "即将推出的融合泰国传统与全球奢华感知的系列"
             ],
         },
-        aurelic: {
-            name: "AURELIC SYSTEMS",
+        Anthovai: {
+            name: "Anthovai",
             sector: "IT / 软件 / AI / 基础设施",
             tagline: "属于勇者的科技。",
-            description: "Aurelic Systems是Kaiser Klowns的技术支柱和长期收入引擎。从AI驱动的平台到企业级软件，Aurelic构建了驱动集团及其他业务的无形基础设施。凭借Arkai、Aello、Alfa和KlownsNexus Office Suite等专有产品，Aurelic在创新与实际影响的交汇点上运营。",
+            description: "Anthovai是Kaiser Klowns的技术支柱和长期收入引擎。从AI驱动的平台到企业级软件，Anthovai构建了驱动集团及其他业务的无形基础设施。凭借Arkai、Aello、Alfa和KlownsNexus Office Suite等专有产品，Anthovai在创新与实际影响的交汇点上运营。",
             founded: "2025年9月",
             headquarters: "泰国",
             employees: "—",
@@ -166,8 +166,8 @@ export const zh: Dictionary = {
         items: [
             { slug: 'arkai-early-access', isPromo: true, date: 'March 2026', title: 'Campaign: Arkai Work Assistant Early Access Program', excerpt: 'Join the Early Access Program for Arkai Work Assistant. Transform your LINE groups into powerful workspaces with our AI-driven solution.' },
             { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
-            { date: '2026年2月', title: 'Kaiser Klowns正式推出五大品牌帝国', excerpt: '集团公布完整的品牌组合：Maventine、Aurelic Systems、KurenTengu、Velvessence Studios和Lokovox Media。' },
-            { date: '2026年1月', title: 'Aurelic Systems推出Aello和Arkai平台', excerpt: '科技品牌推出AI驱动开发环境和智能自动化平台。' },
+            { date: '2026年2月', title: 'Kaiser Klowns正式推出五大品牌帝国', excerpt: '集团公布完整的品牌组合：Maventine、Anthovai、KurenTengu、Velvessence Studios和Lokovox Media。' },
+            { date: '2026年1月', title: 'Anthovai推出Aello和Arkai平台', excerpt: '科技品牌推出AI驱动开发环境和智能自动化平台。' },
             { date: '2025年12月', title: 'Maventine揭示奢华街头剪裁DNA', excerpt: '时尚品牌公布其创始DNA——将街头文化与高级工艺相融合的哲学。' },
         ],
     },
@@ -202,8 +202,8 @@ export const zh: Dictionary = {
             subtitle: '从2025年的一个大胆想法到全球创意帝国——每个里程碑都塑造了今天的我们。',
             events: [
                 { year: '2025', title: '正式创立', description: 'Kaiser Klowns有限公司在泰国甘烹碧正式注册成立，带着建立跨行业长期创意帝国的宏大愿景。' },
-                { year: '2025', title: '品牌成型', description: '五大核心品牌——Maventine、Aurelic Systems、KurenTengu、Velvessence Studios和Lokovox Media——在“无声权威”的统一哲学下开始成型。' },
-                { year: '2026', title: '震撼发布', description: '2026年2月，Kaiser Klowns正式推出其完整的五品牌组合，首发Aurelic Systems的技术平台及Maventine的奢华街头剪裁理念。' },
+                { year: '2025', title: '品牌成型', description: '五大核心品牌——Maventine、Anthovai、KurenTengu、Velvessence Studios和Lokovox Media——在“无声权威”的统一哲学下开始成型。' },
+                { year: '2026', title: '震撼发布', description: '2026年2月，Kaiser Klowns正式推出其完整的五品牌组合，首发Anthovai的技术平台及Maventine的奢华街头剪裁理念。' },
             ],
         },
         mission: {
@@ -254,7 +254,7 @@ export const zh: Dictionary = {
                 { title: '长远思考', description: '我们以十年而非季度来衡量成功。每一个决定都着眼于下一代。' },
             ],
             paragraphs: [
-                '在Kaiser Klowns，创造不是一个部门——它是整个组织。从Maventine的工坊到Aurelic Systems的创新实验室，每个品牌都秉持同一个基本信念：非凡的作品需要非凡的投入。',
+                '在Kaiser Klowns，创造不是一个部门——它是整个组织。从Maventine的工坊到Anthovai的创新实验室，每个品牌都秉持同一个基本信念：非凡的作品需要非凡的投入。',
                 '我们的过程从倾听开始。倾听材料、倾听文化、倾听那些拒绝妥协的人们未说出口的需求。我们投入别人不愿花费的时间，因为我们知道耐心是卓越作品中最被低估的要素。',
                 '每个品牌保持完整的创意自主权。没有中央设计委员会，没有削平个性的品牌手册。相反，我们提供基础设施、资源和长期稳定性，让真正的创意自由蓬勃发展。',
                 '结果是一系列既独特又相互关联的作品——五个品牌，各自用自己的声音说话，以对品质的坚定不移的标准团结在一起，这就是Kaiser Klowns之名的定义。',
@@ -291,8 +291,8 @@ export const zh: Dictionary = {
             ],
             positionsTitle: '开放职位',
             positions: [
-                { title: 'Full-Stack Developer', location: '泰国（远程）', type: 'Aurelic Systems' },
-                { title: 'AI/ML Engineer', location: '泰国（远程）', type: 'Aurelic Systems' },
+                { title: 'Full-Stack Developer', location: '泰国（远程）', type: 'Anthovai' },
+                { title: 'AI/ML Engineer', location: '泰国（远程）', type: 'Anthovai' },
                 { title: 'Brand Designer', location: '泰国', type: 'Lokovox Media' },
                 { title: 'Game Developer', location: '泰国（远程）', type: 'KurenTengu' },
                 { title: 'Fashion Designer', location: '泰国', type: 'Maventine' },
@@ -304,7 +304,7 @@ export const zh: Dictionary = {
             subtitle: 'Kaiser Klowns的官方公告和更新。',
             releases: [
                 { date: '2026年2月', title: 'Kaiser Klowns正式推出五大品牌组合', excerpt: '创意集团公布完整的五品牌组合。' },
-                { date: '2026年1月', title: 'Aurelic Systems推出Arkai AI和Aello', excerpt: '科技品牌发布首批产品套件。' },
+                { date: '2026年1月', title: 'Anthovai推出Arkai AI和Aello', excerpt: '科技品牌发布首批产品套件。' },
                 { date: '2025年12月', title: 'Maventine揭示奢华街头剪裁DNA', excerpt: '时尚品牌公布创始哲学。' },
                 { date: '2025年11月', title: 'KurenTengu公布神话驱动游戏宇宙', excerpt: '游戏品牌揭示互联神话世界视野。' },
                 { date: '2025年10月', title: 'Velvessence Studios开始品牌影片制作', excerpt: '娱乐品牌开始为集团制作电影内容。' },
@@ -339,7 +339,7 @@ export const zh: Dictionary = {
             ],
             paragraphs: [
                 'Kaiser Klowns相信可持续发展不是奢华的制约——而是前提。我们的可持续发展战略涵盖供应链、运营和产品生命周期中的环境影响。',
-                '每个品牌都制定了与联合国可持续发展目标一致的定制可持续发展路线图。从Maventine的闭环皮革采购到Aurelic Systems的碳感知计算，创新推动着每一项举措。',
+                '每个品牌都制定了与联合国可持续发展目标一致的定制可持续发展路线图。从Maventine的闭环皮革采购到Anthovai的碳感知计算，创新推动着每一项举措。',
                 '我们发布由独立第三方审计的年度可持续发展报告，并承诺到2028年在所有运营中实施科学碳目标。',
             ],
         },
@@ -375,7 +375,7 @@ export const zh: Dictionary = {
             title: '合作伙伴',
             subtitle: '我们相信合作的力量。Kaiser Klowns与分享我们创意卓越愿景的组织和个人合作。',
             items: [
-                { name: '技术合作伙伴', type: '基础设施', description: '与云提供商、AI平台和开源社区的战略合作，支持Aurelic Systems的产品套件。' },
+                { name: '技术合作伙伴', type: '基础设施', description: '与云提供商、AI平台和开源社区的战略合作，支持Anthovai的产品套件。' },
                 { name: '创意合作者', type: '设计与艺术', description: '与独立艺术家、设计师和文化机构合作，实现Maventine和Velvessence的创意愿景。' },
                 { name: '泰国创意社区', type: '本地', description: '与泰国大学、创意工作室和科技社区合作，培养下一代人才。' },
             ],
@@ -385,10 +385,10 @@ export const zh: Dictionary = {
             subtitle: '2026年2月',
             paragraphs: [
                 'Kaiser Klowns自豪地宣布正式推出完整的五品牌组合，标志着集团正式入场多行业创意帝国。',
-                '五大品牌——Maventine（奢华时尚）、Aurelic Systems（科技）、KurenTengu（互动游戏）、Velvessence Studios（影视音乐）和Lokovox Media（营销品牌）——代表了集团创意驱动商业的愿景。',
+                '五大品牌——Maventine（奢华时尚）、Anthovai（科技）、KurenTengu（互动游戏）、Velvessence Studios（影视音乐）和Lokovox Media（营销品牌）——代表了集团创意驱动商业的愿景。',
                 '2025年9月在泰国成立，Kaiser Klowns已迅速从概念变为现实，每个品牌在“无声权威”统一哲学下发展自己的产品、身份和创意方向。',
                 '“我们不是在建立公司。我们在架构传承，”集团表示。',
-                '发布同时还伴随着Aurelic Systems产品套件的首秀、Maventine首次系列预览以及KurenTengu神话驱动游戏宇宙的发布。',
+                '发布同时还伴随着Anthovai产品套件的首秀、Maventine首次系列预览以及KurenTengu神话驱动游戏宇宙的发布。',
             ],
             backLabel: '返回新闻',
         },
@@ -408,14 +408,14 @@ export const zh: Dictionary = {
             ],
             backLabel: '返回新闻',
         },
-        aurelicPlatform: {
-            title: 'Aurelic Systems推出产品套件',
+        AnthovaiPlatform: {
+            title: 'Anthovai推出产品套件',
             subtitle: '2026年1月',
             paragraphs: [
-                'Kaiser Klowns旗下科技部门Aurelic Systems推出了其首批产品套件。',
+                'Kaiser Klowns旗下科技部门Anthovai推出了其首批产品套件。',
                 '套件包括四个专有平台：Arkai（AI智能自动化）、Aello（AI集成开发环境）、Alfa（企业资源管理）和KlownsNexus办公套件。',
-                '这些产品代表了Aurelic Systems“为勇者提供科技”的愿景。',
-                '“我们不是为了技术而做技术。我们打造让勇敢者更勇敢的工具，”Aurelic Systems团队表示。',
+                '这些产品代表了Anthovai“为勇者提供科技”的愿景。',
+                '“我们不是为了技术而做技术。我们打造让勇敢者更勇敢的工具，”Anthovai团队表示。',
                 '所有产品目前正在积极开发中，早期访问权向特定合作伙伴开放。',
             ],
             backLabel: '返回新闻',

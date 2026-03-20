@@ -8,10 +8,10 @@ import { useTranslation } from "../i18n/TranslationContext";
 
 const houses = [
     {
-        name: "AURELIC SYSTEMS",
-        dictKey: "aurelic" as const,
+        name: "Anthovai",
+        dictKey: "Anthovai" as const,
         description: "",
-        href: "/houses/aurelic",
+        href: "/houses/Anthovai",
         accent: "#4a6fa5",
         gradient: "from-[#0a0a1a] via-[#151525] to-[#05050a]",
         locked: false,

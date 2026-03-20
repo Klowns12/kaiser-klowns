@@ -7,13 +7,13 @@ import type { Dictionary } from "../i18n/types";
 
 const houses = [
     {
-        name: "AURELIC SYSTEMS",
-        dictKey: "aurelic" as const,
-        href: "/houses/aurelic",
+        name: "Anthovai",
+        dictKey: "Anthovai" as const,
+        href: "/houses/Anthovai",
         gradient: "from-[#0a0a1a] via-[#151525] to-[#05050a]",
         accent: "#4a6fa5",
         locked: false,
-        image: "https://media.istockphoto.com/id/1530256492/it/vettoriale/concetto-di-sviluppo-software-computer-portatile-con-schermo-aperto-appeso-sopra-la.jpg?s=612x612&w=0&k=20&c=0padcGEwdA7qSbliCeGSSUQiHbU_4rjT_cl0suHFLw4=",
+        image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop",
     },
     {
         name: "LOKOVOX MEDIA",
@@ -22,7 +22,7 @@ const houses = [
         gradient: "from-[#0a1a15] via-[#15252a] to-[#050a0a]",
         accent: "#2a8a6a",
         locked: false,
-        image: "https://media.licdn.com/dms/image/v2/C5112AQEbdiN9N3c29Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1520175209614?e=2147483647&v=beta&t=5efiZBb8LBurfKz5FImQrXy0A7BkSrZR8184g1fbgzY",
+        image: "https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1200&auto=format&fit=crop",
     },
     {
         name: "MAVENTINE",
@@ -40,7 +40,7 @@ const houses = [
         gradient: "from-[#150a1a] via-[#201525] to-[#0a050d]",
         accent: "#8a4a8a",
         locked: true,
-        image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80",
+        image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1200&auto=format&fit=crop",
     },
     {
         name: "KURENTENGU",
@@ -49,7 +49,7 @@ const houses = [
         gradient: "from-[#1a0a05] via-[#2d1a0a] to-[#0a0502]",
         accent: "#b8952a",
         locked: true,
-        image: "https://outscal-content.s3.ap-south-1.amazonaws.com/full-stack-game-development.png",
+        image: "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=1200&auto=format&fit=crop",
     },
 ];
 
@@ -96,7 +96,7 @@ export default function HousesGrid() {
 
             {/* Houses Grid */}
             <div className="max-w-7xl mx-auto px-6 md:px-12">
-                {/* Row 1: 2 cards (Aurelic + Lokovox — clickable) */}
+                {/* Row 1: 2 cards (Anthovai + Lokovox — clickable) */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-4 md:mb-5">
                     {houses.slice(0, 2).map((house, idx) => (
                         <HouseCard key={house.name} house={house} delay={idx} tall dict={dict} />

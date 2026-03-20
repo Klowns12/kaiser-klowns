@@ -13,9 +13,9 @@ const houseData: Record<string, {
         accent: "#c41e1e",
         gradient: "from-[#1a0a0a] via-[#2d1515] to-[#0a0505]",
     },
-    aurelic: {
-        name: "AURELIC SYSTEMS",
-        description: "Aurelic Systems is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Aurelic builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, Aello, Alfa, and KlownsNexus Office Suite, Aurelic operates at the intersection of innovation and practical impact.",
+    Anthovai: {
+        name: "Anthovai",
+        description: "Anthovai is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Anthovai builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, Aello, Alfa, and KlownsNexus Office Suite, Anthovai operates at the intersection of innovation and practical impact.",
         accent: "#4a6fa5",
         gradient: "from-[#0a0a1a] via-[#151525] to-[#05050a]",
     },

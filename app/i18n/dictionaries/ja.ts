@@ -40,7 +40,7 @@ export const ja: Dictionary = {
         sectionLabel: 'ポートフォリオ',
         sectionTitle: 'ハウス',
         explore: '探索',
-        aurelic: { tagline: 'テクノロジー & イノベーション', description: '明日の見えないアーキテクチャを構築する' },
+        Anthovai: { tagline: 'テクノロジー & イノベーション', description: '明日の見えないアーキテクチャを構築する' },
         lokovox: { tagline: 'メディア & 出版', description: '文化を形作る声' },
         maventine: { tagline: 'ファッション & レザーグッズ', description: '伝統と大胆なデザインの出会い' },
         velvessence: { tagline: 'エンターテインメント & 映画', description: '動かせないものを動かす物語' },
@@ -72,11 +72,11 @@ export const ja: Dictionary = {
                 "タイのヘリテージとグローバルなラグジュアリーの感性を融合させた今後のコレクション"
             ],
         },
-        aurelic: {
-            name: "AURELIC SYSTEMS",
+        Anthovai: {
+            name: "Anthovai",
             sector: "IT / ソフトウェア / AI / インフラストラクチャ",
             tagline: "大胆な人々のためのテクノロジー。",
-            description: "Aurelic Systemsは、Kaiser Klownsの技術的バックボーンであり長期的な収益エンジンです。AI主導のプラットフォームからエンタープライズソフトウェアまで、Aurelicはグループやそれ以降を駆動する目に見えないインフラストラクチャを構築します。Arkai、Aello、Alfa、KlownsNexus Office Suiteなどの独自の製品により、Aurelicはイノベーションと実質的なインパクトの交差点で活動しています。",
+            description: "Anthovaiは、Kaiser Klownsの技術的バックボーンであり長期的な収益エンジンです。AI主導のプラットフォームからエンタープライズソフトウェアまで、Anthovaiはグループやそれ以降を駆動する目に見えないインフラストラクチャを構築します。Arkai、Aello、Alfa、KlownsNexus Office Suiteなどの独自の製品により、Anthovaiはイノベーションと実質的なインパクトの交差点で活動しています。",
             founded: "2025年9月",
             headquarters: "タイ",
             employees: "—",
@@ -168,7 +168,7 @@ export const ja: Dictionary = {
             { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
             { date: '2026年2月', title: 'Kaiser KlownsがFormula K Racingとの戦略的パートナーシップを発表', excerpt: 'ラグジュアリーモータースポーツ・コラボレーションの大胆な新章。クリエイティブ・エンパイアを世界最高峰のサーキットへ。' },
             { date: '2026年1月', title: 'Maventineが東京ファッションウィークで春コレクションを発表', excerpt: '東洋の職人技と西洋のアヴァンギャルドな感性を結ぶコレクションを発表。' },
-            { date: '2026年1月', title: 'Aurelic Systemsが次世代プラットフォームを発表', excerpt: 'テクノロジー部門がコネクテッド・ラグジュアリー体験の未来ビジョンを公開。' },
+            { date: '2026年1月', title: 'Anthovaiが次世代プラットフォームを発表', excerpt: 'テクノロジー部門がコネクテッド・ラグジュアリー体験の未来ビジョンを公開。' },
         ],
     },
     footer: {
@@ -203,7 +203,7 @@ export const ja: Dictionary = {
             events: [
                 { year: '2018', title: '創業', description: 'Kaiser Klownsは、芸術的誠実さを何よりも大切にする新しいタイプのクリエイティブ・コングロマリットを創るビジョンとともに設立されました。' },
                 { year: '2019', title: '初の買収', description: 'ヘリテージファッションハウスのMaventineが、Kaiser Klownsポートフォリオに加わる最初のブランドとなりました。' },
-                { year: '2020', title: 'テクノロジー部門', description: 'Aurelic Systemsがテクノロジー部門として設立され、コネクテッド・ラグジュアリー体験のインフラを構築。' },
+                { year: '2020', title: 'テクノロジー部門', description: 'Anthovaiがテクノロジー部門として設立され、コネクテッド・ラグジュアリー体験のインフラを構築。' },
                 { year: '2022', title: 'グローバル展開', description: 'KurenTenguとVelvessence Studiosがグループに加わり、スピリッツとエンターテインメントに拡大。' },
                 { year: '2024', title: 'メディア帝国', description: 'Lokovox Mediaを買収し、5ハウスポートフォリオが完成。Kaiser Klownsが真のクリエイティブ・コングロマリットとして確立。' },
                 { year: '2026', title: '未来', description: '5つの繁栄するハウスと40以上の国でのグローバルプレゼンスで、Kaiser Klownsはクリエイティブの卓越性を再定義し続けています。' },
@@ -296,7 +296,7 @@ export const ja: Dictionary = {
                 { date: '2026年2月', title: 'Kaiser KlownsがFormula K Racingとの戦略的パートナーシップを発表', excerpt: '国際モータースポーツにクリエイティブの卓越性をもたらす複数年パートナーシップ。' },
                 { date: '2026年1月', title: '年間業績：収益42億ドルを突破', excerpt: 'イノベーションと市場拡大により、全5ハウスで力強い業績。' },
                 { date: '2026年1月', title: 'Maventine東京ファッションウィーク春コレクション', excerpt: '東西のデザイン伝統を結ぶコレクションを発表。' },
-                { date: '2025年12月', title: 'Aurelic Systemsプラットフォーム3.0発表', excerpt: 'グローバルにコネクテッド・ラグジュアリー体験を駆動する次世代プラットフォーム。' },
+                { date: '2025年12月', title: 'Anthovaiプラットフォーム3.0発表', excerpt: 'グローバルにコネクテッド・ラグジュアリー体験を駆動する次世代プラットフォーム。' },
                 { date: '2025年11月', title: 'KurenTenguが国際スピリッツ賞を受賞', excerpt: 'スピリッツハウスが限定ヘリテージコレクションで最高賞を受賞。' },
                 { date: '2025年10月', title: 'サステナビリティ報告：カーボンニュートラル達成', excerpt: '全5ハウスが前倒しでカーボンニュートラル運営を達成。' },
                 { date: '2025年9月', title: 'Lokovox Mediaがデジタル出版プラットフォームを買収', excerpt: 'メディアハウスのデジタルファースト変革を強化する戦略的買収。' },
@@ -333,7 +333,7 @@ export const ja: Dictionary = {
             ],
             paragraphs: [
                 'Kaiser Klownsは、サステナビリティはラグジュアリーの制約ではなく——前提条件であると信じています。私たちのサステナビリティ戦略は、サプライチェーン、運営、製品ライフサイクル全体の環境影響に対応しています。',
-                '各ハウスは国連持続可能な開発目標に沿ったオーダーメイドのサステナビリティロードマップを策定しています。Maventineのクローズドループレザー調達からAurelic Systemsのカーボンアウェアコンピューティングまで、イノベーションがすべてのイニシアチブを推進しています。',
+                '各ハウスは国連持続可能な開発目標に沿ったオーダーメイドのサステナビリティロードマップを策定しています。Maventineのクローズドループレザー調達からAnthovaiのカーボンアウェアコンピューティングまで、イノベーションがすべてのイニシアチブを推進しています。',
                 '私たちは独立した第三者による監査を受けた年次サステナビリティレポートを公開し、2028年までに全運営でScience Based Targetsにコミットしています。',
             ],
         },
@@ -371,7 +371,7 @@ export const ja: Dictionary = {
             items: [
                 { name: 'Formula K Racing', type: 'スポーツパートナーシップ', description: 'Kaiser Klownsのクリエイティブビジョンを国際モータースポーツの世界にもたらすランドマーク的なパートナーシップ。' },
                 { name: 'Global Craft Alliance', type: 'サステナビリティ', description: '世界中の伝統的な職人技の保全にコミットするラグジュアリーハウスの連合。' },
-                { name: 'Tokyo Tech Accelerator', type: 'テクノロジー', description: 'Aurelic Systemsとの共同アクセラレータープログラム。コネクテッド体験分野の初期段階テクノロジー企業を支援。' },
+                { name: 'Tokyo Tech Accelerator', type: 'テクノロジー', description: 'Anthovaiとの共同アクセラレータープログラム。コネクテッド体験分野の初期段階テクノロジー企業を支援。' },
                 { name: 'UNESCO Cultural Heritage', type: '文化', description: '職人技の記録と教育を通じた無形文化遺産の保全を支援。' },
             ],
         },
@@ -380,7 +380,7 @@ export const ja: Dictionary = {
             subtitle: '2026年2月14日',
             paragraphs: [
                 'Kaiser Klownsは、Formula K Racingとの複数年にわたる戦略的パートナーシップを発表できることを誇りに思います。これは、コングロマリット初の国際モータースポーツへの本格参入を意味します。',
-                'このパートナーシップにより、Kaiser KlownsのハウスがFormula K体験全体でコラボレーションします——Maventineがデザインするチームアパレルから、レース戦略を駆動するAurelic Systemsのデータ分析プラットフォームまで。KurenTenguは独占的なホスピタリティ体験を提供し、Velvessence Studiosはシーズンを記録するドキュメンタリーシリーズを制作します。',
+                'このパートナーシップにより、Kaiser KlownsのハウスがFormula K体験全体でコラボレーションします——Maventineがデザインするチームアパレルから、レース戦略を駆動するAnthovaiのデータ分析プラットフォームまで。KurenTenguは独占的なホスピタリティ体験を提供し、Velvessence Studiosはシーズンを記録するドキュメンタリーシリーズを制作します。',
                 'Lokovox Mediaは独占的なエディトリアルパートナーとして、5000万人のグローバル読者に深い報道と分析を届けます。',
                 '「このパートナーシップは、Kaiser Klownsが代表するすべてを体現しています——最高レベルでのクリエイティビティ、テクノロジー、パフォーマンスの融合です」とグループは声明で述べています。「Formula Kは、卓越性は目的地ではなく、飽くなき追求であるという私たちの信念を共有しています。」',
                 'パートナーシップは2026年Formula Kシーズンのモナコ開幕戦とともにスタートします。',
@@ -403,11 +403,11 @@ export const ja: Dictionary = {
             ],
             backLabel: 'ニュースに戻る',
         },
-        aurelicPlatform: {
-            title: 'Aurelic Systems プラットフォーム 3.0',
+        AnthovaiPlatform: {
+            title: 'Anthovai プラットフォーム 3.0',
             subtitle: '2026年1月15日',
             paragraphs: [
-                'Aurelic Systemsが次世代コネクテッドプラットフォームを発表しました。',
+                'Anthovaiが次世代コネクテッドプラットフォームを発表しました。',
                 'AI駆動のパーソナリゼーション、リアルタイム分析、シームレスなクロスブランド統合。',
                 '「テクノロジーは見えないが変革的であるべきだ」',
                 '全Kaiser Klownsブランドに展開済み。',

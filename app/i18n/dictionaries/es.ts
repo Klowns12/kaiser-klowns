@@ -18,7 +18,7 @@ export const es: Dictionary = {
     hero: { tagline: 'El Imperio Creativo', cta: 'Descubrir Nuestras Casas', scroll: 'Desplazar' },
     houses: {
         sectionLabel: 'Nuestro Portfolio', sectionTitle: 'Las Casas', explore: 'Explorar',
-        aurelic: { tagline: 'Tecnología e Innovación', description: 'Diseñando la arquitectura invisible del mañana' },
+        Anthovai: { tagline: 'Tecnología e Innovación', description: 'Diseñando la arquitectura invisible del mañana' },
         lokovox: { tagline: 'Medios y Publicación', description: 'La voz que da forma a la cultura' },
         maventine: { tagline: 'Moda y Artículos de Cuero', description: 'Donde la tradición se encuentra con el diseño audaz' },
         velvessence: { tagline: 'Entretenimiento y Cine', description: 'Historias que mueven lo inamovible' },
@@ -50,11 +50,11 @@ export const es: Dictionary = {
                 "Próximas colecciones que combinan la herencia tailandesa con una sensibilidad de lujo global"
             ],
         },
-        aurelic: {
-            name: "AURELIC SYSTEMS",
+        Anthovai: {
+            name: "Anthovai",
             sector: "TI / Software / IA / Infraestructura",
             tagline: "Tecnología para los audaces.",
-            description: "Aurelic Systems es la columna vertebral tecnológica y el motor de ingresos a largo plazo de Kaiser Klowns. Desde plataformas impulsadas por IA hasta software empresarial, Aurelic construye la infraestructura invisible que impulsa al grupo y más allá. Con productos patentados como Arkai, Aello, Alfa y KlownsNexus Office Suite, Aurelic opera en la intersección de la innovación y el impacto pragmático.",
+            description: "Anthovai es la columna vertebral tecnológica y el motor de ingresos a largo plazo de Kaiser Klowns. Desde plataformas impulsadas por IA hasta software empresarial, Anthovai construye la infraestructura invisible que impulsa al grupo y más allá. Con productos patentados como Arkai, Aello, Alfa y KlownsNexus Office Suite, Anthovai opera en la intersección de la innovación y el impacto pragmático.",
             founded: "Septiembre de 2025",
             headquarters: "Tailandia",
             employees: "—",
@@ -142,7 +142,7 @@ export const es: Dictionary = {
             { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
             { date: 'Febrero 2026', title: 'Kaiser Klowns anuncia asociación estratégica con Formula K Racing', excerpt: 'Un nuevo y audaz capítulo en la colaboración del automovilismo de lujo.' },
             { date: 'Enero 2026', title: 'Maventine presenta su colección de primavera en Tokyo Fashion Week', excerpt: 'La casa de moda presenta una colección que une la artesanía oriental con la sensibilidad vanguardista occidental.' },
-            { date: 'Enero 2026', title: 'Aurelic Systems lanza plataforma de nueva generación', excerpt: 'El brazo tecnológico revela su visión para el futuro de las experiencias de lujo conectadas.' },
+            { date: 'Enero 2026', title: 'Anthovai lanza plataforma de nueva generación', excerpt: 'El brazo tecnológico revela su visión para el futuro de las experiencias de lujo conectadas.' },
         ],
     },
     footer: {
@@ -166,7 +166,7 @@ export const es: Dictionary = {
             events: [
                 { year: '2018', title: 'La Fundación', description: 'Kaiser Klowns fue fundado con la visión de crear un nuevo tipo de conglomerado creativo.' },
                 { year: '2019', title: 'Primera Adquisición', description: 'Maventine se convierte en la primera marca en unirse al portfolio.' },
-                { year: '2020', title: 'División Tecnológica', description: 'Aurelic Systems se funda como el brazo tecnológico.' },
+                { year: '2020', title: 'División Tecnológica', description: 'Anthovai se funda como el brazo tecnológico.' },
                 { year: '2022', title: 'Expansión Global', description: 'KurenTengu y Velvessence Studios se unen al grupo.' },
                 { year: '2024', title: 'Imperio Mediático', description: 'La adquisición de Lokovox Media completa el portfolio de cinco casas.' },
                 { year: '2026', title: 'El Futuro', description: 'Con cinco Casas prósperas y presencia global en más de 40 países.' },
@@ -219,7 +219,7 @@ export const es: Dictionary = {
                 { title: 'Pensamiento a Largo Plazo', description: 'Medimos el éxito en décadas, no en trimestres. Cada decisión se toma pensando en la próxima generación.' },
             ],
             paragraphs: [
-                'En Kaiser Klowns, la creación no es un departamento — es toda la organización. Desde los talleres de Maventine hasta los laboratorios de innovación de Aurelic Systems, cada Casa opera con la misma creencia fundamental: que el trabajo extraordinario requiere un compromiso extraordinario.',
+                'En Kaiser Klowns, la creación no es un departamento — es toda la organización. Desde los talleres de Maventine hasta los laboratorios de innovación de Anthovai, cada Casa opera con la misma creencia fundamental: que el trabajo extraordinario requiere un compromiso extraordinario.',
                 'Nuestro proceso comienza escuchando. A los materiales, a las culturas, a las necesidades no expresadas de personas que se niegan a comprometerse. Invertimos el tiempo que otros no están dispuestos a dedicar, porque sabemos que la paciencia es el ingrediente más infravalorado en el trabajo excepcional.',
                 'Cada Casa mantiene una autonomía creativa total. No hay un comité de diseño central, ni un manual de marca que aplane la individualidad. En su lugar, proporcionamos la infraestructura, los recursos y la estabilidad a largo plazo que permiten que la verdadera libertad creativa florezca.',
                 'El resultado es un portafolio de trabajo que se siente distinto pero conectado — cinco Casas, cada una hablando con su propia voz, unidas por un estándar de calidad inquebrantable que define el nombre Kaiser Klowns.',
@@ -266,7 +266,7 @@ export const es: Dictionary = {
                 { date: 'Febrero 2026', title: 'Asociación estratégica con Formula K Racing', excerpt: 'Asociación multianual que lleva la excelencia creativa al automovilismo internacional.' },
                 { date: 'Enero 2026', title: 'Resultados anuales: ingresos superan $4.200M', excerpt: 'Fuerte rendimiento en las cinco Casas.' },
                 { date: 'Enero 2026', title: 'Colección Primavera Maventine en Tokyo Fashion Week', excerpt: 'Una colección que une tradiciones de diseño orientales y occidentales.' },
-                { date: 'Diciembre 2025', title: 'Lanzamiento de Aurelic Systems Platform 3.0', excerpt: 'Plataforma de nueva generación para experiencias de lujo conectadas.' },
+                { date: 'Diciembre 2025', title: 'Lanzamiento de Anthovai Platform 3.0', excerpt: 'Plataforma de nueva generación para experiencias de lujo conectadas.' },
                 { date: 'Noviembre 2025', title: 'KurenTengu gana premio internacional de licores', excerpt: 'Máximo honor por su colección de legado de edición limitada.' },
                 { date: 'Octubre 2025', title: 'Neutralidad de carbono alcanzada', excerpt: 'Las cinco Casas logran operaciones neutras en carbono antes de lo previsto.' },
                 { date: 'Septiembre 2025', title: 'Lokovox Media adquiere plataforma de publicación digital', excerpt: 'Adquisición estratégica que fortalece la transformación digital.' },
@@ -335,7 +335,7 @@ export const es: Dictionary = {
             items: [
                 { name: 'Formula K Racing', type: 'Asociación Deportiva', description: 'Llevando la visión creativa al automovilismo internacional.' },
                 { name: 'Global Craft Alliance', type: 'Sostenibilidad', description: 'Coalición de casas de lujo preservando tradiciones artesanales.' },
-                { name: 'Tokyo Tech Accelerator', type: 'Tecnología', description: 'Programa acelerador conjunto con Aurelic Systems.' },
+                { name: 'Tokyo Tech Accelerator', type: 'Tecnología', description: 'Programa acelerador conjunto con Anthovai.' },
                 { name: 'UNESCO Cultural Heritage', type: 'Cultura', description: 'Preservación del patrimonio cultural inmaterial.' },
             ],
         },
@@ -366,14 +366,14 @@ export const es: Dictionary = {
             ],
             backLabel: 'Volver a Noticias',
         },
-        aurelicPlatform: {
-            title: 'Aurelic Systems Plataforma 3.0',
+        AnthovaiPlatform: {
+            title: 'Anthovai Plataforma 3.0',
             subtitle: '15 de Enero de 2026',
             paragraphs: [
-                'Aurelic Systems, el brazo tecnológico de Kaiser Klowns, ha lanzado su plataforma conectada de nueva generación, marcando un avance significativo en las experiencias digitales de lujo.',
+                'Anthovai, el brazo tecnológico de Kaiser Klowns, ha lanzado su plataforma conectada de nueva generación, marcando un avance significativo en las experiencias digitales de lujo.',
                 'La Plataforma 3.0 introduce personalización impulsada por IA, análisis en tiempo real e integración transparente entre Casas — permitiendo a las cinco Casas de Kaiser Klowns ofrecer experiencias digitales unificadas pero distintivas.',
                 'Las características clave incluyen insights predictivos de clientes, computación consciente del carbono que reduce el consumo de energía en un 40%, y un ecosistema API abierto que soporta más de 200 integraciones de terceros.',
-                '"La tecnología debe ser invisible pero transformadora. La Plataforma 3.0 encarna esta filosofía", dijo el equipo de Aurelic Systems.',
+                '"La tecnología debe ser invisible pero transformadora. La Plataforma 3.0 encarna esta filosofía", dijo el equipo de Anthovai.',
                 'La plataforma ya está desplegada en todas las Casas de Kaiser Klowns y estará disponible para socios empresariales selectos en el Q2 de 2026.',
             ],
             backLabel: 'Volver a Noticias',

@@ -6,7 +6,7 @@ import { useTranslation } from "../i18n/TranslationContext";
 
 const newsColors = ["#c41e1e", "#b8952a", "#4a6fa5"];
 const newsCategories = ["GROUP", "HOUSES", "INNOVATION"];
-const newsHrefs = ["/news/formula-k-partnership", "/news/maventine-tokyo", "/news/aurelic-platform"];
+const newsHrefs = ["/news/formula-k-partnership", "/news/maventine-tokyo", "/news/Anthovai-platform"];
 
 export default function NewsSection() {
     const sectionRef = useRef<HTMLElement>(null);

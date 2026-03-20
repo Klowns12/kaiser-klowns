@@ -56,7 +56,7 @@ export default function JsonLd({ locale = 'en' }: { locale?: string }) {
         ],
         subOrganization: [
             { "@type": "Organization", name: "Maventine", description: "Luxury Fashion House specializing in high-end fashion and street-tailoring.", url: "https://www.kaiserklowns.group/houses/maventine" },
-            { "@type": "Organization", name: "Aurelic Systems", description: "Advanced Technology & AI company building enterprise automation and productivity software.", url: "https://www.kaiserklowns.group/houses/aurelic" },
+            { "@type": "Organization", name: "Anthovai", description: "Advanced Technology & AI company building enterprise automation and productivity software.", url: "https://www.kaiserklowns.group/houses/Anthovai" },
             { "@type": "Organization", name: "KurenTengu", description: "Premium Spirits & Beverages brand crafting artisanal drink experiences.", url: "https://www.kaiserklowns.group/houses/kurentengu" },
             { "@type": "Organization", name: "Velvessence Studios", description: "Beauty & Wellness studio creating premium self-care innovations.", url: "https://www.kaiserklowns.group/houses/velvessence-studios" },
             { "@type": "Organization", name: "Lokovox Media", description: "Media & Entertainment company producing creative content and storytelling.", url: "https://www.kaiserklowns.group/houses/lokovox" }
@@ -118,12 +118,12 @@ export default function JsonLd({ locale = 'en' }: { locale?: string }) {
     };
 
     // Services schemas
-    const aurelicServiceSchema = {
+    const AnthovaiServiceSchema = {
         "@context": "https://schema.org",
         "@type": "Service",
         name: "Enterprise Automation and AI Platforms",
         serviceType: "Software Development and Artificial Intelligence",
-        provider: { "@type": "Organization", name: "Aurelic Systems", url: "https://www.kaiserklowns.group/houses/aurelic" },
+        provider: { "@type": "Organization", name: "Anthovai", url: "https://www.kaiserklowns.group/houses/Anthovai" },
         areaServed: "Worldwide"
     };
 
@@ -144,7 +144,7 @@ export default function JsonLd({ locale = 'en' }: { locale?: string }) {
             {
                 "@type": "Question",
                 name: "What is Kaiser Klowns?",
-                acceptedAnswer: { "@type": "Answer", text: "Kaiser Klowns is a luxury creative conglomerate founded in September 2025, managing five distinct Houses: Maventine (Fashion), Aurelic Systems (AI & Technology), KurenTengu (Spirits & Beverages), Velvessence Studios (Beauty & Wellness), and Lokovox Media (Media & Entertainment)." }
+                acceptedAnswer: { "@type": "Answer", text: "Kaiser Klowns is a luxury creative conglomerate founded in September 2025, managing five distinct Houses: Maventine (Fashion), Anthovai (AI & Technology), KurenTengu (Spirits & Beverages), Velvessence Studios (Beauty & Wellness), and Lokovox Media (Media & Entertainment)." }
             },
             {
                 "@type": "Question",
@@ -153,13 +153,13 @@ export default function JsonLd({ locale = 'en' }: { locale?: string }) {
             },
             {
                 "@type": "Question",
-                name: "What services does Aurelic Systems provide?",
-                acceptedAnswer: { "@type": "Answer", text: "Aurelic Systems specializes in advanced technology and AI, providing enterprise automation and productivity software including the Arkai Work Assistant platform." }
+                name: "What services does Anthovai provide?",
+                acceptedAnswer: { "@type": "Answer", text: "Anthovai specializes in advanced technology and AI, providing enterprise automation and productivity software including the Arkai Work Assistant platform." }
             },
             {
                 "@type": "Question",
                 name: "รับทำ AI chatbot LINE ราคาเท่าไหร่?",
-                acceptedAnswer: { "@type": "Answer", text: "ราคาสำหรับการทำ AI Chatbot บน LINE ขึ้นอยู่กับความซับซ้อนของระบบและการเชื่อมต่อข้อมูลภายในองค์กร สามารถติดต่อ Aurelic Systems ผ่านหน้า Contact เพื่อรับคำปรึกษาและประเมินราคาหรือพิจารณา Arkai Work Assistant ที่มีแพ็กเกจเริ่มต้นได้" }
+                acceptedAnswer: { "@type": "Answer", text: "ราคาสำหรับการทำ AI Chatbot บน LINE ขึ้นอยู่กับความซับซ้อนของระบบและการเชื่อมต่อข้อมูลภายในองค์กร สามารถติดต่อ Anthovai ผ่านหน้า Contact เพื่อรับคำปรึกษาและประเมินราคาหรือพิจารณา Arkai Work Assistant ที่มีแพ็กเกจเริ่มต้นได้" }
             }
         ]
     };
@@ -187,14 +187,14 @@ export default function JsonLd({ locale = 'en' }: { locale?: string }) {
         "@context": "https://schema.org",
         "@type": "Product",
         name: "Arkai Work Assistant",
-        description: "AI-powered enterprise productivity platform by Aurelic Systems, a Kaiser Klowns House.",
-        brand: { "@type": "Brand", name: "Aurelic Systems" },
-        url: "https://www.kaiserklowns.group/houses/aurelic",
+        description: "AI-powered enterprise productivity platform by Anthovai, a Kaiser Klowns House.",
+        brand: { "@type": "Brand", name: "Anthovai" },
+        url: "https://www.kaiserklowns.group/houses/Anthovai",
         image: "https://www.kaiserklowns.group/logo/KK.png",
         offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
-            url: "https://www.kaiserklowns.group/houses/aurelic",
+            url: "https://www.kaiserklowns.group/houses/Anthovai",
             priceCurrency: "USD",
             price: "0",
             description: "Contact for enterprise pricing"
@@ -242,8 +242,8 @@ export default function JsonLd({ locale = 'en' }: { locale?: string }) {
         "@type": "Product",
         name: "Arkai Work Assistant",
         image: "https://www.kaiserklowns.group/logo/KK.png",
-        description: "AI-powered enterprise productivity platform by Aurelic Systems.",
-        brand: { "@type": "Brand", name: "Aurelic Systems" }
+        description: "AI-powered enterprise productivity platform by Anthovai.",
+        brand: { "@type": "Brand", name: "Anthovai" }
     };
 
     // NewsArticle schema
@@ -291,7 +291,7 @@ export default function JsonLd({ locale = 'en' }: { locale?: string }) {
             answerCount: 1,
             acceptedAnswer: {
                 "@type": "Answer",
-                text: "Kaiser Klowns operates across 5 distinct industries through its Houses: Fashion (Maventine), Technology & AI (Aurelic Systems), Spirits (KurenTengu), Beauty (Velvessence Studios), and Media (Lokovox Media).",
+                text: "Kaiser Klowns operates across 5 distinct industries through its Houses: Fashion (Maventine), Technology & AI (Anthovai), Spirits (KurenTengu), Beauty (Velvessence Studios), and Media (Lokovox Media).",
                 upvoteCount: 15,
                 url: "https://www.kaiserklowns.group/houses"
             }
@@ -308,7 +308,7 @@ export default function JsonLd({ locale = 'en' }: { locale?: string }) {
                     organizationSchema,
                     websiteSchema,
                     webPageSchema,
-                    aurelicServiceSchema,
+                    AnthovaiServiceSchema,
                     lokovoxServiceSchema,
                     imageObjectSchema,
                     localBusinessSchema,

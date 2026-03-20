@@ -18,7 +18,7 @@ export const ko: Dictionary = {
     hero: { tagline: '크리에이티브 엠파이어', cta: '하우스 탐색하기', scroll: '스크롤' },
     houses: {
         sectionLabel: '포트폴리오', sectionTitle: '하우스', explore: '탐색',
-        aurelic: { tagline: '기술 & 혁신', description: '내일의 보이지 않는 건축을 설계하다' },
+        Anthovai: { tagline: '기술 & 혁신', description: '내일의 보이지 않는 건축을 설계하다' },
         lokovox: { tagline: '미디어 & 출판', description: '문화를 형성하는 목소리' },
         maventine: { tagline: '패션 & 가죽 제품', description: '전통과 대담한 디자인의 만남' },
         velvessence: { tagline: '엔터테인먼트 & 영화', description: '움직일 수 없는 것을 움직이는 이야기' },
@@ -50,11 +50,11 @@ export const ko: Dictionary = {
                 "태국의 유산과 글로벌 럭셔리 감성을 결합한 다가오는 컬렉션"
             ],
         },
-        aurelic: {
-            name: "AURELIC SYSTEMS",
+        Anthovai: {
+            name: "Anthovai",
             sector: "IT / 소프트웨어 / AI / 인프라",
             tagline: "대담한 자를 위한 기술.",
-            description: "Aurelic Systems는 Kaiser Klowns의 기술적 중추이자 장기 수익 엔진입니다. AI 기반 플랫폼에서 기업용 소프트웨어에 이르기까지, Aurelic은 그룹과 그 너머를 구동하는 보이지 않는 인프라를 구축합니다. Arkai, Aello, Alfa, KlownsNexus Office Suite와 같은 독점 제품을 통해 Aurelic은 혁신과 실질적 영향의 교차점에서 운영됩니다.",
+            description: "Anthovai는 Kaiser Klowns의 기술적 중추이자 장기 수익 엔진입니다. AI 기반 플랫폼에서 기업용 소프트웨어에 이르기까지, Anthovai은 그룹과 그 너머를 구동하는 보이지 않는 인프라를 구축합니다. Arkai, Aello, Alfa, KlownsNexus Office Suite와 같은 독점 제품을 통해 Anthovai은 혁신과 실질적 영향의 교차점에서 운영됩니다.",
             founded: "2025년 9월",
             headquarters: "태국",
             employees: "—",
@@ -144,7 +144,7 @@ export const ko: Dictionary = {
             { slug: 'arkai-work-assistant', date: 'March 2026', title: 'Introducing "Arkai Work Assistant"', excerpt: 'A LINE-based AI Assistant that Saves Files, Summarizes Tasks, and Remembers Every Conversation.' },
             { date: '2026년 2월', title: 'Kaiser Klowns, Formula K Racing과 전략적 파트너십 발표', excerpt: '럭셔리 모터스포츠 협업의 대담한 새 장.' },
             { date: '2026년 1월', title: 'Maventine, 도쿄 패션 위크에서 봄 컬렉션 공개', excerpt: '동양의 장인정신과 서양의 아방가르드 감성을 잇는 컬렉션.' },
-            { date: '2026년 1월', title: 'Aurelic Systems, 차세대 플랫폼 출시', excerpt: '연결된 럭셔리 경험의 미래 비전을 공개.' },
+            { date: '2026년 1월', title: 'Anthovai, 차세대 플랫폼 출시', excerpt: '연결된 럭셔리 경험의 미래 비전을 공개.' },
         ],
     },
     footer: {
@@ -168,7 +168,7 @@ export const ko: Dictionary = {
             events: [
                 { year: '2018', title: '설립', description: '예술적 진정성을 최우선으로 하는 새로운 유형의 크리에이티브 대기업을 만들겠다는 비전으로 설립.' },
                 { year: '2019', title: '첫 인수', description: 'Maventine이 Kaiser Klowns 포트폴리오에 합류한 첫 번째 브랜드.' },
-                { year: '2020', title: '기술 부문', description: 'Aurelic Systems가 기술 부문으로 설립.' },
+                { year: '2020', title: '기술 부문', description: 'Anthovai가 기술 부문으로 설립.' },
                 { year: '2022', title: '글로벌 확장', description: 'KurenTengu와 Velvessence Studios가 그룹에 합류.' },
                 { year: '2024', title: '미디어 제국', description: 'Lokovox Media 인수로 5개 하우스 포트폴리오 완성.' },
                 { year: '2026', title: '미래', description: '40개 이상 국가에서 크리에이티브 탁월함을 재정의.' },
@@ -221,7 +221,7 @@ export const ko: Dictionary = {
                 { title: '장기적 사고', description: '우리는 성공을 분기가 아닌 수십 년으로 측정합니다. 모든 결정은 다음 세대를 염두에 두고 이루어집니다.' },
             ],
             paragraphs: [
-                'Kaiser Klowns에서 창조는 부서가 아닙니다 — 전체 조직입니다. Maventine의 아틀리에부터 Aurelic Systems의 혁신 랩까지, 모든 하우스는 같은 근본적 신념으로 운영됩니다: 비범한 작품에는 비범한 헌신이 필요하다는 것.',
+                'Kaiser Klowns에서 창조는 부서가 아닙니다 — 전체 조직입니다. Maventine의 아틀리에부터 Anthovai의 혁신 랩까지, 모든 하우스는 같은 근본적 신념으로 운영됩니다: 비범한 작품에는 비범한 헌신이 필요하다는 것.',
                 '우리의 프로세스는 경청에서 시작됩니다. 재료에, 문화에, 타협을 거부하는 사람들의 말하지 않은 요구에. 우리는 다른 이들이 기꺼이 사용하지 않는 시간을 투자합니다. 인내심이 탁월한 작품에서 가장 과소평가된 요소임을 알기 때문입니다.',
                 '각 하우스는 완전한 창의적 자율성을 유지합니다. 중앙 디자인 위원회도, 개성을 평탄화하는 브랜드 플레이북도 없습니다. 대신 진정한 창의적 자유가 꽃 필 수 있는 인프라, 자원, 장기적 안정을 제공합니다.',
                 '결과는 독특하면서도 연결된 작품 포트폴리오입니다 — 다섯 개의 하우스, 각각 자신의 목소리로 말하며, Kaiser Klowns라는 이름을 정의하는 흔들리지 않는 품질 기준으로 하나됩니다.',
@@ -268,7 +268,7 @@ export const ko: Dictionary = {
                 { date: '2026년 2월', title: 'Formula K Racing과 전략적 파트너십 발표', excerpt: '국제 모터스포츠에 크리에이티브 탁월함.' },
                 { date: '2026년 1월', title: '연간 실적: 매출 42억 달러 돌파', excerpt: '5개 하우스 모두에서 강력한 실적.' },
                 { date: '2026년 1월', title: 'Maventine 도쿄 패션 위크 봄 컬렉션', excerpt: '동서양 디자인 전통을 잇는 컬렉션.' },
-                { date: '2025년 12월', title: 'Aurelic Systems 플랫폼 3.0 출시', excerpt: '차세대 럭셔리 경험 플랫폼.' },
+                { date: '2025년 12월', title: 'Anthovai 플랫폼 3.0 출시', excerpt: '차세대 럭셔리 경험 플랫폼.' },
                 { date: '2025년 11월', title: 'KurenTengu 국제 주류 상 수상', excerpt: '한정판 헤리티지 컬렉션으로 최고 영예.' },
                 { date: '2025년 10월', title: '탄소 중립 달성', excerpt: '5개 하우스 모두 예정보다 앞서 달성.' },
                 { date: '2025년 9월', title: 'Lokovox Media 디지털 출판 플랫폼 인수', excerpt: '디지털 우선 전환 강화.' },
@@ -337,7 +337,7 @@ export const ko: Dictionary = {
             items: [
                 { name: 'Formula K Racing', type: '스포츠 파트너십', description: '국제 모터스포츠에 크리에이티브 비전을 가져오는 파트너십.' },
                 { name: 'Global Craft Alliance', type: '지속가능성', description: '장인 공예 전통 보존에 헌신하는 럭셔리 하우스 연합.' },
-                { name: 'Tokyo Tech Accelerator', type: '기술', description: 'Aurelic Systems와의 공동 액셀러레이터 프로그램.' },
+                { name: 'Tokyo Tech Accelerator', type: '기술', description: 'Anthovai와의 공동 액셀러레이터 프로그램.' },
                 { name: 'UNESCO Cultural Heritage', type: '문화', description: '무형 문화유산 보존 지원.' },
             ],
         },
@@ -368,14 +368,14 @@ export const ko: Dictionary = {
             ],
             backLabel: '뉴스로 돌아가기',
         },
-        aurelicPlatform: {
-            title: 'Aurelic Systems 플랫폼 3.0',
+        AnthovaiPlatform: {
+            title: 'Anthovai 플랫폼 3.0',
             subtitle: '2026년 1월 15일',
             paragraphs: [
-                'Kaiser Klowns의 기술 부문인 Aurelic Systems가 차세대 커넥티드 플랫폼을 출시하며, 럭셔리 디지털 경험의 큰 도약을 알렸습니다.',
+                'Kaiser Klowns의 기술 부문인 Anthovai가 차세대 커넥티드 플랫폼을 출시하며, 럭셔리 디지털 경험의 큰 도약을 알렸습니다.',
                 '플랫폼 3.0은 AI 기반 개인화, 실시간 분석, 원활한 크로스 하우스 통합을 도입 — Kaiser Klowns의 5개 하우스 모두가 통일되면서도 독특한 디지털 경험을 제공할 수 있게 합니다.',
                 '주요 기능에는 예측적 고객 인사이트, 에너지 소비를 40% 줄이는 카본 어웨어 컴퓨팅, 200개 이상의 서드파티 통합을 지원하는 오픈 API 생태계가 포함됩니다.',
-                '"기술은 보이지 않지만 변혁적이어야 합니다. 플랫폼 3.0은 이 철학을 구현합니다." Aurelic Systems 팀이 말했습니다.',
+                '"기술은 보이지 않지만 변혁적이어야 합니다. 플랫폼 3.0은 이 철학을 구현합니다." Anthovai 팀이 말했습니다.',
                 '플랫폼은 이미 모든 Kaiser Klowns 하우스에 배포되었으며, 2026년 2분기에 선별된 기업 파트너에게 제공될 예정입니다.',
             ],
             backLabel: '뉴스로 돌아가기',
