@@ -7,7 +7,7 @@ const houseData: Record<string, { name: string; description: string }> = {
     },
     Anthovai: {
         name: "Anthovai",
-        description: "Anthovai is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Anthovai builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, Aello, Alfa, and KlownsNexus Office Suite, Anthovai operates at the intersection of innovation and practical impact.",
+        description: "Anthovai is the technological backbone and long-term revenue engine of Kaiser Klowns. From AI-driven platforms to enterprise software, Anthovai builds the invisible infrastructure that powers the group and beyond. With proprietary products like Arkai, Aello, Allist, and KlownsNexus Office Suite, Anthovai operates at the intersection of innovation and practical impact.",
     },
     kurentengu: {
         name: "KURENTENGU",

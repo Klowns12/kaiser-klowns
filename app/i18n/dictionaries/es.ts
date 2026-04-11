@@ -54,15 +54,15 @@ export const es: Dictionary = {
             name: "Anthovai",
             sector: "TI / Software / IA / Infraestructura",
             tagline: "Tecnología para los audaces.",
-            description: "Anthovai es la columna vertebral tecnológica y el motor de ingresos a largo plazo de Kaiser Klowns. Desde plataformas impulsadas por IA hasta software empresarial, Anthovai construye la infraestructura invisible que impulsa al grupo y más allá. Con productos patentados como Arkai, Aello, Alfa y KlownsNexus Office Suite, Anthovai opera en la intersección de la innovación y el impacto pragmático.",
+            description: "Anthovai es la columna vertebral tecnológica y el motor de ingresos a largo plazo de Kaiser Klowns. Desde plataformas impulsadas por IA hasta software empresarial, Anthovai construye la infraestructura invisible que impulsa al grupo y más allá. Con productos patentados como Arkai, Aello, Allist y KlownsNexus Office Suite, Anthovai opera en la intersección de la innovación y el impacto pragmático.",
             founded: "Septiembre de 2025",
             headquarters: "Tailandia",
             employees: "—",
             highlights: [
-                "Arkai — Plataforma de automatización inteligente impulsada por IA",
-                "Aello — Entorno de desarrollo integrado con capacidades de IA",
-                "Alfa — Sistema de gestión de recursos empresariales",
-                "KlownsNexus Office Suite — Plataforma completa de operaciones comerciales"
+                "Arkai — El núcleo de IA que piensa, analiza y actúa. El cerebro detrás de cada decisión — motor de automatización para equipos de Dev y Business.",
+                "Aello — Entorno de desarrollo nativo de IA donde todo se construye. Copiloto impulsado por Arkai para escribir sistemas, aplicaciones e IA.",
+                "Allist — La memoria y columna vertebral del sistema completo. Almacena todos los datos corporativos (RAG/Contexto) + KKG: un motor de control de versiones de nueva generación con commits inteligentes, insights y cifrado.",
+                "KlownsNexus Office Suite — La capa operativa empresarial completa. RR.HH., Soporte, Finanzas, Proyectos e Inventario — todo asistido por Arkai y respaldado por Allist."
             ],
             projects: [
                 { title: "Portal de Comercio Electrónico B2B a Medida", description: "Sistema de pedidos al por mayor con gestión de límites de crédito e integración de API perfecta con software de contabilidad." },

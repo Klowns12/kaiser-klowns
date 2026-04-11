@@ -54,15 +54,15 @@ export const ko: Dictionary = {
             name: "Anthovai",
             sector: "IT / 소프트웨어 / AI / 인프라",
             tagline: "대담한 자를 위한 기술.",
-            description: "Anthovai는 Kaiser Klowns의 기술적 중추이자 장기 수익 엔진입니다. AI 기반 플랫폼에서 기업용 소프트웨어에 이르기까지, Anthovai은 그룹과 그 너머를 구동하는 보이지 않는 인프라를 구축합니다. Arkai, Aello, Alfa, KlownsNexus Office Suite와 같은 독점 제품을 통해 Anthovai은 혁신과 실질적 영향의 교차점에서 운영됩니다.",
+            description: "Anthovai는 Kaiser Klowns의 기술적 중추이자 장기 수익 엔진입니다. AI 기반 플랫폼에서 기업용 소프트웨어에 이르기까지, Anthovai은 그룹과 그 너머를 구동하는 보이지 않는 인프라를 구축합니다. Arkai, Aello, Allist, KlownsNexus Office Suite와 같은 독점 제품을 통해 Anthovai은 혁신과 실질적 영향의 교차점에서 운영됩니다.",
             founded: "2025년 9월",
             headquarters: "태국",
             employees: "—",
             highlights: [
-                "Arkai — AI 기반 지능형 자동화 플랫폼",
-                "Aello — AI 기능이 탑재된 통합 개발 환경",
-                "Alfa — 전사적 자원 관리 시스템",
-                "KlownsNexus Office Suite — 완벽한 비즈니스 운영 플랫폼"
+                "Arkai — 생각하고, 분석하고, 실행하는 AI 코어. 모든 의사결정의 두뇌 — Dev와 Business 팀 모두를 위한 자동화 엔진.",
+                "Aello — 모든 것이 만들어지는 AI 네이티브 개발 환경. Arkai 기반 코파일럿이 시스템, 앱, AI 개발을 실시간으로 지원.",
+                "Allist — 전체 시스템의 기억이자 핵심 기반. 모든 회사 데이터 저장 및 AI 활용 지원 (RAG/컨텍스트) + KKG: 스마트 커밋, 인사이트, 암호화를 갖춘 차세대 버전 관리 엔진.",
+                "KlownsNexus Office Suite — 완전한 비즈니스 운영 레이어. HR, 지원, 재무, 프로젝트, 재고 관리 — 모두 Arkai AI와 Allist 데이터로 구동."
             ],
             projects: [
                 { title: "맞춤형 B2B 전자 상거래 포털", description: "신용 한도 관리 및 회계 소프트웨어와의 원활한 API 통합을 갖춘 도매 주문 시스템." },

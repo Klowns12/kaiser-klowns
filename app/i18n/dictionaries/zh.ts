@@ -76,15 +76,15 @@ export const zh: Dictionary = {
             name: "Anthovai",
             sector: "IT / 软件 / AI / 基础设施",
             tagline: "属于勇者的科技。",
-            description: "Anthovai是Kaiser Klowns的技术支柱和长期收入引擎。从AI驱动的平台到企业级软件，Anthovai构建了驱动集团及其他业务的无形基础设施。凭借Arkai、Aello、Alfa和KlownsNexus Office Suite等专有产品，Anthovai在创新与实际影响的交汇点上运营。",
+            description: "Anthovai是Kaiser Klowns的技术支柱和长期收入引擎。从AI驱动的平台到企业级软件，Anthovai构建了驱动集团及其他业务的无形基础设施。凭借Arkai、Aello、Allist和KlownsNexus Office Suite等专有产品，Anthovai在创新与实际影响的交汇点上运营。",
             founded: "2025年9月",
             headquarters: "泰国",
             employees: "—",
             highlights: [
-                "Arkai — AI驱动的智能自动化平台",
-                "Aello — 具备AI功能的集成开发环境",
-                "Alfa — 企业资源管理系统",
-                "KlownsNexus Office Suite — 完整的企业运营平台"
+                "Arkai — 会思考、分析和行动的AI核心。每个决策背后的大脑 — 服务于Dev和Business团队的自动化引擎。",
+                "Aello — 一切都在这里被构建的AI原生开发环境。由Arkai驱动的Copilot，助力编写系统、应用程序和AI。",
+                "Allist — 整个系统的记忆与核心支柱。存储所有企业数据以供AI调用（RAG/上下文）+ KKG：新一代版本控制引擎，支持智能提交、洞察分析与加密。",
+                "KlownsNexus Office Suite — 完整的企业运营层。HR、支持、财务、项目与库存管理 — 全部由Arkai的AI协助，以Allist数据驱动。"
             ],
             projects: [
                 { title: "定制 B2B 电子商务门户", description: "具有信用额度管理功能并与会计软件无缝集成 API 的批发订购系统。" },
@@ -413,7 +413,7 @@ export const zh: Dictionary = {
             subtitle: '2026年1月',
             paragraphs: [
                 'Kaiser Klowns旗下科技部门Anthovai推出了其首批产品套件。',
-                '套件包括四个专有平台：Arkai（AI智能自动化）、Aello（AI集成开发环境）、Alfa（企业资源管理）和KlownsNexus办公套件。',
+                '套件包括四个专有平台：Arkai（AI智能自动化）、Aello（AI集成开发环境）、Allist（企业资源管理）和KlownsNexus办公套件。',
                 '这些产品代表了Anthovai“为勇者提供科技”的愿景。',
                 '“我们不是为了技术而做技术。我们打造让勇敢者更勇敢的工具，”Anthovai团队表示。',
                 '所有产品目前正在积极开发中，早期访问权向特定合作伙伴开放。',

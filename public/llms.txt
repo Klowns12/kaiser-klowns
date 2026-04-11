@@ -27,7 +27,7 @@ Kaiser Klowns Group is a creative conglomerate dedicated to the long-term develo
 - Status: Active
 - Focus: AI platforms, enterprise software, cloud infrastructure, and automation
 - Services: AI chatbot development, ERP systems, HRIS, CRM, cloud migration (AWS/GCP), CI/CD setup, e-commerce portals, cybersecurity frameworks
-- Key Products: Arkai Work Assistant (AI-powered LINE workspace integration), Aello IDE, Alfa ERP, KlownsNexus Office Suite
+- Key Products: Arkai Work Assistant (AI-powered LINE workspace integration), Aello IDE, Allist ERP, KlownsNexus Office Suite
 - Arkai: An AI assistant for LINE groups that automatically captures files, summarizes tasks, and retains conversation context for teams
 - Clients include: Roi Et Rajabhat University (web application), Indorama (e-learning platform), Digital Nova (digital marketing platform), PMY Services (corporate service portal)
 - URL: https://www.kaiserklowns.group/houses/Anthovai

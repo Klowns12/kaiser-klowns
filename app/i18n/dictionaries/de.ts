@@ -76,15 +76,15 @@ export const de: Dictionary = {
             name: "Anthovai",
             sector: "IT / Software / KI / Infrastruktur",
             tagline: "Technologie für Mutige.",
-            description: "Anthovai ist das technologische Rückgrat und der langfristige Umsatzmotor von Kaiser Klowns. Von KI-gesteuerten Plattformen bis hin zu Unternehmenssoftware baut Anthovai die unsichtbare Infrastruktur auf, die die Gruppe und darüber hinaus antreibt. Mit proprietären Produkten wie Arkai, Aello, Alfa und der KlownsNexus Office Suite operiert Anthovai an der Schnittstelle von Innovation und pragmatischer Wirkung.",
+            description: "Anthovai ist das technologische Rückgrat und der langfristige Umsatzmotor von Kaiser Klowns. Von KI-gesteuerten Plattformen bis hin zu Unternehmenssoftware baut Anthovai die unsichtbare Infrastruktur auf, die die Gruppe und darüber hinaus antreibt. Mit proprietären Produkten wie Arkai, Aello, Allist und der KlownsNexus Office Suite operiert Anthovai an der Schnittstelle von Innovation und pragmatischer Wirkung.",
             founded: "September 2025",
             headquarters: "Thailand",
             employees: "—",
             highlights: [
-                "Arkai — KI-gesteuerte intelligente Automatisierungsplattform",
-                "Aello — Integrierte Entwicklungsumgebung mit KI-Fähigkeiten",
-                "Alfa — Enterprise-Resource-Management-System",
-                "KlownsNexus Office Suite — Komplette Plattform für Geschäftsabläufe"
+                "Arkai — Der KI-Kern, der denkt, analysiert und handelt. Das Gehirn hinter jeder Entscheidung — Automatisierungsmotor für Dev- und Business-Teams.",
+                "Aello — KI-native Entwicklungsumgebung, in der alles entsteht. Arkai-gesteuerter Copilot für das Schreiben von Systemen, Applikationen und KI.",
+                "Allist — Das Gedächtnis und das Rückgrat des gesamten Systems. Speichert alle Unternehmensdaten (RAG/Kontext) + KKG: ein neuartiges Versionskontroll-Engine mit Smart Commits, Insights und Verschlüsselung.",
+                "KlownsNexus Office Suite — Die vollständige Business-Betriebsschicht. HR, Support, Finanzen, Projekte und Inventar — alles KI-unterstützt durch Arkai und gespeist von Allist."
             ],
             projects: [
                 { title: "Maßgeschneidertes B2B-E-Commerce-Portal", description: "Großhandelsbestellsystem mit Kreditlimitverwaltung und nahtloser API-Integration mit der Buchhaltungssoftware." },

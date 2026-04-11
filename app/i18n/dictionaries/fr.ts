@@ -76,15 +76,15 @@ export const fr: Dictionary = {
             name: "Anthovai",
             sector: "IT / Logiciel / IA / Infrastructure",
             tagline: "La technologie pour les audacieux.",
-            description: "Anthovai est l'épine dorsale technologique et le moteur de revenus à long terme de Kaiser Klowns. Des plateformes pilotées par l'IA aux logiciels d'entreprise, Anthovai construit l'infrastructure invisible qui propulse le groupe et au-delà. Avec des produits propriétaires tels qu'Arkai, Aello, Alfa et KlownsNexus Office Suite, Anthovai opère à l'intersection de l'innovation et de l'impact tangible.",
+            description: "Anthovai est l'épine dorsale technologique et le moteur de revenus à long terme de Kaiser Klowns. Des plateformes pilotées par l'IA aux logiciels d'entreprise, Anthovai construit l'infrastructure invisible qui propulse le groupe et au-delà. Avec des produits propriétaires tels qu'Arkai, Aello, Allist et KlownsNexus Office Suite, Anthovai opère à l'intersection de l'innovation et de l'impact tangible.",
             founded: "Septembre 2025",
             headquarters: "Thaïlande",
             employees: "—",
             highlights: [
-                "Arkai — Plateforme d'automatisation intelligente pilotée par l'IA",
-                "Aello — Environnement de développement intégré avec capacités IA",
-                "Alfa — Système de gestion des ressources d'entreprise",
-                "KlownsNexus Office Suite — Plateforme complète d'opérations commerciales"
+                "Arkai — Le cœur IA qui pense, analyse et agit. Le cerveau derrière chaque décision — moteur d'automatisation pour les équipes Dev et Business.",
+                "Aello — Environnement de développement natif IA où tout est créé. Copilote propulsé par Arkai pour écrire des systèmes, des applications et de l'IA.",
+                "Allist — La mémoire et l'épine dorsale de l'ensemble du système. Stocke toutes les données d'entreprise (RAG/Contexte) + KKG : un moteur de contrôle de version nouvelle génération avec commits intelligents, insights et chiffrement.",
+                "KlownsNexus Office Suite — La couche opérationnelle commerciale complète. RH, Support, Finance, Projets et Inventaire — tout assisté par l'IA via Arkai et alimenté par Allist."
             ],
             projects: [
                 { title: "Portail E-commerce B2B Sur Mesure", description: "Système de commande en gros avec gestion des limites de crédit et intégration API transparente avec le logiciel de comptabilité." },

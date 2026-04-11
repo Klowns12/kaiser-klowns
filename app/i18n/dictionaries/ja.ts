@@ -76,15 +76,15 @@ export const ja: Dictionary = {
             name: "Anthovai",
             sector: "IT / ソフトウェア / AI / インフラストラクチャ",
             tagline: "大胆な人々のためのテクノロジー。",
-            description: "Anthovaiは、Kaiser Klownsの技術的バックボーンであり長期的な収益エンジンです。AI主導のプラットフォームからエンタープライズソフトウェアまで、Anthovaiはグループやそれ以降を駆動する目に見えないインフラストラクチャを構築します。Arkai、Aello、Alfa、KlownsNexus Office Suiteなどの独自の製品により、Anthovaiはイノベーションと実質的なインパクトの交差点で活動しています。",
+            description: "Anthovaiは、Kaiser Klownsの技術的バックボーンであり長期的な収益エンジンです。AI主導のプラットフォームからエンタープライズソフトウェアまで、Anthovaiはグループやそれ以降を駆動する目に見えないインフラストラクチャを構築します。Arkai、Aello、Allist、KlownsNexus Office Suiteなどの独自の製品により、Anthovaiはイノベーションと実質的なインパクトの交差点で活動しています。",
             founded: "2025年9月",
             headquarters: "タイ",
             employees: "—",
             highlights: [
-                "Arkai — AI主導のインテリジェントオートメーションプラットフォーム",
-                "Aello — AI機能を備えた統合開発環境",
-                "Alfa — エンタープライズリソース管理システム",
-                "KlownsNexus Office Suite — 完全なビジネスオペレーションプラットフォーム"
+                "Arkai — 考え、分析し、実行するAIコア。あらゆる意思決定の頭脳 — DevとBusinessチーム双方のための自動化エンジン。",
+                "Aello — すべてが構築されるAIネイティブな開発環境。Arkaiを搭載したCopilotが、システム・アプリ・AIの開発をサポート。",
+                "Allist — システム全体の記憶と基盤。全社データを蓄積しAIが活用できる形で管理（RAG/コンテキスト） + KKG：スマートコミット・インサイト・暗号化を備えた次世代バージョン管理エンジン。",
+                "KlownsNexus Office Suite — 完全なビジネス運営レイヤー。HR・サポート・財務・プロジェクト・在庫管理をすべてArkaiのAIが支援し、Allistのデータで稼働。"
             ],
             projects: [
                 { title: "カスタムB2B Eコマースポータル", description: "信用限度額管理と会計ソフトウェアとのシームレスなAPI統合を備えた卸売注文システム。" },
