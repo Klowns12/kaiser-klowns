@@ -184,12 +184,7 @@ export const es: Dictionary = {
         governance: {
             title: 'Gobernanza y Ética', subtitle: 'Liderazgo transparente y prácticas comerciales éticas.',
             leaders: [
-                { name: 'Alexander Koenig', role: 'Presidente y CEO' },
-                { name: 'Dr. Mei-Lin Zhao', role: 'Directora de Estrategia' },
-                { name: 'James Whitfield', role: 'Director Financiero' },
-                { name: 'Yuki Tanaka', role: 'Director Creativo' },
-                { name: 'Sofia Andersson', role: 'Directora de Sostenibilidad' },
-                { name: 'Marcus Thompson', role: 'Asesor Legal' },
+                { name: 'Prawit Kummanoi', role: 'Presidente y CEO' },
             ],
             principlesTitle: 'Nuestros Principios',
             principles: [

@@ -223,12 +223,7 @@ export const ja: Dictionary = {
             title: 'ガバナンスと倫理',
             subtitle: '透明性のあるリーダーシップと倫理的なビジネス慣行は、私たちの運営の基盤です。',
             leaders: [
-                { name: 'Alexander Koenig', role: '会長兼CEO' },
-                { name: 'Dr. Mei-Lin Zhao', role: '最高戦略責任者' },
-                { name: 'James Whitfield', role: '最高財務責任者' },
-                { name: 'Yuki Tanaka', role: '最高クリエイティブ責任者' },
-                { name: 'Sofia Andersson', role: '最高サステナビリティ責任者' },
-                { name: 'Marcus Thompson', role: 'ジェネラルカウンセル' },
+                { name: 'Prawit Kummanoi', role: '会長兼CEO' },
             ],
             principlesTitle: '私たちの原則',
             principles: [

@@ -24,6 +24,7 @@ type HouseSpecificDetails = {
     headquarters: string;
     employees: string;
     highlights: string[];
+    website?: string;
     projects?: Array<{ title: string; description: string; link?: string }>;
 };
 
@@ -71,6 +72,22 @@ export default function HouseDetailClient({ slug, houseConfig }: HouseDetailClie
                         <p className="text-[14px] text-foreground/60 leading-[1.8] font-sans">
                             {house.description}
                         </p>
+                        
+                        {house.website && (
+                            <div className="mt-8">
+                                <a 
+                                    href={house.website} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-3 px-8 py-3 text-[11px] tracking-[0.2em] uppercase text-background bg-foreground hover:bg-foreground/90 transition-all duration-300 font-bold"
+                                >
+                                    <span>{houseDetails.visitWebsite || "Visit Website"}</span>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                        <path d="M5 12h14M12 5l7 7-7 7" />
+                                    </svg>
+                                </a>
+                            </div>
+                        )}
 
                         {/* Highlights */}
                         <div className="mt-12">
@@ -106,8 +123,8 @@ export default function HouseDetailClient({ slug, houseConfig }: HouseDetailClie
                 </div>
             </section>
 
-            {/* Projects / Portfolio Grid (Full Width) */}
-            {house.projects && house.projects.length > 0 && (
+            {/* Projects / Portfolio Grid (Full Width) - Hidden for Group Site */}
+            {false && house.projects && house.projects.length > 0 && (
                 <section className="py-16 bg-background">
                     <div className="max-w-7xl mx-auto px-6 md:px-12">
                         <h3 className="text-[14px] font-bold tracking-[0.1em] uppercase text-foreground mb-10 flex items-center gap-3">

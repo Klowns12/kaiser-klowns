@@ -186,12 +186,7 @@ export const ko: Dictionary = {
         governance: {
             title: '거버넌스 및 윤리', subtitle: '투명한 리더십과 윤리적 비즈니스 관행.',
             leaders: [
-                { name: 'Alexander Koenig', role: '회장 겸 CEO' },
-                { name: 'Dr. Mei-Lin Zhao', role: '최고 전략 책임자' },
-                { name: 'James Whitfield', role: '최고 재무 책임자' },
-                { name: 'Yuki Tanaka', role: '최고 크리에이티브 책임자' },
-                { name: 'Sofia Andersson', role: '최고 지속가능성 책임자' },
-                { name: 'Marcus Thompson', role: '법무 총괄' },
+                { name: 'Prawit Kummanoi', role: '회장 겸 CEO' },
             ],
             principlesTitle: '우리의 원칙',
             principles: [

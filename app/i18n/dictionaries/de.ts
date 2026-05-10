@@ -223,12 +223,7 @@ export const de: Dictionary = {
             title: 'Governance und Ethik',
             subtitle: 'Transparente Führung und ethische Geschäftspraktiken sind das Fundament unserer Geschäftstätigkeit.',
             leaders: [
-                { name: 'Alexander Koenig', role: 'Vorstandsvorsitzender und CEO' },
-                { name: 'Dr. Mei-Lin Zhao', role: 'Chief Strategy Officer' },
-                { name: 'James Whitfield', role: 'Chief Financial Officer' },
-                { name: 'Yuki Tanaka', role: 'Chief Creative Officer' },
-                { name: 'Sofia Andersson', role: 'Chief Sustainability Officer' },
-                { name: 'Marcus Thompson', role: 'General Counsel' },
+                { name: 'Prawit Kummanoi', role: 'Vorstandsvorsitzender und CEO' },
             ],
             principlesTitle: 'Unsere Prinzipien',
             principles: [

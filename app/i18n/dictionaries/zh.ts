@@ -220,12 +220,7 @@ export const zh: Dictionary = {
             title: '治理与伦理',
             subtitle: '透明的领导力和道德商业实践是我们运营的基础。',
             leaders: [
-                { name: 'Alexander Koenig', role: '董事长兼首席执行官' },
-                { name: 'Dr. Mei-Lin Zhao', role: '首席战略官' },
-                { name: 'James Whitfield', role: '首席财务官' },
-                { name: 'Yuki Tanaka', role: '首席创意官' },
-                { name: 'Sofia Andersson', role: '首席可持续发展官' },
-                { name: 'Marcus Thompson', role: '总法律顾问' },
+                { name: 'Prawit Kummanoi', role: '董事长兼首席执行官' },
             ],
             principlesTitle: '我们的原则',
             principles: [

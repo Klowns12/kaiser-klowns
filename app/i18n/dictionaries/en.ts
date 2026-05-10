@@ -49,13 +49,14 @@ export const en: Dictionary = {
     houseDetails: {
         about: 'About',
         highlightsLabel: 'Highlights',
-        projectsLabel: 'Featured Projects',
-        viewMoreProjects: 'View More',
-        showLessProjects: 'Show Less',
+        projectsLabel: 'Flagship Portfolio',
+        viewMoreProjects: 'View Portfolio',
+        showLessProjects: 'Collapse Portfolio',
         foundedLabel: 'Founded',
         headquartersLabel: 'Headquarters',
         employeesLabel: 'Employees',
         sectorLabel: 'Sector',
+        visitWebsite: 'Visit Official Website',
         backToAll: 'Back to All Houses',
         maventine: {
             name: "MAVENTINE",
@@ -80,6 +81,7 @@ export const en: Dictionary = {
             founded: "September 2025",
             headquarters: "Thailand",
             employees: "—",
+            website: "https://www.anthovai.com/",
             highlights: [
                 "Arkai — AI Core that thinks, analyzes, and acts. The brain behind every decision — automation engine for both Dev and Business teams.",
                 "Aello — AI-native development environment where everything is built. Arkai-powered copilot for writing systems, apps, and AI.",
@@ -193,6 +195,9 @@ export const en: Dictionary = {
     pages: {
         group: {
             title: 'The Group',
+            overviewTitle: 'Architecting Legacies',
+            careersHeadline: 'Join The Empire',
+            responsibilityHeadline: 'Responsibility & Legacy',
             subtitle: 'Kaiser Klowns is a creative conglomerate that nurtures five distinct Houses — each operating with autonomy in its field while sharing a common commitment to excellence.',
             cards: [
                 { title: 'History', description: 'From a bold idea to a global creative empire — trace the milestones that shaped Kaiser Klowns.', cta: 'Explore History' },
@@ -224,12 +229,7 @@ export const en: Dictionary = {
             title: 'Governance & Ethics',
             subtitle: 'Transparent leadership and ethical business practices are the foundation of our operations.',
             leaders: [
-                { name: 'Alexander Koenig', role: 'Chairman & CEO' },
-                { name: 'Dr. Mei-Lin Zhao', role: 'Chief Strategy Officer' },
-                { name: 'James Whitfield', role: 'Chief Financial Officer' },
-                { name: 'Yuki Tanaka', role: 'Chief Creative Officer' },
-                { name: 'Sofia Andersson', role: 'Chief Sustainability Officer' },
-                { name: 'Marcus Thompson', role: 'General Counsel' },
+                { name: 'Prawit Kummanoi', role: 'Chairman & CEO' },
             ],
             principlesTitle: 'Our Principles',
             principles: [

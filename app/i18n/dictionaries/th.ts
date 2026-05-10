@@ -49,13 +49,14 @@ export const th: Dictionary = {
     houseDetails: {
         about: 'เกี่ยวกับ',
         highlightsLabel: 'จุดเด่น',
-        projectsLabel: 'ผลงานที่โดดเด่น',
-        viewMoreProjects: 'ดูเพิ่มเติม',
-        showLessProjects: 'แสดงน้อยลง',
+        projectsLabel: 'ผลงานระดับแฟล็กชิป',
+        viewMoreProjects: 'ดูพอร์ตโฟลิโอ',
+        showLessProjects: 'ย่อพอร์ตโฟลิโอ',
         foundedLabel: 'ก่อตั้ง',
         headquartersLabel: 'สำนักงานใหญ่',
         employeesLabel: 'พนักงาน',
         sectorLabel: 'ภาคส่วน',
+        visitWebsite: 'เยี่ยมชมเว็บไซต์อย่างเป็นทางการ',
         backToAll: 'กลับไปที่แบรนด์ทั้งหมด',
         maventine: {
             name: "MAVENTINE",
@@ -80,6 +81,7 @@ export const th: Dictionary = {
             founded: "กันยายน 2025",
             headquarters: "ประเทศไทย",
             employees: "—",
+            website: "https://www.anthovai.com/",
             highlights: [
                 "Arkai — AI Core ที่คิด วิเคราะห์ และตัดสินใจ สมองกลางของทั้งระบบ ช่วยทำงานแทนคนทั้งในฝั่ง Dev และ Business",
                 "Aello — สภาพแวดล้อมพัฒนาซอฟต์แวร์แบบ AI-native ที่ซึ่งทุกอย่างถูกสร้างขึ้น มี Arkai เป็น Copilot คอยช่วยเขียนโค้ดอยู่เบื้องหลัง",
@@ -193,6 +195,9 @@ export const th: Dictionary = {
     pages: {
         group: {
             title: 'กลุ่มบริษัท',
+            overviewTitle: 'สถาปนาตำนาน',
+            careersHeadline: 'ร่วมอาณาจักรของเรา',
+            responsibilityHeadline: 'ความรับผิดชอบและมรดก',
             subtitle: 'Kaiser Klowns คือกลุ่มบริษัทสร้างสรรค์ที่ดูแลห้าแบรนด์ที่แตกต่าง — แต่ละแบรนด์ดำเนินงานอย่างอิสระในสาขาของตนเอง พร้อมแบ่งปันพันธกิจร่วมกันในความเป็นเลิศ',
             cards: [
                 { title: 'ประวัติ', description: 'จากไอเดียอันกล้าหาญสู่จักรวรรดิสร้างสรรค์ระดับโลก — ตามรอยจุดสำคัญที่หล่อหลอม Kaiser Klowns', cta: 'สำรวจประวัติ' },
@@ -224,12 +229,7 @@ export const th: Dictionary = {
             title: 'ธรรมาภิบาลและจริยธรรม',
             subtitle: 'ความเป็นผู้นำที่โปร่งใสและแนวปฏิบัติทางธุรกิจที่มีจริยธรรมเป็นรากฐานของการดำเนินงานของเรา',
             leaders: [
-                { name: 'Alexander Koenig', role: 'ประธานและ CEO' },
-                { name: 'Dr. Mei-Lin Zhao', role: 'ประธานเจ้าหน้าที่ฝ่ายกลยุทธ์' },
-                { name: 'James Whitfield', role: 'ประธานเจ้าหน้าที่การเงิน' },
-                { name: 'Yuki Tanaka', role: 'ประธานเจ้าหน้าที่สร้างสรรค์' },
-                { name: 'Sofia Andersson', role: 'ประธานเจ้าหน้าที่ความยั่งยืน' },
-                { name: 'Marcus Thompson', role: 'ที่ปรึกษากฎหมาย' },
+                { name: 'Prawit Kummanoi', role: 'ประธานและ CEO' },
             ],
             principlesTitle: 'หลักการของเรา',
             principles: [
