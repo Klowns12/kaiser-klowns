@@ -124,7 +124,7 @@ export default function HouseDetailClient({ slug, houseConfig }: HouseDetailClie
             </section>
 
             {/* Projects / Portfolio Grid (Full Width) - Hidden for Group Site */}
-            {false && house?.projects && house?.projects?.length > 0 && (
+            {false && (house?.projects ?? []).length > 0 && (
                 <section className="py-16 bg-background">
                     <div className="max-w-7xl mx-auto px-6 md:px-12">
                         <h3 className="text-[14px] font-bold tracking-[0.1em] uppercase text-foreground mb-10 flex items-center gap-3">
@@ -164,7 +164,7 @@ export default function HouseDetailClient({ slug, houseConfig }: HouseDetailClie
                                 </div>
                             ))}
                         </div>
-                        {house?.projects && house.projects.length > 12 && (
+                        {(house?.projects ?? []).length > 12 && (
                             <div className="mt-12 flex justify-center">
                                 <button
                                     onClick={() => setShowAllProjects(!showAllProjects)}
