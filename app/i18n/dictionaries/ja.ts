@@ -56,6 +56,7 @@ export const ja: Dictionary = {
         headquartersLabel: '本社',
         employeesLabel: '従業員',
         sectorLabel: 'セクター',
+        visitWebsite: 'Visit Official Website',
         backToAll: 'すべてのハウスに戻る',
         maventine: {
             name: "MAVENTINE",
@@ -189,6 +190,9 @@ export const ja: Dictionary = {
     pages: {
         group: {
             title: 'グループ',
+            overviewTitle: 'Architecting Legacies',
+            careersHeadline: 'Join The Empire',
+            responsibilityHeadline: 'Responsibility & Legacy',
             subtitle: 'Kaiser Klownsは5つの独自のハウスを育むクリエイティブ・コングロマリットです——各ハウスはそれぞれの分野で自律的に運営しながら、卓越性への共通のコミットメントを共有しています。',
             cards: [
                 { title: '歴史', description: '大胆なアイデアからグローバルなクリエイティブ・エンパイアへ——Kaiser Klownsを形作ったマイルストーンを辿る。', cta: '歴史を探索' },

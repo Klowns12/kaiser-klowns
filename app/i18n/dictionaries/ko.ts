@@ -34,6 +34,7 @@ export const ko: Dictionary = {
         headquartersLabel: '본사',
         employeesLabel: '직원 수',
         sectorLabel: '분야',
+        visitWebsite: 'Visit Official Website',
         backToAll: '모든 하우스로 돌아가기',
         maventine: {
             name: "MAVENTINE",
@@ -155,6 +156,9 @@ export const ko: Dictionary = {
     pages: {
         group: {
             title: '그룹',
+            overviewTitle: 'Architecting Legacies',
+            careersHeadline: 'Join The Empire',
+            responsibilityHeadline: 'Responsibility & Legacy',
             subtitle: 'Kaiser Klowns는 다섯 개의 독특한 하우스를 육성하는 크리에이티브 대기업입니다.',
             cards: [
                 { title: '역사', description: '대담한 아이디어에서 글로벌 크리에이티브 제국으로.', cta: '역사 탐색' },

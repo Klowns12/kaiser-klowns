@@ -56,6 +56,7 @@ export const de: Dictionary = {
         headquartersLabel: 'Hauptsitz',
         employeesLabel: 'Mitarbeiter',
         sectorLabel: 'Sektor',
+        visitWebsite: 'Visit Official Website',
         backToAll: 'Zurück zu allen Häusern',
         maventine: {
             name: "MAVENTINE",
@@ -189,6 +190,9 @@ export const de: Dictionary = {
     pages: {
         group: {
             title: 'Der Konzern',
+            overviewTitle: 'Architecting Legacies',
+            careersHeadline: 'Join The Empire',
+            responsibilityHeadline: 'Responsibility & Legacy',
             subtitle: 'Kaiser Klowns ist ein kreatives Konglomerat, das fünf eigenständige Häuser fördert — jedes mit Autonomie in seinem Bereich, verbunden durch ein gemeinsames Engagement für Exzellenz.',
             cards: [
                 { title: 'Geschichte', description: 'Von einer kühnen Idee zum globalen Kreativ-Imperium — verfolgen Sie die Meilensteine, die Kaiser Klowns geprägt haben.', cta: 'Geschichte entdecken' },

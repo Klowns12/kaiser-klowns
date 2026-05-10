@@ -59,6 +59,7 @@ export interface Dictionary {
         headquartersLabel: string;
         employeesLabel: string;
         sectorLabel: string;
+        visitWebsite: string;
         backToAll: string;
         maventine: {
             name: string;
@@ -80,6 +81,7 @@ export interface Dictionary {
             headquarters: string;
             employees: string;
             highlights: string[];
+            website?: string;
             projects?: Array<{ title: string; description: string; link?: string }>;
         };
         kurentengu: {
@@ -147,6 +149,9 @@ export interface Dictionary {
     pages: {
         group: {
             title: string;
+            overviewTitle: string;
+            careersHeadline: string;
+            responsibilityHeadline: string;
             subtitle: string;
             cards: Array<{ title: string; description: string; cta: string }>;
         };

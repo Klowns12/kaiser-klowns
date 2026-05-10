@@ -56,6 +56,7 @@ export const zh: Dictionary = {
         headquartersLabel: '总部',
         employeesLabel: '员工人数',
         sectorLabel: '所属行业',
+        visitWebsite: 'Visit Official Website',
         backToAll: '返回所有品牌',
         maventine: {
             name: "MAVENTINE",
@@ -189,6 +190,9 @@ export const zh: Dictionary = {
     pages: {
         group: {
             title: '集团',
+            overviewTitle: 'Architecting Legacies',
+            careersHeadline: 'Join The Empire',
+            responsibilityHeadline: 'Responsibility & Legacy',
             subtitle: 'Kaiser Klowns是一个培育五个独特品牌的创意集团——每个品牌在各自领域自主运营，同时分享对卓越的共同承诺。',
             cards: [
                 { title: '历史', description: '从一个大胆的想法到全球创意帝国——追溯塑造Kaiser Klowns的里程碑。', cta: '探索历史' },
